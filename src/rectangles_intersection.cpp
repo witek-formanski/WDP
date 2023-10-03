@@ -57,7 +57,7 @@ int main()
     auto rectangle_b = rectangle(xb1, xb2, yb1, yb2);
     int common_part_min_x, common_part_max_x, common_part_min_y, common_part_max_y;
 
-    if (do_rectangles_intersect(rectangle_a, rectangle_b, &common_part_min_x, &common_part_max_x, &common_part_min_x, &common_part_min_y))
+    if (do_rectangles_intersect(rectangle_a, rectangle_b, &common_part_min_x, &common_part_max_x, &common_part_min_y, &common_part_max_y))
     {
         std::cout << "true\n";
         std::cout << common_part_min_x << " " << common_part_max_x << " " << common_part_min_y << " " << common_part_max_y;
