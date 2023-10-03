@@ -13,8 +13,8 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      - name: Run builder.py rectangles_intersection
-        run: python builder.py rectangles_intersection
+      - name: Run scripts/builder.py rectangles_intersection
+        run: python scripts/builder.py rectangles_intersection
 
-      - name: Run tester.py rectangles_intersection
-        run: python tester.py rectangles_intersection 1
+      - name: Run scripts/tester.py rectangles_intersection
+        run: python scripts/tester.py rectangles_intersection 1
