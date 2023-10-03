@@ -13,7 +13,7 @@ for test_number in range(highest_test_number+1):
         expected_output = out.read().strip()
         
     tests_in_path = "tests/{}{}.in".format(file_name, test_number)
-    os.system(os.getcwd() + "src/{}.exe <{} >{}".format(file_name, tests_in_path, "my_output.out"))
+    os.system(os.getcwd() + "/src/{}.exe <{} >{}".format(file_name, tests_in_path, "my_output.out"))
     with open("my_output.out", "r") as out:
         my_output = out.read().strip()
     
