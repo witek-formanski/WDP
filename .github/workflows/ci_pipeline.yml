@@ -1,0 +1,20 @@
+name: CI pipeline
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Run builder.py rectangles_intersection
+        run: python builder.py rectangles_intersection
+
+      - name: Run tester.py rectangles_intersection
+        run: python tester.py rectangles_intersection 1
