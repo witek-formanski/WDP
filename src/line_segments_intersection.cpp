@@ -27,8 +27,24 @@ struct line_segment
 
 // wyznaczamy równanie ogólne prostej na której leży pierwszy odcinek
 // Ax + By + C = 0 - możemy założyć, że A, B, C należy do Z
-// f(x, y) = Ax + By + C
-// wystarczy sprawdzić znaki f(x1, y1), f(x2, y2)
+
+/*
+.	.	.	.
+.	.	.	x
+.	.	.	.
+.	.	x	.
+
+(2,0) -> (3,3)
+
+a = dy/dx = 3
+b = -6
+y = 3x -6
+3x -y -6 = 0
+
+A = -3
+B = 1
+C = 6 - 0 = 6
+*/
 
 void line(line_segment line_seg, int *a, int *b, int *c)
 {
@@ -37,11 +53,13 @@ void line(line_segment line_seg, int *a, int *b, int *c)
     *c = line_seg.x2 * line_seg.y1 - line_seg.x1 * line_seg.y2;
 }
 
+// f(x, y) = Ax + By + C
+// wystarczy sprawdzić znaki f(x1, y1), f(x2, y2)
 int which_side_of_line(line_segment line_seg, int x_point, int y_point) // 1 - above, 0 - on line, -1 - below
 {
     int a, b, c;
     line(line_seg, &a, &b, &c);
-    int aux = a*x_point + b*y_point + c; //zmienna pomocnicza (auxiliary variable)
+    int aux = a*x_point + b*y_point + c; //zmienna pomocnicza (auxiliary)
     return (aux > 0) ? 1 : (!aux ? 0 : -1);
 }
 
@@ -72,6 +90,3 @@ int main()
 
     return 0;
 }
-
-
-

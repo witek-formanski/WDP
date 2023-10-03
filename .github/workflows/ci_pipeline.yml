@@ -18,3 +18,9 @@ jobs:
 
       - name: Run scripts/tester.py rectangles_intersection
         run: python scripts/tester.py rectangles_intersection 1
+
+      - name: Run scripts/builder.py line_segments_intersection
+        run: python scripts/builder.py line_segments_intersection
+
+      - name: Run scripts/tester.py line_segments_intersection
+        run: python scripts/tester.py line_segments_intersection 1
