@@ -1,3 +1,4 @@
 *.exe
 *.e
 .vscode
+my_output.out
