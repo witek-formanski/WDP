@@ -24,3 +24,9 @@ jobs:
 
       - name: Run scripts/tester.py line_segments_intersection
         run: python scripts/tester.py line_segments_intersection 1
+
+      - name: Run scripts/builder.py divisible_sequence
+        run: python scripts/builder.py divisible_sequence
+
+      - name: Run scripts/tester.py divisible_sequence
+        run: python scripts/tester.py divisible_sequence 15
