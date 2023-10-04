@@ -27,11 +27,14 @@ int get_max_divisible_fragment(int* t, int n)
 {
     int max_divisible_fragment = 0;
 
-    for (int i = n-1; i >= 1; i--) 
+    int i = n-1;
+    while (i >= 1)
     {
         int current_divisible_fragment = get_current_divisible_fragment_length(t, i);
         max_divisible_fragment = maximum(current_divisible_fragment, max_divisible_fragment);
+        i -= current_divisible_fragment;
     }
+
     return max_divisible_fragment;
 }
 
