@@ -1,12 +1,17 @@
 #include <stdio.h>
-#include "common_library.h"
+#include <stdlib.h>
 
-int get_current_divisible_fragment_length(int* tab, int i)
+int maximum(int a, int b)
+{
+    return (a > b) ? a : b;
+}
+
+int get_current_divisible_fragment_length(int* t, int i)
 {
     int current_divisible_fragment = 1;
     for (int j = i; j > 1; --j)
     {
-        if (!(tab[i] % tab[j-1]))
+        if (t[i] % t[j-1])
         {
             return current_divisible_fragment;
         }
@@ -17,19 +22,20 @@ int get_current_divisible_fragment_length(int* tab, int i)
     return current_divisible_fragment;
 }
 
-int get_max_divisible_fragment(int* tab, int n)
+int get_max_divisible_fragment(int* t, int n)
 {
     int max_divisible_fragment = 0;
 
     for (int i = n; i > 1; --i) 
     {
-        int current_divisible_fragment = get_current_divisible_fragment_length(tab, i);
-        max_divisible_fragment = max(current_divisible_fragment, max_divisible_fragment);
+        int current_divisible_fragment = get_current_divisible_fragment_length(t, i);
+        max_divisible_fragment = maximum(current_divisible_fragment, max_divisible_fragment);
     }
     return max_divisible_fragment;
 }
 
-int main() {
+int main() 
+{
     int n;
 
     scanf("%d", &n);
@@ -40,15 +46,17 @@ int main() {
         return 1;
     }
 
-    int* tab;
-    tab = (int *)malloc(n * sizeof(int));
+    int* t;
+    t = (int *)malloc(n * sizeof(int));
 
     for (int i = 0; i < n; i++) 
     {
-        scanf("%d", &tab[i]);
+        scanf("%d", &t[i]);
     }
 
-    printf("%d", get_max_divisible_fragment(tab, n));
+    printf("%d", get_max_divisible_fragment(t, n));
+    
+    free(t);
 
     return 0;
 }
