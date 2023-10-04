@@ -25,14 +25,14 @@ jobs:
       - name: Run scripts/tester.py line_segments_intersection.cpp
         run: python scripts/tester.py line_segments_intersection.cpp 1
 
-      - name: Run scripts/builder.py divisible_sequence.c
-        run: python scripts/builder.py divisible_sequence.c
-
-      - name: Run scripts/tester.py divisible_sequence.c
-        run: python scripts/tester.py divisible_sequence.c 15
-
       - name: Run scripts/builder.py divisible_sequence.cpp
         run: python scripts/builder.py divisible_sequence.cpp
 
       - name: Run scripts/tester.py divisible_sequence.cpp
         run: python scripts/tester.py divisible_sequence.cpp 15
+
+      - name: Run scripts/builder.py divisible_sequence.c
+        run: python scripts/builder.py divisible_sequence.c
+
+      - name: Run scripts/tester.py divisible_sequence.c
+        run: python scripts/tester.py divisible_sequence.c 15

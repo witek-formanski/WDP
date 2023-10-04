@@ -44,7 +44,7 @@ int main() {
         max_divisible_fragment = current_divisible_fragment;
     }
 
-    printf("Najdluzszy dzielny fragment: %d\n", max_divisible_fragment);
+    printf("%d", max_divisible_fragment);
 
     return 0;
 }
