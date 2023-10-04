@@ -2,7 +2,7 @@
 #include <vector>
 #include "common_library.h"
 
-int get_current_divisible_fragment_length(std::vector<int> t, int i)
+int get_current_divisible_fragment_length(int t[], int i)
 {
     int current_divisible_fragment = 1;
 
@@ -19,7 +19,7 @@ int get_current_divisible_fragment_length(std::vector<int> t, int i)
     return current_divisible_fragment;
 }
 
-int get_max_divisible_fragment(std::vector<int> t, int n)
+int get_max_divisible_fragment(int t[], int n)
 {
     int max_divisible_fragment = 0;
 
@@ -45,15 +45,18 @@ int main() {
         return 1;
     }
 
-    std::vector<int> t;
+    int *t = new int[n];
+
     int value;
     for (int i = 0; i < n; i++) 
     {
         std::cin >> value;
-        t.push_back(value);
+        t[i] = value;
     }
 
     std::cout << get_max_divisible_fragment(t, n);
+
+    delete[] t;
 
     return 0;
 }
