@@ -9,9 +9,10 @@ int maximum(int a, int b)
 int get_current_divisible_fragment_length(int* t, int i)
 {
     int current_divisible_fragment = 1;
-    for (int j = i; j > 1; --j)
+
+    for (int j = i-1; j >= 0; j--)
     {
-        if (t[i] % t[j-1])
+        if (!t[j] || t[i] % t[j])
         {
             return current_divisible_fragment;
         }
@@ -26,7 +27,7 @@ int get_max_divisible_fragment(int* t, int n)
 {
     int max_divisible_fragment = 0;
 
-    for (int i = n; i > 1; --i) 
+    for (int i = n-1; i >= 1; i--) 
     {
         int current_divisible_fragment = get_current_divisible_fragment_length(t, i);
         max_divisible_fragment = maximum(current_divisible_fragment, max_divisible_fragment);
