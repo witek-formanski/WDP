@@ -15,7 +15,13 @@ for test_number in range(highest_test_number+1):
         expected_output = out.read().strip()
         
     tests_in_path = "tests/{}{}.in".format(file_name, test_number)
-    os.system(os.getcwd() + "/src/{}.exe <{} >{}".format(file_name, tests_in_path, "my_output.out"))
+    if (file_extension == "cpp"):
+        os.system(os.getcwd() + "/src/{}.exe <{} >{}".format(file_name, tests_in_path, "my_output.out"))
+    elif (file_extension == "c"):
+        os.system(os.getcwd() + "/src/{}.e <{} >{}".format(file_name, tests_in_path, "my_output.out"))
+    else:
+        print("wrong file extension: ", file_extension)
+        sys.exit(1)
     with open("my_output.out", "r") as out:
         my_output = out.read().strip()
     
