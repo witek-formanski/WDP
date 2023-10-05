@@ -11,3 +11,4 @@
 * [encode_in_one_integer](./src/encode_in_one_integer.c): [zad. 7] kodowanie pary liczb naturalnych jako liczbę naturalną (C)
 * [count_zeros](./src/count_zeros.c): [zad. 10] ile jest zer na końcu n! (C)
 * [count_ones](./src/count_ones.c): [zad. 12] ile jest jedynek w zapisie binarnym liczby n (C)
+## Laboratorium: [Podzielny fragment ciągu](https://moodle.mimuw.edu.pl/mod/page/view.php?id=116472) 2023.10.04
