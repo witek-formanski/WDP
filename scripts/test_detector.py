@@ -2,16 +2,15 @@ import os
 import re
 
 files = [f.split(".")[0] for f in os.listdir("tests")]
-file_names = dict()
+tests_dict = dict()
 
 for file in files:
     file_number = re.findall(r"\d+", file)[-1]
     file_name = file[:len(file) - len(file_number)]
-    if file_name in file_names.keys():
-        file_names[file_name] = max(file_names[file_name], int(file_number))
+    if file_name in tests_dict.keys():
+        tests_dict[file_name] = max(tests_dict[file_name], int(file_number))
     else:
-        file_names[file_name] = int(file_number)
-    print(file_number)
-    print(file_name)
+        tests_dict[file_name] = int(file_number)
 
-print(file_names)
+for test_name, tests_number in tests_dict.items():
+    print(test_name, tests_number)

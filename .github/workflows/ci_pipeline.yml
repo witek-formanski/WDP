@@ -13,26 +13,21 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      - name: Run scripts/builder.py rectangles_intersection.cpp
-        run: python scripts/builder.py rectangles_intersection.cpp
+      - name: Detect tests
+        id: detect_tests
+        run: |
+          TEST_RESULTS=$(python scripts/test_detector.py)
+          echo "Test Results:"
+          echo "$TEST_RESULTS"
+          echo "::set-output name=test_results::$TEST_RESULTS"
 
-      - name: Run scripts/tester.py rectangles_intersection.cpp
-        run: python scripts/tester.py rectangles_intersection.cpp 1
-
-      - name: Run scripts/builder.py line_segments_intersection.cpp
-        run: python scripts/builder.py line_segments_intersection.cpp
-
-      - name: Run scripts/tester.py line_segments_intersection.cpp
-        run: python scripts/tester.py line_segments_intersection.cpp 1
-
-      - name: Run scripts/builder.py divisible_sequence.cpp
-        run: python scripts/builder.py divisible_sequence.cpp
-
-      - name: Run scripts/tester.py divisible_sequence.cpp
-        run: python scripts/tester.py divisible_sequence.cpp 15
-
-      - name: Run scripts/builder.py divisible_sequence.c
-        run: python scripts/builder.py divisible_sequence.c
-
-      - name: Run scripts/tester.py divisible_sequence.c
-        run: python scripts/tester.py divisible_sequence.c 15
+      - name: Loop over test cases
+        run: |
+          IFS=$'\n'   # Set the Internal Field Separator to newline
+          for TEST_CASE in ${{ steps.detect_tests.outputs.test_results }}; do
+            TEST_NAME=$(echo "$TEST_CASE" | cut -d ' ' -f 1)
+            TEST_VALUE=$(echo "$TEST_CASE" | cut -d ' ' -f 2)
+            echo "Running tests for $TEST_NAME with value $TEST_VALUE"
+            python scripts/builder.py "${TEST_NAME}.cpp"
+            python scripts/tester.py "${TEST_NAME}.cpp" "$TEST_VALUE"
+          done
