@@ -13,4 +13,4 @@
 * [count_ones](./src/count_ones.c): [zad. 12] ile jest jedynek w zapisie binarnym liczby n (C)
 ## Laboratorium: [Podzielny fragment ciągu](https://moodle.mimuw.edu.pl/mod/page/view.php?id=116472) 2023.10.04
 * [divisible_sequence](./src/divisible_sequence.c): najdłuższy dzielny fragment ciągu (C) :white_check_mark:
-* * [divisible_sequence](./src/divisible_sequence.cpp): najdłuższy dzielny fragment ciągu (C++) :white_check_mark:
+* [divisible_sequence](./src/divisible_sequence.cpp): najdłuższy dzielny fragment ciągu (C++) :white_check_mark:
