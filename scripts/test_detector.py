@@ -12,5 +12,8 @@ for file in files:
     else:
         tests_dict[file_name] = int(file_number)
 
+output_env_var = ''
 for test_name, tests_number in tests_dict.items():
-    print(test_name, tests_number)
+    output_env_var += test_name + ':' + str(tests_number) + ','
+
+print(output_env_var)
