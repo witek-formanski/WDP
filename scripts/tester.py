@@ -20,7 +20,7 @@ for test_number in range(highest_test_number+1):
     elif (file_extension == "c"):
         os.system(os.getcwd() + "/src/{}.e <{} >{}".format(file_name, tests_in_path, "my_output.out"))
     else:
-        print("wrong file extension: ", file_extension)
+        print("wrong file extension:", file_extension)
         sys.exit(1)
     with open("my_output.out", "r") as out:
         my_output = out.read().strip()
