@@ -14,7 +14,7 @@ for file in files:
 
 output_env_var = ''
 for test_name, tests_number in tests_dict.items():
-    output_env_var += test_name + ' ' + str(tests_number) + ','
+    output_env_var += test_name + ':' + str(tests_number) + ','
 output_env_var = output_env_var.rstrip(output_env_var[-1])
 
 print(output_env_var)
