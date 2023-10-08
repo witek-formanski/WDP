@@ -10,7 +10,7 @@ highest_test_number = int(sys.argv[2])
 for test_number in range(highest_test_number+1):
     print(test_number)
 
-    tests_out_path = "tests/{}{}.out".format(file_name, test_number)
+    tests_out_path = "tests/{}/{}{}.out".format(file_extension, file_name, test_number)
     with open(tests_out_path, "r") as out:
         expected_output = out.read().strip()
         
