@@ -23,9 +23,8 @@ jobs:
 
       - name: Loop over test cases
         run: |
-          TEST_RESULTS=${{ steps.detect_tests.outputs.test_results }}
           IFS=$','
-          for TEST_CASE in $TEST_RESULTS; do
+          for TEST_CASE in ${{steps.detect_tests.outputs.test_results}}; do
               TEST_NAME=$(echo "$TEST_CASE" | cut -d ' ' -f 1)
               TEST_VALUE=$(echo "$TEST_CASE" | cut -d ' ' -f 2)
               echo "Running tests for $TEST_NAME with value $TEST_VALUE"
