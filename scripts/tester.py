@@ -14,7 +14,7 @@ for test_number in range(highest_test_number+1):
     with open(tests_out_path, "r") as out:
         expected_output = out.read().strip()
         
-    tests_in_path = "tests/{}{}.in".format(file_name, test_number)
+    tests_in_path = "tests/{}/{}{}.in".format(file_extension, file_name, test_number)
     if (file_extension == "cpp"):
         os.system(os.getcwd() + "/src/{}.exe <{} >{}".format(file_name, tests_in_path, "my_output.out"))
     elif (file_extension == "c"):
