@@ -24,8 +24,12 @@ jobs:
       - name: Loop over test cases
         run: |
           echo "${{steps.detect_tests.outputs.test_results}}"
+          TEST_CASES=($(echo "${{steps.detect_tests.outputs.test_results}}" | tr ',' '\n'))
+          echo "${TEST_CASES[0]}"
+          echo "${TEST_CASES[1]}"
+          echo "${TEST_CASES[2]}"
           IFS=$','
-          for TEST_CASE in ${{steps.detect_tests.outputs.test_results}}; do
+          for TEST_CASE in TEST_CASES; do
               echo "$TEST_CASE"
               TEST_NAME=$(echo "$TEST_CASE" | cut -d ' ' -f 1)
               TEST_VALUE=$(echo "$TEST_CASE" | cut -d ' ' -f 2)
