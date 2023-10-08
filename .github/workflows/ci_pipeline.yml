@@ -26,7 +26,7 @@ jobs:
           IFS=$','
           for TEST_CASE in ${{ steps.detect_tests.outputs.test_results }}; do
             TEST_NAME=$(echo "$TEST_CASE" | cut -d ' ' -f 1)
-            TEST_VALUE=$(echo "$TEST_CASE" | cut -d ',' -f 2)
+            TEST_VALUE=$(echo "$TEST_CASE" | cut -d ' ' -f 2)
             echo "Running tests for $TEST_NAME with value $TEST_VALUE"
             python scripts/builder.py "${TEST_NAME}.cpp"
             python scripts/tester.py "${TEST_NAME}.cpp" "$TEST_VALUE"
