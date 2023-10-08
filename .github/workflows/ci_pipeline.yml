@@ -19,12 +19,12 @@ jobs:
           TEST_RESULTS=$(python scripts/test_detector.py)
           echo "Test Results:"
           echo "$TEST_RESULTS"
-          run: echo "test_results=$TEST_RESULTS" >> $GITHUB_OUTPUT
+          echo "::set-output name=test_results::$TEST_RESULTS"
 
       - name: Loop over test cases
         run: |
           IFS=$','
-          for TEST_CASE in ${{ $GITHUB_OUTPUT }}; do
+          for TEST_CASE in ${{ steps.detect_tests.outputs.test_results }}; do
             TEST_NAME=$(echo "$TEST_CASE" | cut -d ' ' -f 1)
             TEST_VALUE=$(echo "$TEST_CASE" | cut -d ',' -f 2)
             echo "Running tests for $TEST_NAME with value $TEST_VALUE"
