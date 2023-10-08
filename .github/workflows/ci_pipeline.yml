@@ -13,17 +13,37 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      - name: Detect tests
-        id: detect_tests
+      - name: Detect tests for C++
+        id: detect_tests_cpp
         run: |
-          TEST_RESULTS="$(python scripts/test_detector.py)"
+          TEST_RESULTS="$(python scripts/test_detector.py cpp)"
           echo "Test Results:"
           echo "$TEST_RESULTS"
           echo "::set-output name=test_results::$TEST_RESULTS"
 
-      - name: Loop over test cases
+      - name: Test C++ code
         run: |
-          TEST_CASES=($(echo "${{steps.detect_tests.outputs.test_results}}" | tr ',' '\n'))
+          TEST_CASES=($(echo "${{steps.detect_tests_cpp.outputs.test_results}}" | tr ',' '\n'))
+          IFS=$','
+          for TEST_CASE in ${TEST_CASES[@]}; do
+              TEST_NAME=$(echo "$TEST_CASE" | cut -d ':' -f 1)
+              TEST_VALUE=$(echo "$TEST_CASE" | cut -d ':' -f 2)
+              echo "Running tests for $TEST_NAME with value $TEST_VALUE"
+              python scripts/builder.py "${TEST_NAME}.cpp"
+              python scripts/tester.py "${TEST_NAME}.cpp" "$TEST_VALUE"
+          done
+
+      - name: Detect tests for C
+        id: detect_tests_c
+        run: |
+          TEST_RESULTS="$(python scripts/test_detector.py c)"
+          echo "Test Results:"
+          echo "$TEST_RESULTS"
+          echo "::set-output name=test_results::$TEST_RESULTS"
+  
+      - name: Test C code
+        run: |
+          TEST_CASES=($(echo "${{steps.detect_tests_c.outputs.test_results}}" | tr ',' '\n'))
           IFS=$','
           for TEST_CASE in ${TEST_CASES[@]}; do
               TEST_NAME=$(echo "$TEST_CASE" | cut -d ':' -f 1)

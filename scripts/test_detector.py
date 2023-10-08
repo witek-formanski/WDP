@@ -1,7 +1,10 @@
 import os
+import sys
 import re
 
-files = [f.split(".")[0] for f in os.listdir("tests")]
+test_folder = sys.argv[1]
+
+files = [f.split(".")[0] for f in os.listdir("tests/{}".format(test_folder))]
 tests_dict = dict()
 
 for file in files:
