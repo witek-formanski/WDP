@@ -16,13 +16,14 @@ jobs:
       - name: Detect tests
         id: detect_tests
         run: |
-          TEST_RESULTS=$(python scripts/test_detector.py)
+          TEST_RESULTS="$(python scripts/test_detector.py)"
           echo "Test Results:"
           echo "$TEST_RESULTS"
           echo "::set-output name=test_results::$TEST_RESULTS"
 
       - name: Loop over test cases
         run: |
+          echo "${{steps.detect_tests.outputs.test_results}}"
           IFS=$','
           for TEST_CASE in ${{steps.detect_tests.outputs.test_results}}; do
               TEST_NAME=$(echo "$TEST_CASE" | cut -d ' ' -f 1)
