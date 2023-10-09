@@ -2,8 +2,10 @@ name: Replace spaces
 
 on:
   push:
-    paths:
-      - pdf/**
+    # paths:
+    #   - pdf/**
+    branches:
+      - main
 
 jobs:
   replace-spaces:
@@ -12,4 +14,4 @@ jobs:
     steps:
       - name: Space to underscore
         run: |
-          bash ./scripts/space_to_underscore.sh
+          bash scripts/space_to_underscore.sh
