@@ -1,5 +1,1 @@
-for f in /pdf/*\ *; do
-  if [ -f "$f" ]; then
-    mv "$f" "${f// /_}"
-  fi
-done
+for f in ./pdf/*\ *; do mv "$f" "${f// /_}"; done
