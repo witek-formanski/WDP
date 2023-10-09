@@ -1,0 +1,15 @@
+name: Replace spaces
+
+on:
+  push:
+    paths:
+      - pdf/**
+
+jobs:
+  replace-spaces:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Space to underscore
+        run: |
+          bash pdf/space_to_underscore.sh
