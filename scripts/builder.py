@@ -9,7 +9,7 @@ file_extension = full_file_name.split(".")[1]
 if (file_extension == "cpp"):
     os.system("g++ -o src/{}.exe src/{}.cpp".format(file_name, file_name))
 elif (file_extension == "c"):
-    os.system("gcc src/{}.c -o src/{}.e".format(file_name, file_name))
+    os.system("gcc @configs/options src/{}.c -o src/{}.e".format(file_name, file_name))
 else:
     print("wrong file extension: ", file_extension)
     sys.exit(1)
