@@ -1,9 +1,11 @@
+// zad. 7 tablice
+
 /*
 divide table into fragments conatining all indexes
 {0, 2, 1, 5, 4, 3, 6, 10, 8, 9, 7, 12, 11} -> {0, 2, 5, 6, 10, 12}
 */
 
-int* find_fragment_containing_all_indexes(int n, int t[])
+int* find_fragments_containing_all_indexes(int n, int t[])
 {
     int* result = (int*)malloc((unsigned)n * sizeof(int));
     int maxNum = -1;
