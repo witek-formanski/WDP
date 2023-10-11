@@ -42,7 +42,7 @@ int main()
 {
     int n;
 
-    scanf("%d", &n);
+    if (!scanf("%d", &n)) printf("invalid n provided\n");
 
     if (n <= 0) 
     {
@@ -51,11 +51,11 @@ int main()
     }
 
     int* t;
-    t = (int *)malloc(n * sizeof(int));
+    t = (int *)malloc((size_t)n * sizeof(int));
 
     for (int i = 0; i < n; i++) 
     {
-        scanf("%d", &t[i]);
+        if (!scanf("%d", &t[i])) printf("invalid t[i] provided\n");
     }
 
     printf("%d", get_max_divisible_fragment(t, n));
