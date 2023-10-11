@@ -1,7 +1,6 @@
 ﻿import os
 import sys
 
-
 full_file_name = sys.argv[1]
 file_name = full_file_name.split(".")[0]
 file_extension = full_file_name.split(".")[1]
