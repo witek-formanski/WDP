@@ -15,4 +15,7 @@
 * [divisible_sequence](./src/divisible_sequence.c): najdłuższy dzielny fragment ciągu (C) :white_check_mark:
 * [divisible_sequence](./src/divisible_sequence.cpp): najdłuższy dzielny fragment ciągu (C++) :white_check_mark:
 ## Ćwiczenia: [Zadania na tablice](./pdf/WDP_.Inf.23_24Z__Zadania_na_tablice.pdf) 2023.10.09, 2023.10.11
-## Laboratorium: 2023.10.11
+## Laboratorium: [Gra w skakanie (NWD)](./pdf/WDP_.Inf.23_24Z__Zadanie_rozgrzewkowe_2.pdf) 2023.10.11
+* game.c
+* game.h
+* play_game.c
