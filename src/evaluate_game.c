@@ -1,4 +1,4 @@
-// #include "game.h"
+#include "game.h"
 #include <stdio.h>
 
 // int play(int a, int b) // assumption: a and b relatively prime (gcd(a,b) = 1)
