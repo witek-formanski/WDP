@@ -15,7 +15,7 @@ typedef struct
 sequence *differential_sequence(sequence *seq)
 {
     sequence *diff_seq = (sequence *)malloc(sizeof(sequence));
-    diff_seq->length = seq->length - 1;
+    diff_seq->length = (seq->length - 1)*(seq->length>0);
     double *l; //= //malloc
     diff_seq->elements = l;
     // for..
