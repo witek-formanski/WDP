@@ -13,25 +13,10 @@ int play(int a, int b) // assumption: a and b relatively prime (gcd(a,b) = 1)
         return 0;
     }
 
-    if (a % 2 == 0)
+    if (a % 2 == 0 || (b % 2 == 1 && a > b))
     {
         return 1;
     }
 
-    if (b % 2 == 0)
-    {
-        return 2;
-    }
-
-    if (a > b)
-    {
-        return 1;
-    }
-
-    if (a < b)
-    {
-        return 2;
-    }
-
-    return -2;
+    return 2;
 }
