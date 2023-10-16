@@ -92,13 +92,16 @@ int play_game(int a, int b)
         }
     }
 
+    return -2;
 }
 
 int main()
 {
     int a, b;
-    if(!scanf("%d", &a));
-    if(!scanf("%d", &b));
+    if(!scanf("%d", &a)) printf("invalid a provided\n");
+    if(!scanf("%d", &b)) printf("invalid b provided\n");
 
     printf("%d", play_game(a, b));
+
+    return 0;
 }
