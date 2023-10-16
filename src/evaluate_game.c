@@ -1,41 +1,41 @@
 // #include "game.h"
 #include <stdio.h>
 
-int play(int a, int b) // assumption: a and b relatively prime (gcd(a,b) = 1)
-{
-    if (a < 1 || b < 1)
-    {
-        // printf("invalid input values provided");
-        return -1;
-    }
+// int play(int a, int b) // assumption: a and b relatively prime (gcd(a,b) = 1)
+// {
+//     if (a < 1 || b < 1)
+//     {
+//         // printf("invalid input values provided");
+//         return -1;
+//     }
 
-    if (a == 1 && b == 1)
-    {
-        return 0;
-    }
+//     if (a == 1 && b == 1)
+//     {
+//         return 0;
+//     }
 
-    if (a % 2 == 0)
-    {
-        return 1;
-    }
+//     if (a % 2 == 0)
+//     {
+//         return 1;
+//     }
 
-    if (b % 2 == 0)
-    {
-        return 2;
-    }
+//     if (b % 2 == 0)
+//     {
+//         return 2;
+//     }
 
-    if (a > b)
-    {
-        return 1;
-    }
+//     if (a > b)
+//     {
+//         return 1;
+//     }
 
-    if (a < b)
-    {
-        return 2;
-    }
+//     if (a < b)
+//     {
+//         return 2;
+//     }
 
-    return -2;
-}
+//     return -2;
+// }
 
 int greatest_common_divisor(int a, int b) // NWD - algorym Euklidesa
 {

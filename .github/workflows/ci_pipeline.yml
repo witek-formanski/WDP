@@ -56,3 +56,8 @@ jobs:
               python scripts/builder.py "${TEST_NAME}.c"
               python scripts/tester.py "${TEST_NAME}.c" "$TEST_VALUE"
           done
+
+      - name: Test manually
+        run: |
+          gcc @configs/options src/evaluate_game.c src/game.c -o src/evaluate_game.e
+          python scripts/tester.py evaluate_game.c 4 manual

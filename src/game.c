@@ -32,4 +32,6 @@ int play(int a, int b) // assumption: a and b relatively prime (gcd(a,b) = 1)
     {
         return 2;
     }
+
+    return -2;
 }
