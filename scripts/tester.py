@@ -6,7 +6,7 @@ full_file_name = sys.argv[1]
 file_name = full_file_name.split(".")[0]
 file_extension = full_file_name.split(".")[1]
 highest_test_number = int(sys.argv[2])
-if len(sys.argv) == 3:
+if len(sys.argv) == 4:
     test_folder_name = sys.argv[3]
 else:
     test_folder_name = "tests"
