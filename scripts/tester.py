@@ -14,7 +14,7 @@ else:
 for test_number in range(highest_test_number+1):
     print(test_number)
 
-    tests_out_path = "{}}/{}/{}{}.out".format(test_folder_name, file_extension, file_name, test_number)
+    tests_out_path = "{}/{}/{}{}.out".format(test_folder_name, file_extension, file_name, test_number)
     with open(tests_out_path, "r") as out:
         expected_output = out.read().strip()
         
