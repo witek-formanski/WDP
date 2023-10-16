@@ -33,6 +33,8 @@ int play(int a, int b) // assumption: a and b relatively prime (gcd(a,b) = 1)
     {
         return 2;
     }
+
+    return -2;
 }
 
 int greatest_common_divisor(int a, int b) // NWD - algorym Euklidesa
@@ -95,8 +97,8 @@ int play_game(int a, int b)
 int main()
 {
     int a, b;
-    scanf("%d", &a);
-    scanf("%d", &b);
+    if(!scanf("%d", &a));
+    if(!scanf("%d", &b));
 
     printf("%d", play_game(a, b));
 }
