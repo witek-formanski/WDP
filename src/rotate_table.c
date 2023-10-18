@@ -6,17 +6,29 @@
 
 // a * b = NWD(a,b) * NWW(a,b)
 
-void rotate(int n, int t[], int k)
+int greatest_common_divisor(int a, int b)
+{
+    while (a != b)
+    {
+        if (a > b)
+            a -= b;
+        else
+            b -= a;
+    }
+    return a;
+}
+
+void rotate_with_cycles(int n, int t[], int k)
 {
     k %= n;
     k += (k < 0) * n; // if (k < 0) k += n;
 
     int temp, next, aux;
 
-    for (int i = 0; i < nwd(n, k); ++i)
+    for (int i = 0; i < greatest_common_divisor(n, k); ++i)
     {
         temp = t[i];
-        for (int j = 0; j < n / nwd(n, k); ++j)
+        for (int j = 0; j < n / greatest_common_divisor(n, k); ++j)
         {
             next = (i + (j + 1) * k) % n;
             aux = t[next];
@@ -45,7 +57,7 @@ void mirror(int t[], int left, int right)
     }
 }
 
-void rotate_lbozyk(int n, int t[], int k)
+void rotate_with_mirror(int n, int t[], int k)
 {
     k %= n;
     if (k < 0)
