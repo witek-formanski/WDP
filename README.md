@@ -8,8 +8,9 @@
 * [parity_degree](./src/parity_degree.c): [zad. 1] stopień parzystości (C) :white_check_mark:
 * [reverse](./src/reverse.c): [zad. 2] odwracanie kolejności cyfr w liczbie (C) :white_check_mark:
 * [sqrt_floor](./src/sqrt_floor.c): [zad. 3] podłoga z pierwiastka; suma kolejnych liczb nieparzystych (C) :white_check_mark:
-* [next_sparse_number](./src/next_sparse_number.c): [zad. 4] szukanie następnej liczby, która w zapisie binarnym nie ma dwóch jedynek koło siebie (C)
-* [sparse](./src/sparse.c): [zad. 4] szukanie następnej liczby, która w zapisie binarnym nie ma dwóch jedynek koło siebie - autor: @lbozyk (C) :white_check_mark:
+* zad. 4 szukanie następnej liczby, która w zapisie binarnym nie ma dwóch jedynek koło siebie
+    * [next_sparse_number](./src/next_sparse_number.c)(C)
+    * [sparse](./src/sparse.c): autor: @lbozyk (C) :white_check_mark:
 * [encode_in_one_integer](./src/encode_in_one_integer.c): [zad. 7] kodowanie pary liczb naturalnych jako liczbę naturalną (C)
 * [modulo](./src/modulo.c): [zad. 8] czy pierścień reszt modulo n zawiera nietrywialne pierwiastki z 1 (C) :white_check_mark:
 * [count_zeros](./src/count_zeros.c): [zad. 10] ile jest zer na końcu n! (C)
@@ -41,7 +42,7 @@
     * [next_perm](./src/next_perm.c): autor: @lbozyk (C) :white_check_mark:
 * zad. 16. ciąg róznicowy
     * [differential_sequence](./src/differential_sequence.c) (C)
-    * [diff_seq](./src/diff_seq.c) (C)
+    * [diff_seq](./src/diff_seq.c) (C): autor: @lbozyk (C) :white_check_mark:
 ## Laboratorium: [Gra w skakanie (NWD)](./pdf/WDP_.Inf.23_24Z__Zadanie_rozgrzewkowe_2.pdf) 2023.10.11
 * [game.c](./src/game.c): strategia wygrywająca (C) :white_check_mark::microscope:
 * [game.h](./src/game.h): prototyp funkcji :white_check_mark::microscope:
