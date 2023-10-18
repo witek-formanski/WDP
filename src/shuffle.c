@@ -11,18 +11,32 @@ int *shuffle(int n, int a[], int m, int b[])
 
     for (int i = 0; i < n; i++)
     {
-        if (i <= m)
+        if (i < m)
+        {
             shuffled_array[2 * i] = a[i];
+            // printf("shuffled_array(%d) = %d\n", 2 * i, a[i]);
+        }
         else
+        {
             shuffled_array[m + i] = a[i];
+            // printf("shuffled_array(%d) = %d\n", m + i, a[i]);
+        }
+            
     }
 
     for (int i = 0; i < m; i++)
     {
-        if (i <= n)
-            shuffled_array[2 * i + 1] = a[i];
+        if (i < n)
+        {
+            shuffled_array[2 * i + 1] = b[i];
+            // printf("shuffled_array(%d) = %d\n", 2 * i + 1, b[i]);
+        }
         else
-            shuffled_array[n + i] = a[i];
+        {
+            shuffled_array[n + i] = b[i];
+            // printf("shuffled_array(%d) = %d\n", n * i, b[i]);
+        }
+            
     }
 
     return shuffled_array;
@@ -46,6 +60,16 @@ int *get_array(int *n)
 
 int main()
 {
+    int n, m;
+    int *a = get_array(&n);
+    int *b = get_array(&m);
+
+    // int n = 5;
+    // int m = 5;
+    // int a[] = { 10, 20, 30, 40, 50 };
+    // int b[] = { 1, 2, 3, 4, 5 };
+
+    print_array(n + m, shuffle(n, a, m, b));
 
     return 0;
 }
