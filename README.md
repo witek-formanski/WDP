@@ -55,4 +55,5 @@
     * 1/n^4
     * 1/n^2
 * [zad. 6.] znajdź minimalną liczbę ruchów potrzebnych do uzyskania danej konfiguracji wież Hanoi
-    * [hanoi](./src/hanoi.c) (C)
+    * [hanoi](./src/hanoi.c) (C) :white_check_mark:
+    * [print_hanoi](./src/print_hanoi.c) (C)
