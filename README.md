@@ -8,7 +8,7 @@
 * [parity_degree](./src/parity_degree.c): [zad. 1] stopień parzystości (C) :white_check_mark:
 * [reverse](./src/reverse.c): [zad. 2] odwracanie kolejności cyfr w liczbie (C) :white_check_mark:
 * [sqrt_floor](./src/sqrt_floor.c): [zad. 3] podłoga z pierwiastka; suma kolejnych liczb nieparzystych (C) :white_check_mark:
-* zad. 4 szukanie następnej liczby, która w zapisie binarnym nie ma dwóch jedynek koło siebie
+* [zad. 4.] szukanie następnej liczby, która w zapisie binarnym nie ma dwóch jedynek koło siebie
     * [next_sparse_number](./src/next_sparse_number.c)(C)
     * [sparse](./src/sparse.c): autor: @lbozyk (C) :white_check_mark:
 * [encode_in_one_integer](./src/encode_in_one_integer.c): [zad. 7] kodowanie pary liczb naturalnych jako liczbę naturalną (C)
