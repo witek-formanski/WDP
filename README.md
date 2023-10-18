@@ -18,25 +18,25 @@
 * [divisible_sequence](./src/divisible_sequence.c): najdłuższy dzielny fragment ciągu (C) :white_check_mark::microscope:
 * [divisible_sequence](./src/divisible_sequence.cpp): najdłuższy dzielny fragment ciągu (C++) :white_check_mark::microscope:
 ## Ćwiczenia: [Zadania na tablice](./pdf/WDP_.Inf.23_24Z__Zadania_na_tablice.pdf) 2023.10.09, 2023.10.11, 2023.10.16
---1. obrót tablicy
+-1. obrót tablicy
     * [rotate_table](./src/rotate_table.c) (C)
     * [rotate](./src/rotate.c): autor: @lbozyk (C) :white_check_mark:
---3. ile różnych liczb występuje w dwóch niemalejących tablicach
+-3. ile różnych liczb występuje w dwóch niemalejących tablicach
     * [nondecreasing_tables](.src/nondecreasing_tables.c) (C)
---5. znajdź lidera
+-5. znajdź lidera
     * [find_leader](./src/find_leader.c) (C)
     * [leader](./src/leader.c): autor: @lbozyk (C) :white_check_mark:
---7. fragment tablicy zawierający wszystkie indeksy jego elementów
+-7. fragment tablicy zawierający wszystkie indeksy jego elementów
     * [find_fragments_containing_all_indexes](./src/find_fragments_containing_all_indexes.c) (C)
     * [divide](./src/divide.c): autor: @lbozyk (C) :white_check_mark:
---10. zabawka Jasia
+-10. zabawka Jasia
     * [toy](./src/toy.c) (C)
---11. kodowanie w systemie minus-dwójkowym
+-11. kodowanie w systemie minus-dwójkowym
     * [minus_2_binary](./src/minus_2_binary.c) (C)
---12. następna permutacja
+-12. następna permutacja
     * [lexicographical_order](./src/lexicographical_order.c) (C)
     * [next_perm](./src/next_perm.c): autor: @lbozyk (C) :white_check_mark:
---16. ciąg róznicowy
+-16. ciąg róznicowy
     * [differential_sequence](./src/differential_sequence.c) (C)
 ## Laboratorium: [Gra w skakanie (NWD)](./pdf/WDP_.Inf.23_24Z__Zadanie_rozgrzewkowe_2.pdf) 2023.10.11
 * [game.c](./src/game.c): strategia wygrywająca (C) :white_check_mark::microscope:
