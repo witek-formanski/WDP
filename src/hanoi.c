@@ -28,4 +28,6 @@ int main()
     int n = 7;
     int configuration[] = {2, 1, 1, 3, 1, 2, 2};
     int start = 3;
+
+    return 0;
 }

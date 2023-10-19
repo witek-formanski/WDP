@@ -64,12 +64,10 @@ int main()
     int *a = get_array(&n);
     int *b = get_array(&m);
 
-    // int n = 5;
-    // int m = 5;
-    // int a[] = { 10, 20, 30, 40, 50 };
-    // int b[] = { 1, 2, 3, 4, 5 };
-
     print_array(n + m, shuffle(n, a, m, b));
+
+    free(a);
+    free(b);
 
     return 0;
 }
