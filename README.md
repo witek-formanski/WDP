@@ -23,6 +23,7 @@
     * [rotate_table](./src/rotate_table.c) (C)
     * [rotate](./src/rotate.c): autor: @lbozyk (C) :white_check_mark:
 * [zad. 2.] tasowanie dwóch tablic
+    * [shuffle](./src/shuffle.c) (C) :white_check_mark::microscope:
 * [zad. 3.] ile różnych liczb występuje w dwóch niemalejących tablicach
     * [nondecreasing_tables](.src/nondecreasing_tables.c) (C)
     * [count_distinct](.src/count_distinct.c): autor: @lbozyk (C) :white_check_mark:
