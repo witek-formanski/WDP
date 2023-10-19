@@ -51,10 +51,10 @@ void print_array(int n, int a[])
 
 int *get_array(int *n)
 {
-    scanf("%d", n);
+    if (!scanf("%d", n)) 1;
     int *a = (int *)malloc((size_t)*n * sizeof(int));
     for (int i = 0; i < *n; ++i)
-        scanf("%d", &a[i]);
+        if (!scanf("%d", &a[i])) 1;
     return a;
 }
 
