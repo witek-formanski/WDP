@@ -27,6 +27,8 @@
 * [zad. 3.] ile różnych liczb występuje w dwóch niemalejących tablicach
     * [nondecreasing_tables](.src/nondecreasing_tables.c) (C)
     * [count_distinct](.src/count_distinct.c): autor: @lbozyk (C) :white_check_mark:
+* [zad. 4.] ciąg Bonifacego (podobny do Fibonacciego)
+    * [bonifacy](./src/bonifacy.c) (C) :white_check_mark::microscope:
 * [zad. 5.] znajdź lidera
     * [find_leader](./src/find_leader.c) (C)
     * [leader](./src/leader.c): autor: @lbozyk (C) :white_check_mark:
