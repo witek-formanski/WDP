@@ -23,6 +23,7 @@
     * [rotate_table](./src/rotate_table.c) (C)
     * [rotate](./src/rotate.c): autor: @lbozyk (C) :white_check_mark:
 * [zad. 2.] tasowanie dwóch tablic
+    * [shuffle](./src/shuffle.c) (C) :white_check_mark::microscope:
 * [zad. 3.] ile różnych liczb występuje w dwóch niemalejących tablicach
     * [nondecreasing_tables](.src/nondecreasing_tables.c) (C)
     * [count_distinct](.src/count_distinct.c): autor: @lbozyk (C) :white_check_mark:
@@ -48,7 +49,7 @@
 * [game.c](./src/game.c): strategia wygrywająca (C) :white_check_mark::microscope:
 * [game.h](./src/game.h): prototyp funkcji :white_check_mark::microscope:
 * [evaluate_game.c](./src/evaluate_game.c): program grający w grę (C) :white_check_mark::microscope:
-## Ćwiczenia: [Zadania na tablice](./pdf/WDP_.Inf.23_24Z__Złożoność_czasowa_i_pamięciowa.pdf) 2023.10.18
+## Ćwiczenia: [Złożoność czasowa i pamięciowa](./pdf/WDP_.Inf.23_24Z__Złożoność_czasowa_i_pamięciowa.pdf) 2023.10.18
 * [zad. 1.] n^3
 * [zad. 2.] n^4
 * [zad. 3.]
