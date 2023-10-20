@@ -32,6 +32,8 @@
 * [zad. 5.] znajdź lidera
     * [find_leader](./src/find_leader.c) (C)
     * [leader](./src/leader.c): autor: @lbozyk (C) :white_check_mark:
+* [zad. 6.] podziel std::vector<int> na mniejsze części
+    * [split_to_vectors](./src/split_to_vectors.cpp) (C++) :white_check_mark:
 * [zad. 7.] fragment tablicy zawierający wszystkie indeksy jego elementów
     * [find_fragments_containing_all_indexes](./src/find_fragments_containing_all_indexes.c) (C)
     * [divide](./src/divide.c): autor: @lbozyk (C) :white_check_mark:
