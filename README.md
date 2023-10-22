@@ -5,16 +5,16 @@
 * [parallelograms_intersection](./src/parallelograms_intersection.cpp): równoległoboki; sprawdzanie punktów wewnątrz i przecinania się przekątnych (C++)
 * [point_inside_polygon](./src/point_inside_polygon.cpp): czy punkt leży wewnątrz dowolnego wielokąta
 ## Ćwiczenia: [Funkcje operujące na liczbach](./pdf/WDP_.Inf.23_24Z__Funkcje_operujące_na_liczbach.pdf) 2023.10.04, 2023.10.09
-* [parity_degree](./src/parity_degree.c): [zad. 1] stopień parzystości (C) :white_check_mark:
-* [reverse](./src/reverse.c): [zad. 2] odwracanie kolejności cyfr w liczbie (C) :white_check_mark:
-* [sqrt_floor](./src/sqrt_floor.c): [zad. 3] podłoga z pierwiastka; suma kolejnych liczb nieparzystych (C) :white_check_mark:
+* [parity_degree](./src/parity_degree.c): [zad. 1.] stopień parzystości (C) :white_check_mark:
+* [reverse](./src/reverse.c): [zad. 2.] odwracanie kolejności cyfr w liczbie (C) :white_check_mark:
+* [sqrt_floor](./src/sqrt_floor.c): [zad. 3.] podłoga z pierwiastka; suma kolejnych liczb nieparzystych (C) :white_check_mark:
 * [zad. 4.] szukanie następnej liczby, która w zapisie binarnym nie ma dwóch jedynek koło siebie
     * [next_sparse_number](./src/next_sparse_number.c) (C)
     * [sparse](./src/sparse.c): autor: @lbozyk (C) :white_check_mark:
-* [encode_in_one_integer](./src/encode_in_one_integer.c): [zad. 7] kodowanie pary liczb naturalnych jako liczbę naturalną (C)
-* [modulo](./src/modulo.c): [zad. 8] czy pierścień reszt modulo n zawiera nietrywialne pierwiastki z 1 (C) :white_check_mark:
-* [count_zeros](./src/count_zeros.c): [zad. 10] ile jest zer na końcu n! (C)
-* [count_ones](./src/count_ones.c): [zad. 12] ile jest jedynek w zapisie binarnym liczby n (C)
+* [encode_in_one_integer](./src/encode_in_one_integer.c): [zad. 7.] kodowanie pary liczb naturalnych jako liczbę naturalną (C)
+* [modulo](./src/modulo.c): [zad. 8.] czy pierścień reszt modulo n zawiera nietrywialne pierwiastki z 1 (C) :white_check_mark:
+* [count_zeros](./src/count_zeros.c): [zad. 10.] ile jest zer na końcu n! (C)
+* [count_ones](./src/count_ones.c): [zad. 12.] ile jest jedynek w zapisie binarnym liczby n (C)
 ## Laboratorium: [Podzielny fragment ciągu](./pdf/WDP_.Inf.23_24Z__Laboratorium_1__rozgrzewka.pdf) 2023.10.04
 * [divisible_sequence](./src/divisible_sequence.c): najdłuższy dzielny fragment ciągu (C) :white_check_mark::microscope:
 * [divisible_sequence](./src/divisible_sequence.cpp): najdłuższy dzielny fragment ciągu (C++) :white_check_mark::microscope:
@@ -37,8 +37,9 @@
 * [zad. 7.] fragment tablicy zawierający wszystkie indeksy jego elementów
     * [find_fragments_containing_all_indexes](./src/find_fragments_containing_all_indexes.c) (C)
     * [divide](./src/divide.c): autor: @lbozyk (C) :white_check_mark:
-* [zad. 8] dekompresuj tablicę ciągów skompresowanych 2^(i−1)⋅(2⋅k−1)
-    * [decompress.cpp](./src/decompress.cpp) (C++) :white_check_mark:
+* [zad. 8.] dekompresuj tablicę ciągów skompresowanych 2^(i−1)⋅(2⋅k−1)
+    * [decompress.cpp](./src/decompress.cpp) (C++) :white_check_mark::microscope:
+    * [compress.cpp](./src/compress.cpp) (C++) :white_check_mark::microscope:
     * [decompress.c](./src/decompress.c) (C)
 * [zad. 10.] zabawka Jasia
     * [cylinder_toy](./src/cylinder_toy.c) (C)
