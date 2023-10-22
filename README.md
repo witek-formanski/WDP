@@ -5,9 +5,9 @@
 * [parallelograms_intersection](./src/parallelograms_intersection.cpp): równoległoboki; sprawdzanie punktów wewnątrz i przecinania się przekątnych (C++)
 * [point_inside_polygon](./src/point_inside_polygon.cpp): czy punkt leży wewnątrz dowolnego wielokąta
 ## Ćwiczenia: [Funkcje operujące na liczbach](./pdf/WDP_.Inf.23_24Z__Funkcje_operujące_na_liczbach.pdf) 2023.10.04, 2023.10.09
-* [parity_degree](./src/parity_degree.c): [zad. 1] stopień parzystości (C) :white_check_mark:
-* [reverse](./src/reverse.c): [zad. 2] odwracanie kolejności cyfr w liczbie (C) :white_check_mark:
-* [sqrt_floor](./src/sqrt_floor.c): [zad. 3] podłoga z pierwiastka; suma kolejnych liczb nieparzystych (C) :white_check_mark:
+* [parity_degree](./src/parity_degree.c): [zad. 1.] stopień parzystości (C) :white_check_mark:
+* [reverse](./src/reverse.c): [zad. 2.] odwracanie kolejności cyfr w liczbie (C) :white_check_mark:
+* [sqrt_floor](./src/sqrt_floor.c): [zad. 3.] podłoga z pierwiastka; suma kolejnych liczb nieparzystych (C) :white_check_mark:
 * [zad. 4.] szukanie następnej liczby, która w zapisie binarnym nie ma dwóch jedynek koło siebie
     * [next_sparse_number](./src/next_sparse_number.c) (C)
     * [sparse](./src/sparse.c): autor: @lbozyk (C) :white_check_mark:
