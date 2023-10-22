@@ -39,7 +39,7 @@ int main()
     int n; // 5
     std::cin >> n;
 
-    int* x; // 1 6 9 42 3
+    int* x = (int*)malloc((size_t)n * sizeof(int)); // 1 6 9 42 3
     for (int i = 0; i < n; i++)
         std::cin >> x[i];
 
@@ -51,22 +51,7 @@ int main()
     }
     std::cout << "\n";
 
-    // int m = decompressed_array.size();
-    // int *decompressed_static_array = &decompressed_array[0];
-
-    // // for (int i = 0; i < m; i++)
-    // // {
-    // //     std::cout << decompressed_static_array[i] << " ";
-    // // }
-    // // std::cout << "\n";
-
-    // std::vector<int> compressed_array = compress_array(m, decompressed_static_array);
-
-    // for (auto i : compressed_array)
-    // {
-    //     std::cout << i << " ";
-    // }
-    // std::cout << "\n";
+    free(x);
 
     return 0;
 }
