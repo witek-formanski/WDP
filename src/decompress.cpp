@@ -3,7 +3,8 @@
 #include <utility>
 
 // dekompresuj(6, {1, 3, 3, 9, 42, 3}) == {1, 2, 2, 5, 11, 11, 2}
-// t nie zawiera zer
+// dekompresowana tablica t nie zawiera zer
+
 std::pair<int, int> decompress_number(int compressed)
 {
     int i = 1;
@@ -12,26 +13,29 @@ std::pair<int, int> decompress_number(int compressed)
         i++;
         compressed /= 2;
     }
+
     int k = (compressed + 1) / 2;
+
     std::pair<int, int> decompressed;
     decompressed.first = i;
     decompressed.second = k;
+
     return decompressed;
 }
 
 std::vector<int> decompress_array(int n, int t[])
 {
-    std::vector<int> decompressed_array;
+    std::vector<int> decompressed_vect;
     for (int i = 0; i < n; i++)
     {
         std::pair<int, int> decompressed = decompress_number(t[i]);
         for (int j = 0; j < decompressed.first; j++)
         {
-            decompressed_array.push_back(decompressed.second);
+            decompressed_vect.push_back(decompressed.second);
         }
     }
 
-    return decompressed_array;
+    return decompressed_vect;
 }
 
 int main()
@@ -39,19 +43,17 @@ int main()
     int n; // 5
     std::cin >> n;
 
-    int* x = (int*)malloc((size_t)n * sizeof(int)); // 1 6 9 42 3
+    int *t = (int *)malloc((size_t)n * sizeof(int)); // 1 6 9 42 3
     for (int i = 0; i < n; i++)
-        std::cin >> x[i];
+        std::cin >> t[i];
 
-    std::vector<int> decompressed_array = decompress_array(n, x);
+    std::vector<int> decompressed_vect = decompress_array(n, t);
 
-    for (auto i : decompressed_array)
-    {
+    for (auto i : decompressed_vect)
         std::cout << i << " ";
-    }
     std::cout << "\n";
 
-    free(x);
+    free(t);
 
     return 0;
 }
