@@ -38,7 +38,8 @@
     * [find_fragments_containing_all_indexes](./src/find_fragments_containing_all_indexes.c) (C)
     * [divide](./src/divide.c): autor: @lbozyk (C) :white_check_mark:
 * [zad. 8] dekompresuj tablicę ciągów skompresowanych 2^(i−1)⋅(2⋅k−1)
-    * [decompress.cpp](./src/decompress.cpp) (C++) :white_check_mark:
+    * [decompress.cpp](./src/decompress.cpp) (C++) :white_check_mark::microscope:
+    * [compress.cpp](./src/compress.cpp) (C++) :white_check_mark::microscope:
     * [decompress.c](./src/decompress.c) (C)
 * [zad. 10.] zabawka Jasia
     * [cylinder_toy](./src/cylinder_toy.c) (C)
