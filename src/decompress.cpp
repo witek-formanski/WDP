@@ -34,39 +34,14 @@ std::vector<int> decompress_array(int n, int t[])
     return decompressed_array;
 }
 
-int compress_number(int i, int k)
-{
-    return (1 << (i - 1)) * (2 * k - 1);
-}
-
-std::vector<int> compress_array(int n, int arr[])
-{
-    std::vector<int> compressed_array;
-    int index = 0;
-    int counter = 1;
-    while (index < n)
-    {
-        int temp = arr[index];
-
-        index++;
-        if (temp == arr[index])
-            counter++;
-        else // if (temp !=arr[index])
-        {
-            int compressed = compress_number(counter, temp);
-            compressed_array.push_back(compressed);
-            // temp = arr[index];
-            counter = 1;
-        }
-    }
-    return compressed_array;
-}
-
 int main()
 {
-    int n = 6;
+    int n; // 5
+    std::cin >> n;
 
-    int x[]{1, 3, 3, 9, 42, 3};
+    int* x; // 1 6 9 42 3
+    for (int i = 0; i < n; i++)
+        std::cin >> x[i];
 
     std::vector<int> decompressed_array = decompress_array(n, x);
 
@@ -76,22 +51,22 @@ int main()
     }
     std::cout << "\n";
 
-    int m = decompressed_array.size();
-    int *decompressed_static_array = &decompressed_array[0];
+    // int m = decompressed_array.size();
+    // int *decompressed_static_array = &decompressed_array[0];
 
-    // for (int i = 0; i < m; i++)
+    // // for (int i = 0; i < m; i++)
+    // // {
+    // //     std::cout << decompressed_static_array[i] << " ";
+    // // }
+    // // std::cout << "\n";
+
+    // std::vector<int> compressed_array = compress_array(m, decompressed_static_array);
+
+    // for (auto i : compressed_array)
     // {
-    //     std::cout << decompressed_static_array[i] << " ";
+    //     std::cout << i << " ";
     // }
     // std::cout << "\n";
-
-    std::vector<int> compressed_array = compress_array(m, decompressed_static_array);
-
-    for (auto i : compressed_array)
-    {
-        std::cout << i << " ";
-    }
-    std::cout << "\n";
 
     return 0;
 }
