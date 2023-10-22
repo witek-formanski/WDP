@@ -32,9 +32,9 @@ std::vector<int> compress_array(int n, int arr[])
 int main()
 {
     int n; // 7
-    std::cin >> n; // 1 2 2 5 11 11 2
+    std::cin >> n; 
 
-    int* x;
+    int* x = (int*)malloc((size_t)n * sizeof(int)); // 1 2 2 5 11 11 2
     for (int i = 0; i < n; i++)
         std::cin >> x[i];
 
