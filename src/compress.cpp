@@ -46,5 +46,7 @@ int main()
     }
     std::cout << "\n";
 
+    free(x);
+    
     return 0;
 }
