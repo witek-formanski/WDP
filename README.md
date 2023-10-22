@@ -11,10 +11,10 @@
 * [zad. 4.] szukanie następnej liczby, która w zapisie binarnym nie ma dwóch jedynek koło siebie
     * [next_sparse_number](./src/next_sparse_number.c) (C)
     * [sparse](./src/sparse.c): autor: @lbozyk (C) :white_check_mark:
-* [encode_in_one_integer](./src/encode_in_one_integer.c): [zad. 7] kodowanie pary liczb naturalnych jako liczbę naturalną (C)
-* [modulo](./src/modulo.c): [zad. 8] czy pierścień reszt modulo n zawiera nietrywialne pierwiastki z 1 (C) :white_check_mark:
-* [count_zeros](./src/count_zeros.c): [zad. 10] ile jest zer na końcu n! (C)
-* [count_ones](./src/count_ones.c): [zad. 12] ile jest jedynek w zapisie binarnym liczby n (C)
+* [encode_in_one_integer](./src/encode_in_one_integer.c): [zad. 7.] kodowanie pary liczb naturalnych jako liczbę naturalną (C)
+* [modulo](./src/modulo.c): [zad. 8.] czy pierścień reszt modulo n zawiera nietrywialne pierwiastki z 1 (C) :white_check_mark:
+* [count_zeros](./src/count_zeros.c): [zad. 10.] ile jest zer na końcu n! (C)
+* [count_ones](./src/count_ones.c): [zad. 12.] ile jest jedynek w zapisie binarnym liczby n (C)
 ## Laboratorium: [Podzielny fragment ciągu](./pdf/WDP_.Inf.23_24Z__Laboratorium_1__rozgrzewka.pdf) 2023.10.04
 * [divisible_sequence](./src/divisible_sequence.c): najdłuższy dzielny fragment ciągu (C) :white_check_mark::microscope:
 * [divisible_sequence](./src/divisible_sequence.cpp): najdłuższy dzielny fragment ciągu (C++) :white_check_mark::microscope:
