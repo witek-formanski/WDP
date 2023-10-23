@@ -1,3 +1,5 @@
+// zad. 10 zliczanie
+
 // start from lower-left corner
 // greater -> move up
 // lower -> move right
