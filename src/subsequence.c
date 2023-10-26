@@ -67,4 +67,9 @@ int main() {
     }
 
     printf("%d", is_subsequence(a, size_a, b, size_b));
+
+
+    free(a);
+    free(b);
+    return 0;
 }
