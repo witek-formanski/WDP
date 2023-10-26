@@ -14,11 +14,11 @@ int partition(int arr[], int low, int high) {
 
     for (int j = low; j <= high; j++) {
         if (arr[j] < pivot) {
-            swap(arr[i], arr[j]);
+            swap(&arr[i], &arr[j]);
             i++;
         }
     }
-    swap(arr[i + 1], arr[high]);
+    swap(&arr[i + 1], &arr[high]);
     return (i + 1);
 }
 
@@ -66,5 +66,5 @@ int main() {
         if(!scanf("%d", &b[i])) printf("invalid value");
     }
 
-    printf(is_subsequence(a, size_a, b, size_b));
+    printf("%d", is_subsequence(a, size_a, b, size_b));
 }
