@@ -10,12 +10,12 @@ void swap(int *a, int *b) {
 
 int partition(int arr[], int low, int high) {
     int pivot = arr[high];
-    int i = low;
+    int i = low - 1;
 
     for (int j = low; j <= high; j++) {
         if (arr[j] < pivot) {
-            swap(&arr[i], &arr[j]);
             i++;
+            swap(&arr[i], &arr[j]);
         }
     }
     swap(&arr[i + 1], &arr[high]);
@@ -33,19 +33,19 @@ void quick_sort(int arr[], int low, int high) {
 
 // check if b[] contains all elements of a[]
 bool is_subsequence(int a[], int size_a, int b[], int size_b) {
-    quick_sort(a, 0, size_a);
-    quick_sort(b, 0, size_b);
+    quick_sort(a, 0, size_a - 1);
+    quick_sort(b, 0, size_b - 1);
 
     int j = 0;
     for (int i = 0; i < size_a; i++) {
-        if (a[i] < b[i])
+        if (a[i] < b[j])
             return false;
-        else if (a[i] > b[i])
+        else if (a[i] > b[j])
             i--;
         
         j++;
 
-        if (j == size_b)
+        if (j > size_b)
             return false;
     }
 
@@ -65,9 +65,13 @@ int main() {
     for (int i = 0; i < size_b; i++) {
         if(!scanf("%d", &b[i])) printf("invalid value");
     }
+    
+    // int a[6] = {1, 2, 30, 4, 5, 6};
+    // int b[7] = {-1, 6, 2, 30, 4, 5, 1};
+    // size_a = 6;
+    // size_b = 7;
 
     printf("%d", is_subsequence(a, size_a, b, size_b));
-
 
     free(a);
     free(b);
