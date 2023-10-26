@@ -53,7 +53,7 @@
     * [lexicographical_order](./src/lexicographical_order.c) (C)
     * [next_perm](./src/next_perm.c): autor: @lbozyk (C) :white_check_mark:
 * [zad. 14.] sprawdź, czy jeden ciąg zawiera się w drugim
-    * [subsequence](./src/subsequence.c) (C)
+    * [subsequence](./src/subsequence.c) (C) :white_check_mark::microscope:
 * [zad. 16.] ciąg róznicowy
     * [differential_sequence](./src/differential_sequence.c) (C)
     * [diff_seq](./src/diff_seq.c) (C): autor: @lbozyk (C) :white_check_mark:
