@@ -41,6 +41,8 @@
     * [decompress.cpp](./src/decompress.cpp) (C++) :white_check_mark::microscope:
     * [compress.cpp](./src/compress.cpp) (C++) :white_check_mark::microscope:
     * [decompress.c](./src/decompress.c) (C)
+* [zad. 9.] ile jest trójek spełniających nierówność trójkąta w tablicy
+    * [triangle_inequality](./src/triangle_inequality.c) (C)
 * [zad. 10.] zabawka Jasia
     * [cylinder_toy](./src/cylinder_toy.c) (C)
     * [toy](./src/toy.c): autor: @lbozyk (C) :white_check_mark:
@@ -50,6 +52,8 @@
 * [zad. 12.] następna permutacja
     * [lexicographical_order](./src/lexicographical_order.c) (C)
     * [next_perm](./src/next_perm.c): autor: @lbozyk (C) :white_check_mark:
+* [zad. 13.] sprawdź, czy jeden ciąg zawiera się w drugim
+    * [subsequence](./src/subsequence.c) (C)
 * [zad. 16.] ciąg róznicowy
     * [differential_sequence](./src/differential_sequence.c) (C)
     * [diff_seq](./src/diff_seq.c) (C): autor: @lbozyk (C) :white_check_mark:
