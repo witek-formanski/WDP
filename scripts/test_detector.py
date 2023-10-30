@@ -4,11 +4,11 @@ import re
 
 test_folder = sys.argv[1]
 
-files = [f.split(".")[0] for f in os.listdir("tests/{}".format(test_folder))]
+files = [f.split('.')[0] for f in os.listdir(f'tests/{test_folder}')]
 tests_dict = dict()
 
 for file in files:
-    file_number = re.findall(r"\d+", file)[-1]
+    file_number = re.findall(r'\d+', file)[-1]
     file_name = file[:len(file) - len(file_number)]
     if file_name in tests_dict.keys():
         tests_dict[file_name] = max(tests_dict[file_name], int(file_number))

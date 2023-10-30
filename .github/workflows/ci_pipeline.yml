@@ -32,7 +32,7 @@ jobs:
           for TEST_CASE in ${TEST_CASES[@]}; do
               TEST_NAME=$(echo "$TEST_CASE" | cut -d ':' -f 1)
               TEST_NUMBER=$(echo "$TEST_CASE" | cut -d ':' -f 2)
-              echo "Running $TEST_NUMBER tests for $TEST_NAME"
+              echo "Running $TEST_NUMBER+1 tests for $TEST_NAME"
               python scripts/builder.py "${TEST_NAME}.cpp"
               python scripts/tester.py "${TEST_NAME}.cpp" "$TEST_NUMBER"
           done
@@ -52,7 +52,7 @@ jobs:
           for TEST_CASE in ${TEST_CASES[@]}; do
               TEST_NAME=$(echo "$TEST_CASE" | cut -d ':' -f 1)
               TEST_NUMBER=$(echo "$TEST_CASE" | cut -d ':' -f 2)
-              echo "Running $TEST_NUMBER tests for $TEST_NAME"
+              echo "Running $TEST_NUMBER+1 tests for $TEST_NAME"
               python scripts/builder.py "${TEST_NAME}.c"
               python scripts/tester.py "${TEST_NAME}.c" "$TEST_NUMBER"
           done
