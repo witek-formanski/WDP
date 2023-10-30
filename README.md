@@ -11,6 +11,7 @@
 * [zad. 4.] szukanie następnej liczby, która w zapisie binarnym nie ma dwóch jedynek koło siebie
     * [next_sparse_number](./src/next_sparse_number.c) (C)
     * [sparse](./src/sparse.c): autor: @lbozyk (C) :white_check_mark:
+* [count_sparse_numbers](./src/count_sparse_numbers.c): zliczanie wszystkich liczb rzadkich mniejszych od danej liczby (C) :white_check_mark::microscope:
 * [is_prime](./src/is_prime.c): [zad. 6.] sprawdzanie czy liczba jest pierwsza (C) :white_check_mark::microscope:
 * [encode_in_one_integer](./src/encode_in_one_integer.c): [zad. 7.] kodowanie pary liczb naturalnych jako liczbę naturalną (C)
 * [modulo](./src/modulo.c): [zad. 8.] czy pierścień reszt modulo n zawiera nietrywialne pierwiastki z 1 (C) :white_check_mark:
