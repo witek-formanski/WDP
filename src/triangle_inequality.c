@@ -5,10 +5,6 @@
 // a < b < c
 // c < a + b
 
-int trojki(int size, int tab[]) { 
+int trojki(int size, int tab[]) {}
 
-}
-
-int main() {
-
-}
+int main() {}

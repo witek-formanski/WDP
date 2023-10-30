@@ -1,18 +1,15 @@
 // zad. 8
-#include<stdio.h>
+#include <stdio.h>
 
-int does_root_exist(int n)
-{
-    for (int k = 2; k < n/2; k++)
-    {
-        if (k*k % n == 1) return 1;
+int does_root_exist(int n) {
+    for (int k = 2; k < n / 2; k++) {
+        if (k * k % n == 1) return 1;
     }
 
     return 0;
 }
 
-int main()
-{
+int main() {
     int n;
     scanf("%d", &n);
 

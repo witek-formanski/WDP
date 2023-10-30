@@ -1,17 +1,15 @@
 // zad. 4
 // may be useful xd: https://en.wikipedia.org/wiki/Fast_inverse_square_root
 
-int next_sparse_number(int n)
-{
-    int backup = n+1;
+int next_sparse_number(int n) {
+    int backup = n + 1;
     int k = backup;
     int position = 0;
     int i = 1;
 
-    while(k) // szukamy pierwszego wystąpienia 11 od lewej
+    while (k)  // szukamy pierwszego wystąpienia 11 od lewej
     {
-        if (k&3 == 3)
-        {
+        if (k & 3 == 3) {
             position = i;
         }
 
@@ -25,17 +23,14 @@ int next_sparse_number(int n)
     k += 1;
     i = 0;
 
-    while (k) // 
+    while (k)  //
     {
-        if (k % 4 == 0)
-        {
+        if (k % 4 == 0) {
             // stop
         }
     }
-    
-    k >> 1;
 
-    
+    k >> 1;
 }
 
 /*

@@ -1,8 +1,8 @@
+#include <stdbool.h>
 #include <stdio.h>
 #include <stdlib.h>
-#include <stdbool.h>
 
-void swap(int *a, int *b) {
+void swap(int* a, int* b) {
     int temp = *a;
     *a = *b;
     *b = temp;
@@ -42,11 +42,10 @@ bool is_subsequence(int a[], int size_a, int b[], int size_b) {
             return false;
         else if (a[i] > b[j])
             i--;
-        
+
         j++;
 
-        if (j > size_b)
-            return false;
+        if (j > size_b) return false;
     }
 
     return true;
@@ -54,18 +53,18 @@ bool is_subsequence(int a[], int size_a, int b[], int size_b) {
 
 int main() {
     int size_a, size_b;
-    if(!scanf("%d", &size_a)) printf("invalid value");
+    if (!scanf("%d", &size_a)) printf("invalid value");
     int* a = (int*)malloc((size_t)size_a * sizeof(int));
     for (int i = 0; i < size_a; i++) {
-        if(!scanf("%d", &a[i])) printf("invalid value");
+        if (!scanf("%d", &a[i])) printf("invalid value");
     }
 
-    if(!scanf("%d", &size_b)) printf("invalid value");
+    if (!scanf("%d", &size_b)) printf("invalid value");
     int* b = (int*)malloc((size_t)size_b * sizeof(int));
     for (int i = 0; i < size_b; i++) {
-        if(!scanf("%d", &b[i])) printf("invalid value");
+        if (!scanf("%d", &b[i])) printf("invalid value");
     }
-    
+
     // int a[6] = {1, 2, 30, 4, 5, 6};
     // int b[7] = {-1, 6, 2, 30, 4, 5, 1};
     // size_a = 6;

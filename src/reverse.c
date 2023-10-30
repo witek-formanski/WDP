@@ -1,9 +1,7 @@
 // n >= 0
-int reverse(int n)
-{
+int reverse(int n) {
     int aux = 0;
-    while (n)
-    {
+    while (n) {
         aux *= 10;
         aux += n % 10;
         n /= 10;

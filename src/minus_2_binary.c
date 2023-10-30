@@ -27,23 +27,19 @@ binary 11 -> 1101
 //     true = 1
 // } bool;
 
-bool neg2_of_int(long long int n, int result[], int size)
-{
-    if (size <= 0)
-    {
+bool neg2_of_int(long long int n, int result[], int size) {
+    if (size <= 0) {
         return false;
     }
 
-    if (n==0)
-    {
+    if (n == 0) {
         result[0] = -1;
         return true;
     }
 
-    if (n>0)
-    {
+    if (n > 0) {
         result[0] = (int)(n % 2);
-        return neg2_of_int(-(n/2), result+1, size-1);
+        return neg2_of_int(-(n / 2), result + 1, size - 1);
     }
 
     return true;
