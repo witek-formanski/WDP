@@ -16,7 +16,7 @@ if source_extension == 'csv':
         data = list(csvreader)
 
     for i, row in enumerate(data):
-        with open(f'tests/{destination_extension}/{destination_name}{i}.in', 'w') as infile:
-            infile.write(row[0])
-        with open(f'tests/{destination_extension}/{destination_name}{i}.out', 'w') as outfile:
-            outfile.write(row[1])
+        with open(f'tests/{destination_extension}/{destination_name}{i}.in', 'w') as in_file:
+            in_file.write(row[0])
+        with open(f'tests/{destination_extension}/{destination_name}{i}.out', 'w') as out_file:
+            out_file.write(row[1])
