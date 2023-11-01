@@ -128,3 +128,38 @@ foo@WDP:~$ py scipts/test_generator.py other/power_of_two.csv power_of_two.c
 ### Ręczne konfigurowanie testów
 
 Jeżeli masz bardziej skomplikowany program, który przykładowo wymaga wskazania headera podczas kompilacji, możesz samodzielnie skonfigurować cały proces w **.github/workflows/ci_pipeline.yml**. Najlepiej, jeśli testy wrzucisz wtedy do folderu **tests/manual**.
+
+### Jak korzystać ze skryptów?
+
+Szczególnie jeśli chcesz ręcznie skonfigurować testy, możesz potrzebować skorzystać ze skryptów. Wszystkie znajdują się w folderze **scripts**.\ Skrypt **builder.py** kompiluje kod napisany w C (z restrykcyjnymi opcjami **configs/options**) lub w C++.
+
+```console
+foo@WDP:~$ py scipts/builder.py src/power_of_two.c
+
+```
+
+```console
+foo@WDP:~$ py scipts/builder.py src/power_of_two.cpp
+
+```
+
+Skrypt **tester.py** uruchamia podaną liczbę testów dla danego pliku. _Uwaga!_ Należy podać numer ostatniego testu (czyli o jeden mniej niż jest testów, bo numerację zaczynamy od zera). Jeżeli chcesz przetestować program _power_of_two_ i mamy testy (pliki .IN i .OUT w folderach odpowiednich dla rozszerzenia) o numerach 0, 1, 2, to napisz:
+
+```console
+foo@WDP:~$ py scipts/tester.py src/power_of_two.c 2
+
+```
+
+```console
+foo@WDP:~$ py scipts/tester.py src/power_of_two.cpp 2
+
+```
+
+Jeżeli nasz kod wymaga niestandardowej kompilacji i testy do niego znajdują się w folderze **tests/manual**, wtedy napisz:
+
+```console
+foo@WDP:~$ py scipts/tester.py src/power_of_two.c 2 manual
+
+```
+
+Skrypt **test_detector.py** służy do automatycznego wykrywania testów i najlepiej zrozumieć jego działanie, zaglądając do **.github/workflows/ci_pipeline.yml**.
