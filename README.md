@@ -121,7 +121,7 @@ Jeżeli jesteś leniwy i nie chce ci się dla każdego programu tworzyć ręczni
 Następnie możesz skorzystać ze skryptu **test_generator.py** w folderze **scripts**, aby wygenerować pliki do testowania:
 
 ```console
-foo@WDP:~$ py scipts/test_generator.py other/power_of_two.csv src/power_of_two.c
+foo@WDP:~$ py scipts/test_generator.py other/power_of_two.csv power_of_two.c
 
 ```
 
