@@ -64,11 +64,11 @@
 * [game.h](./src/game.h): prototyp funkcji :white_check_mark::microscope:
 * [evaluate_game.c](./src/evaluate_game.c): program grający w grę (C) :white_check_mark::microscope:
 ## Ćwiczenia: [Złożoność czasowa i pamięciowa](./pdf/WDP_.Inf.23_24Z__Złożoność_czasowa_i_pamięciowa.pdf) 2023.10.18
-* [zad. 1.] n^3
-* [zad. 2.] n^4
+* [zad. 1.] $n^{3}$
+* [zad. 2.] $n^{4}$
 * [zad. 3.]
-    * 1/n^4
-    * 1/n^2
+    * $\frac{1}{n^{4}}$
+    * $\frac{1}{n^{2}}$
 * [zad. 6.] znajdź minimalną liczbę ruchów potrzebnych do uzyskania danej konfiguracji wież Hanoi
     * [hanoi](./src/hanoi.c) (C) :white_check_mark:
     * [print_hanoi](./src/print_hanoi.c) (C)
