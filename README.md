@@ -91,7 +91,7 @@ WDP\* MIM UW
 
 ## Legenda
 
-:white_check_mark: skończony program (da się go uruchomić)
+:white_check_mark: skończony program (da się go uruchomić)\
 :microscope: program przechodzący testy
 
 ## Instrukcja korzystania
