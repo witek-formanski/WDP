@@ -28,7 +28,7 @@ int main() {
 
     printf("%d", count_sparse_numbers_brute(n));
 
-    // surprise - Fibonacci!
+    /* surprise - Fibonacci! */
     // for (int i = 0; i < 13; i++) {
     //     printf("count_sparse(%d) \t- count_sparse(%d) \t= %d\n",
     //            1 << (i + 1),
