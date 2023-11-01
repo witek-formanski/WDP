@@ -19,8 +19,7 @@ WDP\* MIM UW
 - [zad. 4.] szukanie następnej liczby, która w zapisie binarnym nie ma dwóch jedynek koło siebie
   - [next_sparse_number](./src/next_sparse_number.c) (C)
   - [sparse](./src/sparse.c): autor: @lbozyk (C) :white_check_mark:
-- [count_sparse_numbers](./src/count_sparse_numbers.c): zliczanie wszystkich liczb rzadkich mniejszych od danej liczby (C) :white_check_mark::microscope:
-- [zad. 5.] zliczanie wszystkich liczb rzadkich nie większych od n
+- [zad. 5.] zliczanie wszystkich liczb rzadkich mniejszych od danej liczby
   - [count_sparse_numbers_brute](./src/count_sparse_numbers_brute.c) (C):white_check_mark::microscope:
   - [count_sparse_numbers](./src/count_sparse_numbers.c) (C):white_check_mark:
   - [consecutive_ones](./src/consecutive_ones.c) programowanie dynamiczne, GFG (C)
