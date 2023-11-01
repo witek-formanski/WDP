@@ -20,6 +20,10 @@ WDP\* MIM UW
   - [next_sparse_number](./src/next_sparse_number.c) (C)
   - [sparse](./src/sparse.c): autor: @lbozyk (C) :white_check_mark:
 - [count_sparse_numbers](./src/count_sparse_numbers.c): zliczanie wszystkich liczb rzadkich mniejszych od danej liczby (C) :white_check_mark::microscope:
+- [zad. 5.] zliczanie wszystkich liczb rzadkich nie większych od n
+  - [count_sparse_numbers_brute](./src/count_sparse_numbers_brute.c) (C):white_check_mark::microscope:
+  - [count_sparse_numbers](./src/count_sparse_numbers.c) (C):white_check_mark:
+  - [consecutive_ones](./src/consecutive_ones.c) programowanie dynamiczne, GFG (C)
 - [is_prime](./src/is_prime.c): [zad. 6.] sprawdzanie czy liczba jest pierwsza (C) :white_check_mark::microscope:
 - [encode_in_one_integer](./src/encode_in_one_integer.c): [zad. 7.] kodowanie pary liczb naturalnych jako liczbę naturalną (C)
 - [modulo](./src/modulo.c): [zad. 8.] czy pierścień reszt modulo n zawiera nietrywialne pierwiastki z 1 (C) :white_check_mark:
@@ -88,6 +92,20 @@ WDP\* MIM UW
 - [zad. 6.] znajdź minimalną liczbę ruchów potrzebnych do uzyskania danej konfiguracji wież Hanoi
   - [hanoi](./src/hanoi.c) (C) :white_check_mark:
   - [print_hanoi](./src/print_hanoi.c) (C)
+
+### Ćwiczenia: [Zliczanie, sumy_prefiksowe, gąsienica, bisekcja](./pdf/WDP_.Inf.23_24Z__Zliczanie,_sumy_prefiksowe,_gąsienica,_bisekcja_.pdf) 2023.10.23, 2023.10.25
+
+- [zad. 2.]
+  - [absolute_minimum_of_sequence](./src/absolute_minimum_of_sequence.cpp) (C++)
+- [zad. 5.2.]
+  - [convex_func_min](./src/convex_func_min.c) (C)
+- [zad. 11.]
+  - [find_rotated_min](./src/find_rotated_min.c) (C)
+
+### Inne
+
+- [fibonacci_matrix](./src/fibonacci_matrix.c)
+- [fibonacci](./src/fibonacci.c)
 
 ## Legenda
 
