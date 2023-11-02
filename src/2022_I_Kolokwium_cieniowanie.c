@@ -24,11 +24,7 @@ int **cieniowanie(int k) {
   for (int i = 0; i < pow2(k); i++)
     m[i] = (int *)malloc(sizeof(int) * (size_t)pow2(k));
 
-  if (k == 0) {
-    m[0][0] = 0;
-  } else {
-    wypelnij_cwiartke(m, k, 0, 0, 0, 0);
-  }
+  wypelnij_cwiartke(m, k, 0, 0, 0, 0);
 
   return m;
 }
