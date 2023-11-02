@@ -5,7 +5,7 @@
 // M(n)
 
 int schodki(int n, int t[]) {
-  int *pom = malloc((size_t)(n+1)*sizeof(int));
+  int *pom = (int*)malloc((size_t)(n+1)*sizeof(int));
   int ile = 0; 
 
   for(int i=0; i<n; i++) {
@@ -24,15 +24,18 @@ int schodki(int n, int t[]) {
 void readIntArray(int *n, int *t[]) {
   scanf("%d", n);
 
-  *t = malloc((size_t)*n * sizeof(int));
+  *t = (int*)malloc((size_t)*n * sizeof(int));
   for (int i = 0; i < *n; i++)
     scanf("%d", *t + i);
 }
 
 int main() {
-  int n, *t;
+  // int n, *t;
 
-  readIntArray(&n, &t);
+  int n = 10;
+  int t[10] = {3, 0, 1, 6, 2, 3, 4, 4, 5, 6};
 
-  printf("%d", schodki(n,t));
+  // readIntArray(&n, &t);
+
+  printf("%d", schodki(n,t)); // should be 3, currently: 1
 }
