@@ -101,6 +101,13 @@ WDP\* MIM UW
 - [zad. 11.]
   - [find_rotated_min](./src/find_rotated_min.c) (C)
 
+### Kolokwium: [I Kolokwium 2022/2023](./pdf/2022_I_Kolokwium.pdf)
+
+- [zad. 1.]
+  - [schodki](./src/2022_I_Kolokwium_schodki.c) (C) :white_check_mark:
+- [zad. 2.]
+  - [cieniowanie](./src/2022_I_Kolokwium_cieniowanie.c) (C) :white_check_mark:
+
 ### Inne
 
 - [fibonacci_matrix](./src/fibonacci_matrix.c)
