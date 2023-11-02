@@ -101,7 +101,9 @@ _WDP\* MIM UW_
 - [zad. 11.]
   - [find_rotated_min](./src/find_rotated_min.c) (C)
 
-### Kolokwium: [I Kolokwium 2022/2023](./pdf/2022_I_Kolokwium.pdf)
+## Kolokwia
+
+### [I Kolokwium 2022/2023](./pdf/2022_I_Kolokwium.pdf)
 
 - [zad. 1.]
   - [schodki](./src/2022_I_Kolokwium_schodki.c): autor: @stopnoanime (C) :x:
@@ -110,7 +112,12 @@ _WDP\* MIM UW_
   - [cieniowanie](./src/2022_I_Kolokwium_cieniowanie.c): autor: @stopnoanime (C) :white_check_mark:
   - [shading_matrix](./src/shading_matrix.c) (C) :white_check_mark:
 
-### Kolokwium: [II Kolokwium 2022/2023](./pdf/2022_II_Kolokwium.pdf)
+### [II Kolokwium 2022/2023](./pdf/2022_II_Kolokwium.pdf)
+
+- [zad. 1.]
+- [zad. 2.]
+
+### [III Kolokwium 2022/2023](./pdf/2022_III_Kolokwium.pdf)
 
 - [zad. 1.]
 - [zad. 2.]
