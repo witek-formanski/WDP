@@ -109,6 +109,11 @@ _WDP\* MIM UW_
 - [zad. 2.]
   - [cieniowanie](./src/2022_I_Kolokwium_cieniowanie.c): autor: @stopnoanime (C) :white_check_mark:
 
+### Kolokwium: [II Kolokwium 2022/2023](./pdf/2022_II_Kolokwium.pdf)
+
+- [zad. 1.]
+- [zad. 2.]
+
 ### Inne
 
 - [fibonacci_matrix](./src/fibonacci_matrix.c)
