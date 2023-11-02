@@ -1,6 +1,6 @@
 # Wstęp do programowania
 
-WDP\* MIM UW
+_WDP\* MIM UW_
 
 ## Zadania
 
