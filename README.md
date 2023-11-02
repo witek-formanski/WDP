@@ -104,9 +104,10 @@ WDP\* MIM UW
 ### Kolokwium: [I Kolokwium 2022/2023](./pdf/2022_I_Kolokwium.pdf)
 
 - [zad. 1.]
-  - [schodki](./src/2022_I_Kolokwium_schodki.c) (C) :white_check_mark:
+  - [schodki](./src/2022_I_Kolokwium_schodki.c): autor: @stopnoanime (C) :white_check_mark:
+  - [count_stepped_sequences](./src/count_stepped_sequences.c) (C) :white_check_mark:🔬
 - [zad. 2.]
-  - [cieniowanie](./src/2022_I_Kolokwium_cieniowanie.c) (C) :white_check_mark:
+  - [cieniowanie](./src/2022_I_Kolokwium_cieniowanie.c): autor: @stopnoanime (C) :white_check_mark:
 
 ### Inne
 
@@ -115,7 +116,7 @@ WDP\* MIM UW
 
 ## Legenda
 
-:white_check_mark: skończony program (da się go uruchomić)\
+:white_check_mark: skończony program (da się go uruchomić i wydaje się, że działa poprawnie)\
 :microscope: program przechodzący testy
 
 ## Instrukcja korzystania
@@ -155,7 +156,7 @@ Jeżeli masz bardziej skomplikowany program, który przykładowo wymaga wskazani
 
 ### Jak korzystać ze skryptów?
 
-Szczególnie jeśli chcesz ręcznie skonfigurować testy, możesz potrzebować skorzystać ze skryptów. Wszystkie znajdują się w folderze **scripts**.\ Skrypt **builder.py** kompiluje kod napisany w C (z restrykcyjnymi opcjami **configs/options**) lub w C++.
+Szczególnie jeśli chcesz ręcznie skonfigurować testy, możesz potrzebować skorzystać ze skryptów. Wszystkie znajdują się w folderze **scripts**. \ Skrypt **builder.py** kompiluje kod napisany w C (z restrykcyjnymi opcjami **configs/options**) lub w C++.
 
 ```console
 foo@WDP:~$ py scipts/builder.py src/power_of_two.c
