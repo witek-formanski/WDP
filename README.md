@@ -108,6 +108,7 @@ _WDP\* MIM UW_
   - [count_stepped_sequences](./src/count_stepped_sequences.c) (C) :white_check_mark::microscope:
 - [zad. 2.]
   - [cieniowanie](./src/2022_I_Kolokwium_cieniowanie.c): autor: @stopnoanime (C) :white_check_mark:
+  - [shading_matrix](./src/shading_matrix.c) (C) :white_check_mark:
 
 ### Kolokwium: [II Kolokwium 2022/2023](./pdf/2022_II_Kolokwium.pdf)
 
