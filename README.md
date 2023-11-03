@@ -4,14 +4,14 @@ _WDP\* MIM UW_
 
 ## Zadania
 
-### Ćwiczenia: [Wstęp](./pdf/WDP_.Inf.23_24Z__Wstęp.pdf) 2023.10.02
+### Ćwiczenia I: [Wstęp](./pdf/WDP_.Inf.23_24Z__Wstęp.pdf) 2023.10.02
 
 - [rectangles_intersection](./src/rectangles_intersection.cpp): prostokąty; rzutowanie na osie (C++) :white_check_mark::microscope:
 - [line_segments_intersection](./src/line_segments_intersection.cpp): odcinki; sprawdzanie, z której strony jest punkt (C++) :white_check_mark::microscope:
 - [parallelograms_intersection](./src/parallelograms_intersection.cpp): równoległoboki; sprawdzanie punktów wewnątrz i przecinania się przekątnych (C++)
 - [point_inside_polygon](./src/point_inside_polygon.cpp): czy punkt leży wewnątrz dowolnego wielokąta
 
-### Ćwiczenia: [Funkcje operujące na liczbach](./pdf/WDP_.Inf.23_24Z__Funkcje_operujące_na_liczbach.pdf) 2023.10.04, 2023.10.09
+### Ćwiczenia II: [Funkcje operujące na liczbach](./pdf/WDP_.Inf.23_24Z__Funkcje_operujące_na_liczbach.pdf) 2023.10.04, 2023.10.09
 
 - [parity_degree](./src/parity_degree.c): [zad. 1.] stopień parzystości (C) :white_check_mark:
 - [reverse](./src/reverse.c): [zad. 2.] odwracanie kolejności cyfr w liczbie (C) :white_check_mark:
@@ -29,12 +29,12 @@ _WDP\* MIM UW_
 - [count_zeros](./src/count_zeros.c): [zad. 10.] ile jest zer na końcu n! (C)
 - [count_ones](./src/count_ones.c): [zad. 12.] ile jest jedynek w zapisie binarnym liczby n (C)
 
-### Laboratorium: [Podzielny fragment ciągu](./pdf/WDP_.Inf.23_24Z__Laboratorium_1__rozgrzewka.pdf) 2023.10.04
+### Laboratorium I: [Podzielny fragment ciągu](./pdf/WDP_.Inf.23_24Z__Laboratorium_1__rozgrzewka.pdf) 2023.10.04
 
 - [divisible_sequence](./src/divisible_sequence.c): najdłuższy dzielny fragment ciągu (C) :white_check_mark::microscope:
 - [divisible_sequence](./src/divisible_sequence.cpp): najdłuższy dzielny fragment ciągu (C++) :white_check_mark::microscope:
 
-### Ćwiczenia: [Zadania na tablice](./pdf/WDP_.Inf.23_24Z__Zadania_na_tablice.pdf) 2023.10.09, 2023.10.11, 2023.10.16
+### Ćwiczenia III: [Zadania na tablice](./pdf/WDP_.Inf.23_24Z__Zadania_na_tablice.pdf) 2023.10.09, 2023.10.11, 2023.10.16
 
 - [zad. 1.] obrót tablicy
   - [rotate_table](./src/rotate_table.c) (C)
@@ -75,13 +75,13 @@ _WDP\* MIM UW_
   - [differential_sequence](./src/differential_sequence.c) (C)
   - [diff_seq](./src/diff_seq.c) (C): autor: @lbozyk (C) :white_check_mark:
 
-### Laboratorium: [Gra w skakanie (NWD)](./pdf/WDP_.Inf.23_24Z__Zadanie_rozgrzewkowe_2.pdf) 2023.10.11
+### Laboratorium II: [Gra w skakanie (NWD)](./pdf/WDP_.Inf.23_24Z__Zadanie_rozgrzewkowe_2.pdf) 2023.10.11
 
 - [game.c](./src/game.c): strategia wygrywająca (C) :white_check_mark::microscope:
 - [game.h](./src/game.h): prototyp funkcji :white_check_mark::microscope:
 - [evaluate_game.c](./src/evaluate_game.c): program grający w grę (C) :white_check_mark::microscope:
 
-### Ćwiczenia: [Złożoność czasowa i pamięciowa](./pdf/WDP_.Inf.23_24Z__Złożoność_czasowa_i_pamięciowa.pdf) 2023.10.18
+### Ćwiczenia IV: [Złożoność czasowa i pamięciowa](./pdf/WDP_.Inf.23_24Z__Złożoność_czasowa_i_pamięciowa.pdf) 2023.10.18
 
 - [zad. 1.] $n^{3}$
 - [zad. 2.] $n^{4}$
@@ -92,7 +92,7 @@ _WDP\* MIM UW_
   - [hanoi](./src/hanoi.c) (C) :white_check_mark:
   - [print_hanoi](./src/print_hanoi.c) (C)
 
-### Ćwiczenia: [Zliczanie, sumy_prefiksowe, gąsienica, bisekcja](./pdf/WDP_.Inf.23_24Z__Zliczanie,_sumy_prefiksowe,_gąsienica,_bisekcja_.pdf) 2023.10.23, 2023.10.25
+### Ćwiczenia V: [Zliczanie, sumy_prefiksowe, gąsienica, bisekcja](./pdf/WDP_.Inf.23_24Z__Zliczanie,_sumy_prefiksowe,_gąsienica,_bisekcja_.pdf) 2023.10.23, 2023.10.25
 
 - [zad. 2.]
   - [absolute_minimum_of_sequence](./src/absolute_minimum_of_sequence.cpp) (C++)
@@ -103,7 +103,7 @@ _WDP\* MIM UW_
 
 ## Kolokwia
 
-### [I Kolokwium 2022/2023](./pdf/2022_I_Kolokwium.pdf)
+### [Kolokwium I 2022/2023](./pdf/2022_I_Kolokwium.pdf)
 
 - [zad. 1.]
   - [schodki](./src/2022_I_Kolokwium_schodki.c): autor: @stopnoanime (C) :x:
@@ -112,12 +112,12 @@ _WDP\* MIM UW_
   - [cieniowanie](./src/2022_I_Kolokwium_cieniowanie.c): autor: @stopnoanime (C) :white_check_mark:
   - [shading_matrix](./src/shading_matrix.c) (C) :white_check_mark:
 
-### [II Kolokwium 2022/2023](./pdf/2022_II_Kolokwium.pdf)
+### [Kolokwium II 2022/2023](./pdf/2022_II_Kolokwium.pdf)
 
 - [zad. 1.]
 - [zad. 2.]
 
-### [III Kolokwium 2022/2023](./pdf/2022_III_Kolokwium.pdf)
+### [Kolokwium III 2022/2023](./pdf/2022_III_Kolokwium.pdf)
 
 - [zad. 1.]
 - [zad. 2.]
