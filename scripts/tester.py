@@ -4,6 +4,8 @@ exit_code = 0
 
 full_file_name = sys.argv[1]
 file_name = full_file_name.split('.')[0]
+base_name = file_name.split('/')[-1]
+relative_path = file_name.removesuffix(base_name)
 file_extension = full_file_name.split('.')[1]
 highest_test_number = int(sys.argv[2])
 if len(sys.argv) == 4:
@@ -14,11 +16,11 @@ else:
 for test_number in range(highest_test_number+1):
     print(test_number)
 
-    tests_out_path = f'tests/{test_folder_name}/{file_name}{test_number}.out'
+    tests_out_path = f'tests/{relative_path}/{test_folder_name}/{base_name}{test_number}.out'
     with open(tests_out_path, 'r') as out:
         expected_output = out.read().strip()
         
-    tests_in_path = f'tests/{test_folder_name}/{file_name}{test_number}.in'
+    tests_in_path = f'tests/{relative_path}/{test_folder_name}/{base_name}{test_number}.in'
     if (file_extension == 'cpp'):
         os.system(os.getcwd() + f'/src/{file_name}.exe <{tests_in_path} >my_output.out')
     elif (file_extension == 'c'):
