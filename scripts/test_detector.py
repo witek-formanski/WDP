@@ -10,7 +10,7 @@ for root, dirs, files in os.walk('tests'):
     for file in files:
         if file.endswith('.in') and root.endswith(test_folder):
             src_file_path = os.path.dirname(root)
-            src_file_path = src_file_path.removeprefix(test_folder)
+            src_file_path = src_file_path.removeprefix('tests')
             file_name = os.path.basename(file)
             base_name = os.path.splitext(file_name)[0]
             file_number = int(re.findall(r'\d+$', base_name)[0])
