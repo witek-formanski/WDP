@@ -9,8 +9,7 @@ tests_dict = {}
 for root, dirs, files in os.walk('tests'):
     for file in files:
         if file.endswith('.in') and root.endswith(test_folder):
-            file_path = os.path.join(root, file)
-            src_file_path = os.path.dirname(file_path)
+            src_file_path = os.path.dirname(root)
             file_name = os.path.basename(file)
             base_name = os.path.splitext(file_name)[0]
             file_number = int(re.findall(r'\d+$', base_name)[0])
