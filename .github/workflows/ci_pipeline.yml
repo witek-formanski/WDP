@@ -21,7 +21,7 @@ jobs:
       - name: Detect tests for C++
         id: detect_tests_cpp
         run: |
-          TEST_RESULTS="$(bash scripts/test_detector.sh cpp)"
+          TEST_RESULTS="$(py scripts/test_detector.py cpp)"
           echo "Test Results:"
           echo "$TEST_RESULTS"
           echo "::set-output name=test_results::$TEST_RESULTS"
@@ -41,7 +41,7 @@ jobs:
       - name: Detect tests for C
         id: detect_tests_c
         run: |
-          TEST_RESULTS="$(bash scripts/test_detector.sh c)"
+          TEST_RESULTS="$(py scripts/test_detector.py c)"
           echo "Test Results:"
           echo "$TEST_RESULTS"
           echo "::set-output name=test_results::$TEST_RESULTS"
