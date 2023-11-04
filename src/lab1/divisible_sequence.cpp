@@ -1,7 +1,6 @@
+#include <algorithm>
 #include <iostream>
 #include <vector>
-
-#include "common_library.h"
 
 int get_current_divisible_fragment_length(int t[], int i) {
     int current_divisible_fragment = 1;
@@ -25,7 +24,7 @@ int get_max_divisible_fragment(int t[], int n) {
         int current_divisible_fragment =
             get_current_divisible_fragment_length(t, i);
         max_divisible_fragment =
-            max(current_divisible_fragment, max_divisible_fragment);
+            std::max(current_divisible_fragment, max_divisible_fragment);
         i -= current_divisible_fragment;
     }
 
