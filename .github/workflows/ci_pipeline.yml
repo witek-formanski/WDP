@@ -60,5 +60,5 @@ jobs:
 
       - name: Test manually
         run: |
-          gcc @configs/options src/evaluate_game.c src/game.c -o src/evaluate_game.e
-          python scripts/tester.py evaluate_game.c 4 manual
+          gcc @configs/options src/lab2/evaluate_game.c src/lab2/game.c -o src/lab2/evaluate_game.e
+          python scripts/tester.py lab2/evaluate_game.c 4 manual

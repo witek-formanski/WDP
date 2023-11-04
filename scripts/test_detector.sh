@@ -5,7 +5,7 @@ test_folder=$1
 declare -A tests_dict
 
 shopt -s globstar
-for file in tests/*/*/$test_folder/*.in; do
+for file in tests/**/$test_folder/*.in; do
     file_path=$(dirname "${file#tests/}")
     src_file_path=$(dirname "$file_path")
     file_name=$(basename "$file")
