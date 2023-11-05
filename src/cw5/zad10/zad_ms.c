@@ -55,8 +55,8 @@ int **allocate2DArray(int x, int y)
 int main()
 {
     int x, y;
-    scanf("%d", &x);
-    scanf("%d", &y);
+    if(!scanf(("%d", &x))) printf("wrong input");
+    if(!scanf(("%d", &y))) printf("wrong input");
 
     int **t = allocate2DArray(x, y);
 
@@ -64,11 +64,11 @@ int main()
     {
         for (int j = 0; j < x; j++)
         {
-            scanf("%d", &t[i][j]);
+            if(!scanf(("%d", &t[i][j]))) printf("wrong input");
         }
     }
 
     int v;
-    scanf("%d", &v);
+    if(!scanf(("%d", &v))) printf("wrong input");
     printf("%d\n", znajdz(t, x, y, v));
 }

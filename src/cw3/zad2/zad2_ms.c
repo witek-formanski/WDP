@@ -27,10 +27,10 @@ int* shuffle(int n, int a[], int m, int b[]){
 }
 
 int* scan_array(int* arrayLength){
-    scanf("%d", arrayLength);
+    if(!scanf(("%d", arrayLength))) printf("wrong input");
     int* array = (int*)malloc((size_t)*arrayLength * sizeof(int));
     for(int i = 0; i< *arrayLength; i++){
-        scanf("%d", &array[i]);
+        if(!scanf(("%d", &array[i]))) printf("wrong input");
     }
     return array;
 }

@@ -55,12 +55,12 @@ int countDistinctElemsInTwoArrays(int a[], int sizeA, int b[], int sizeB)
 
 int *scanForArrayOfInt(int *tabSize)
 {
-    scanf("%d", tabSize);
+    if(!scanf(("%d", tabSize))) printf("wrong input");
 
     int *tab = (int *)malloc((unsigned)(*tabSize) * sizeof(int));
     for (int i = 0; i < *tabSize; i++)
     {
-        scanf("%d", &tab[i]);
+        if(!scanf(("%d", &tab[i]))) printf("wrong input");
     }
 
     return tab;
@@ -69,10 +69,10 @@ int *scanForArrayOfInt(int *tabSize)
 int main()
 {
     int sizeA;
-    int *a = scanForArrayOfInt(&sizeA);
+    int *a = if(!scanf(orArrayOfInt(&sizeA))) printf("wrong input");
 
     int sizeB;
-    int *b = scanForArrayOfInt(&sizeB);
+    int *b = if(!scanf(orArrayOfInt(&sizeB))) printf("wrong input");
 
     int distincCount = countDistinctElemsInTwoArrays(a, sizeA, b, sizeB);
     printf("%d\n", distincCount);

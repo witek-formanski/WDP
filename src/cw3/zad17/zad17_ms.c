@@ -39,12 +39,12 @@ void print_i(double t[], int n)
 int main()
 {
     int n;
-    scanf("%d", &n);
+    if(!scanf(("%d", &n))) printf("wrong input");
 
     double *t = (double *)malloc((unsigned)n * sizeof(double));
     for (int i = 0; i < n; i++)
     {
-        scanf("%lf", &t[i]);
+        if(!scanf(("%lf", &t[i]))) printf("wrong input");
     }
 
     struct ciag* differentialSet = calcDifferentialSet(t, n);

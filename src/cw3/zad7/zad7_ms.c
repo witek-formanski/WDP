@@ -33,12 +33,12 @@ int *podziel(int n, int t[])
 int main()
 {
     int n;
-    scanf("%d", &n);
+    if(!scanf(("%d", &n))) printf("wrong input");
 
     int *t = (int *)malloc((unsigned)n * sizeof(int));
     for (int i = 0; i < n; i++)
     {
-        scanf("%d", &t[i]);
+        if(!scanf(("%d", &t[i]))) printf("wrong input");
     }
 
     int *indexes = podziel(n, t);

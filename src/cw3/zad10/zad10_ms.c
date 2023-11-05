@@ -33,19 +33,19 @@ int wrzucaj(int n_rurka, int rurka[], int n_krazki, int krazki[])
 int main()
 {
     int tubesCount;
-    scanf("%d", &tubesCount);
+    if(!scanf(("%d", &tubesCount))) printf("wrong input");
     int *tubes = (int *)malloc((unsigned)tubesCount * sizeof(int));
     for (int i = 0; i < tubesCount; i++)
     {
-        scanf("%d", &tubes[i]);
+        if(!scanf(("%d", &tubes[i]))) printf("wrong input");
     }
 
     int ringsCount;
-    scanf("%d", &ringsCount);
+    if(!scanf(("%d", &ringsCount))) printf("wrong input");
     int *rings = (int *)malloc((unsigned)ringsCount * sizeof(int));
     for (int i = 0; i < ringsCount; i++)
     {
-        scanf("%d", &rings[i]);
+        if(!scanf(("%d", &rings[i]))) printf("wrong input");
     }
 
     int ringsFellIntoCount = wrzucaj(tubesCount, tubes, ringsCount, rings);

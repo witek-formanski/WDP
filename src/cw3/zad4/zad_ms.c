@@ -45,14 +45,14 @@ int bonifacy(int n, int k, int *b)
 int main()
 {
     int n;
-    scanf("%d", &n);
+    if(!scanf(("%d", &n))) printf("wrong input");
 
     int k;
-    scanf("%d", &k);
+    if(!scanf(("%d", &k))) printf("wrong input");
     int *b = (int *)malloc((size_t)k * sizeof(int));
     for (int i = 0; i < k; i++)
     {
-        scanf("%d", &b[i]);
+        if(!scanf(("%d", &b[i]))) printf("wrong input");
     }
 
     int bonifacyN = bonifacy(n, k, b);

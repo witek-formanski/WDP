@@ -13,7 +13,7 @@ int sqrt(int x){
 
 int main(){
     int x;
-    scanf("%d", &x);
+    if(!scanf(("%d", &x))) printf("wrong input");
 
     int sqrtOfx=sqrt(x);
     printf("%d\n",sqrtOfx);

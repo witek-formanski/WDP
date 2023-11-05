@@ -28,11 +28,11 @@ int find(int n, int *a)
 int main()
 {
     int n;
-    scanf("%d", &n);
+    if(!scanf(("%d", &n))) printf("wrong input");
 
     int *t = (int *)malloc((size_t)(n + 1) * sizeof(int));
     for (int i = 0; i < n + 1; i++)
-        scanf("%d", &t[i]);
+        if(!scanf(("%d", &t[i]))) printf("wrong input");
         
     printf("%d\n", find(n, t));
 }

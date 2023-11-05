@@ -37,19 +37,19 @@ int countDistinct(int n, int a[], int m, int b[]) {
 // wczytaj tablice
 int* getArray(int n) {
     int* s = (int*)malloc((unsigned)n * sizeof(int));
-    for (int i = 0; i < n; ++i) scanf("%d", s + i);
+    for (int i = 0; i < n; ++i) if(!scanf(("%d", s + i))) printf("wrong input");
     return s;
 }
 
 int main(void) {
     // wczytaj n i a[n]
     int n;
-    scanf("%d", &n);
+    if(!scanf(("%d", &n))) printf("wrong input");
     int* a = getArray(n);
 
     // wczytaj m i b[m]
     int m;
-    scanf("%d", &m);
+    if(!scanf(("%d", &m))) printf("wrong input");
     int* b = getArray(m);
 
     // licz moc sumy

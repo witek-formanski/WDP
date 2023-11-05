@@ -41,10 +41,10 @@ bool nextPerm(int a[], int size) {
 
 int main(void) {
     int size;
-    scanf("%d", &size);
+    if(!scanf(("%d", &size))) printf("wrong input");
 
     int* a = (int*)malloc((unsigned)size * sizeof(int));
-    for (int i = 0; i < size; ++i) scanf("%d", &a[i]);
+    for (int i = 0; i < size; ++i) if(!scanf(("%d", &a[i]))) printf("wrong input");
 
     bool b = nextPerm(a, size);
     for (int i = 0; i < size; ++i) printf("%d ", a[i]);

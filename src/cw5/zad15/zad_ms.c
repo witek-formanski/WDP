@@ -173,18 +173,18 @@ int prostokąt(int **a, int x, int y, int k)
 int main()
 {
     int x, y;
-    scanf("%d", &y);
-    scanf("%d", &x);
+    if(!scanf(("%d", &y))) printf("wrong input");
+    if(!scanf(("%d", &x))) printf("wrong input");
 
     int **t = allocate2DArray(x, y);
     for (int i = 0; i < y; i++)
     {
         for (int j = 0; j < x; j++)
         {
-            scanf("%d", &t[i][j]);
+            if(!scanf(("%d", &t[i][j]))) printf("wrong input");
         }
     }
     int v;
-    scanf("%d", &v);
+    if(!scanf(("%d", &v))) printf("wrong input");
     printf("%d\n", prostokat2(t, x, y, v));
 }

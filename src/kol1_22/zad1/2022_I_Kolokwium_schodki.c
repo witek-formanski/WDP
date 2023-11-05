@@ -22,11 +22,11 @@ int schodki(int n, int t[]) {
 }
 
 void readIntArray(int *n, int *t[]) {
-  scanf("%d", n);
+  if(!scanf(("%d", n))) printf("wrong input");
 
   *t = (int*)malloc((size_t)*n * sizeof(int));
   for (int i = 0; i < *n; i++)
-    scanf("%d", *t + i);
+    if(!scanf(("%d", *t + i))) printf("wrong input");
 }
 
 int main() {

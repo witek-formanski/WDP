@@ -33,10 +33,10 @@ int *zsumuj(int n, int a[])
 }
 
 int main(){
-    int n; scanf("%d", &n);
+    int n; if(!scanf(("%d", &n))) printf("wrong input");
 
     int* a = (int*)malloc((size_t)n*sizeof(int));
-    for(int i = 0; i<n; i++) scanf("%d",&a[i]);
+    for(int i = 0; i<n; i++) if(!scanf(("%d",&a[i]))) printf("wrong input");
 
     int* b = zsumuj(n,a);
     for(int i = 0; i<n; i++) printf("%d\n", b[i]);

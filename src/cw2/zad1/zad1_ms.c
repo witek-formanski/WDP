@@ -14,7 +14,7 @@ int parzystosc(int x){
 
 int main(){
     int x;
-    scanf("%d", &x);
+    if(!scanf(("%d", &x))) printf("wrong input");
 
     int stopien_parzystosci = parzystosc(x);
     printf("%d\n", stopien_parzystosci);

@@ -49,16 +49,16 @@ void print_t(int t[], int n){
 int main()
 {
     int n;
-    scanf("%d", &n);
+    if(!scanf(("%d", &n))) printf("wrong input");
 
     int *t = (int*)malloc((size_t)(n * (int)sizeof(int)));
     for (int i = 0; i < n; i++)
     {
-        scanf("%d", &t[i]);
+        if(!scanf(("%d", &t[i]))) printf("wrong input");
     }
 
     int k;
-    scanf("%d", &k);
+    if(!scanf(("%d", &k))) printf("wrong input");
 
     rotate(n, t, k);
     print_t(t,n);
