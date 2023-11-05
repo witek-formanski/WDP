@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int min(int a, int b)
+int minimum(int a, int b)
 {
     return a < b ? a : b;
 }
@@ -35,7 +35,7 @@ int countDistinctElemsInTwoArrays(int a[], int sizeA, int b[], int sizeB)
             return c + countDistinctInArray(a, sizeA);
         }
 
-        int currentElem = min(a[0], b[0]);
+        int currentElem = minimum(a[0], b[0]);
         c++;
         // skip current elem
         while (sizeA > 0 && a[0] == currentElem)
@@ -69,10 +69,10 @@ int *scanForArrayOfInt(int *tabSize)
 int main()
 {
     int sizeA;
-    int *a = if(!scanf(orArrayOfInt(&sizeA))) printf("wrong input");
+    int *a = scanForArrayOfInt(&sizeA);
 
     int sizeB;
-    int *b = if(!scanf(orArrayOfInt(&sizeB))) printf("wrong input");
+    int *b = scanForArrayOfInt(&sizeB);
 
     int distincCount = countDistinctElemsInTwoArrays(a, sizeA, b, sizeB);
     printf("%d\n", distincCount);
