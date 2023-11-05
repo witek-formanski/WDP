@@ -31,7 +31,7 @@ int **cieniowanie(int k) {
 
 int main() {
   int k;
-  if(!scanf(("%d", &k))) printf("wrong input");
+  if(!scanf("%d", &k)) printf("wrong input");
 
   int **m = cieniowanie(k);
 

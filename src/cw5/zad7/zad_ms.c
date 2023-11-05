@@ -35,11 +35,11 @@ int p(int n, int t[])
 int main()
 {
     int n;
-    if(!scanf(("%d", &n))) printf("wrong input");
+    if(!scanf("%d", &n)) printf("wrong input");
     int *t = (int *)malloc((size_t)n * sizeof(int));
     for (int i = 0; i < n; i++)
     {
-        if(!scanf(("%d", &t[i]))) printf("wrong input");
+        if(!scanf("%d", &t[i])) printf("wrong input");
     }
 
     int bentley = p(n, t);

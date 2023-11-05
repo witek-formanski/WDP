@@ -45,10 +45,10 @@ int find(unsigned int a[], unsigned int size, unsigned int s)
 
 int main()
 {
-    unsigned int s; if(!scanf(("%u", &s))) printf("wrong input");
-    unsigned int n; if(!scanf(("%u", &n))) printf("wrong input");
+    unsigned int s; if(!scanf("%u", &s)) printf("wrong input");
+    unsigned int n; if(!scanf("%u", &n)) printf("wrong input");
     unsigned int* t = (unsigned int*)malloc((size_t)n*sizeof(unsigned int));
-    for(unsigned int i = 0; i<n; i++) if(!scanf(("%u", &t[i]))) printf("wrong input");
+    for(unsigned int i = 0; i<n; i++) if(!scanf("%u", &t[i])) printf("wrong input");
 
     printf("%d\n", find(t,n,s));
 }

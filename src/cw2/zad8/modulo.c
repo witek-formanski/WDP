@@ -11,7 +11,7 @@ int does_root_exist(int n) {
 
 int main() {
     int n;
-    if(!scanf(("%d", &n))) printf("wrong input");
+    if(!scanf("%d", &n)) printf("wrong input");
 
     printf("%d", does_root_exist(n));
     return 0;

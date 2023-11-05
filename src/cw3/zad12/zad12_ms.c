@@ -58,11 +58,11 @@ void print_i(int t[], int n){
 int main()
 {
     int n;
-    if(!scanf(("%d", &n))) printf("wrong input");
+    if(!scanf("%d", &n)) printf("wrong input");
 
     int* t = (int*)malloc((unsigned)n * sizeof(int));
     for(int i = 0; i<n; i++){
-        if(!scanf(("%d", &t[i]))) printf("wrong input");
+        if(!scanf("%d", &t[i])) printf("wrong input");
     }
 
     int i = 0;

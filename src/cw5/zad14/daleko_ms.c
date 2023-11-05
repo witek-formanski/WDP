@@ -23,10 +23,10 @@ int daleko(int n, int a[])
 int main()
 {
     int n;
-    if(!scanf(("%d", &n))) printf("wrong input");
+    if(!scanf("%d", &n)) printf("wrong input");
     int *a = (int *)malloc((size_t)n * sizeof(int));
     for (int i = 0; i < n; i++)
-        if(!scanf(("%d", &a[i]))) printf("wrong input");
+        if(!scanf("%d", &a[i])) printf("wrong input");
 
     printf("%d\n", daleko(n, a));
 }

@@ -34,12 +34,12 @@ int fit(int c, int n, int v[])
 int main()
 {
     int c;
-    if(!scanf(("%d", &c))) printf("wrong input");
+    if(!scanf("%d", &c)) printf("wrong input");
     int n;
-    if(!scanf(("%d", &n))) printf("wrong input");
+    if(!scanf("%d", &n)) printf("wrong input");
     int *v = (int *)malloc((size_t)n * sizeof(int));
     for (int i = 0; i < n; i++)
-        if(!scanf(("%d", &v[i]))) printf("wrong input");
+        if(!scanf("%d", &v[i])) printf("wrong input");
 
     int f = fit(c, n, v);
     printf("%d\n", f);

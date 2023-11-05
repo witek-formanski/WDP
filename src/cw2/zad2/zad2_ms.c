@@ -12,7 +12,7 @@ int reverse_number(int x){
 
 int main(){
     int x;
-    if(!scanf(("%d", &x))) printf("wrong input");
+    if(!scanf("%d", &x)) printf("wrong input");
         
     int reversedNum=reverse_number(x);
     printf("%d\n", reversedNum);

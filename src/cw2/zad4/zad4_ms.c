@@ -29,7 +29,7 @@ int rzadkie(int n){
 
 int main(){
     int x;
-    if(!scanf(("%d", &x))) printf("wrong input");
+    if(!scanf("%d", &x)) printf("wrong input");
 
     int rareNum = rzadkie(x);
     printf("%d", rareNum);

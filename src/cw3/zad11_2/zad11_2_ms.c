@@ -48,10 +48,10 @@ void print_long_long_int_base_n2(int wynik[])
 int main()
 {
     long long int n;
-    if(!scanf(("%ld", &n))) printf("wrong input");
+    if(!scanf("%ld", &n)) printf("wrong input");
 
     int size;
-    if(!scanf(("%d", &size))) printf("wrong input");
+    if(!scanf("%d", &size)) printf("wrong input");
 
     int* results = (int*)malloc((size_t)size * sizeof(int));
 
