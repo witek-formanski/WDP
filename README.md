@@ -92,12 +92,14 @@ _WDP\* MIM UW_
   - [hanoi](./src/cw4/zad6_1/hanoi.c) (C) :white_check_mark:
   - [print_hanoi](./src/cw4/zad6_2/print_hanoi.c) (C)
 
-### Ćwiczenia V: [Zliczanie, sumy_prefiksowe, gąsienica, bisekcja](./pdf/WDP_.Inf.23_24Z__Zliczanie,_sumy_prefiksowe,_gąsienica,_bisekcja_.pdf) 2023.10.23, 2023.10.25
+### Ćwiczenia V: [Zliczanie, sumy_prefiksowe, gąsienica, bisekcja](./pdf/WDP_.Inf.23_24Z__Zliczanie,_sumy_prefiksowe,_gąsienica,_bisekcja_.pdf) 2023.10.23, 2023.10.25, 2023.11.06
 
 - [zad. 2.]
   - [absolute_minimum_of_sequence](./src/cw5/zad2/absolute_minimum_of_sequence.cpp) (C++)
 - [zad. 5.2.]
   - [convex_func_min](./src/cw5/zad5_2/convex_func_min.c) (C)
+- [zad. 6.]
+  - [diagonal](./src/cw5/zad6/diagonal.c) (C)
 - [zad. 10.]
   - [find_number_in_monotonic_matrix](./src/cw5/zad10/find_number_in_monotonic_matrix.c) (C)
 - [zad. 11.]
