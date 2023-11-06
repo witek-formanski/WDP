@@ -23,10 +23,10 @@ int leader(int n, int t[]) {
 
 int main(void) {
     int n;
-    scanf("%d", &n);
+    if(!scanf("%d", &n)) printf("wrong input");
 
     int* t = (int*)malloc((unsigned)n * sizeof(int));
-    for (int i = 0; i < n; ++i) scanf("%d", &t[i]);
+    for (int i = 0; i < n; ++i) if(!scanf("%d", &t[i])) printf("wrong input");
 
     printf("%d", leader(n, t));
 

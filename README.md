@@ -94,8 +94,13 @@ _WDP\* MIM UW_
 
 ### Ćwiczenia V: [Zliczanie, sumy_prefiksowe, gąsienica, bisekcja](./pdf/WDP_.Inf.23_24Z__Zliczanie,_sumy_prefiksowe,_gąsienica,_bisekcja_.pdf) 2023.10.23, 2023.10.25, 2023.11.06
 
+- [zad. 1.]
+  - [sum_table](./src/cw5/zad1/sum_table.c) (C) :white_check_mark:
 - [zad. 2.]
   - [absolute_minimum_of_sequence](./src/cw5/zad2/absolute_minimum_of_sequence.cpp) (C++)
+- [zad. 3.]
+  - [minimal_sum_of_two_elements](./src/cw5/zad3/minimal_sum_of_two_elements.c) (C) :white_check_mark:
+  - [minimal_sum_of_two_elements_brute](./src/cw5/zad3/minimal_sum_of_two_elements_brute.c) (C) :white_check_mark:
 - [zad. 5.2.]
   - [convex_func_min](./src/cw5/zad5_2/convex_func_min.c) (C)
 - [zad. 6.]
