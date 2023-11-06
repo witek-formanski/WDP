@@ -36,9 +36,9 @@ void printArray(int n, int a[]) {  // wypisuje tablice a[n]
 
 int* getArray(int* n) {  // pobiera najpierw dlugosc tablicy n, a potem tworzy
                          // pod adresem a tablice z kolejnymi n wartosciami
-    scanf("%d", n);
+    if(!scanf("%d", n)) printf("wrong input");
     int* a = (int*)malloc((unsigned)*n * sizeof(int));
-    for (int i = 0; i < *n; ++i) scanf("%d", &a[i]);
+    for (int i = 0; i < *n; ++i) if(!scanf("%d", &a[i])) printf("wrong input");
     return a;
 }
 
@@ -46,7 +46,7 @@ int main(void) {
     int n;
     int* a = getArray(&n);
     int k;
-    scanf("%d", &k);
+    if(!scanf("%d", &k)) printf("wrong input");
     printf("\n");
 
     printArray(n, a);
