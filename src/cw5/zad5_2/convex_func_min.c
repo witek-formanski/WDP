@@ -15,8 +15,7 @@ int minimum_of_convex_func(int n, int a[]) {
         middle = (left + right) / 2;
         if (a[middle] > a[middle + 1]) {
             left = middle + 1;
-        } else  // (v[middle] <= 0)
-        {
+        } else {
             right = middle;
         }
     }
