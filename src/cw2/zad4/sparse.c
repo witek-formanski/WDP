@@ -46,7 +46,7 @@ int nextSparse(int n) {
 
 int main(void) {
     int n;
-    scanf("%d", &n);
+    if(!scanf("%d", &n)) printf("wrong input");
     printf("%d", nextSparse(n));
     return 0;
 }
