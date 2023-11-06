@@ -96,26 +96,44 @@ _WDP\* MIM UW_
 
 - [zad. 1.]
   - [sum_table](./src/cw5/zad1/sum_table.c) (C) :white_check_mark:
+  - [zad_1](./src/cw5/zad1/zad_ms.c): autor: @MrD4rkne (C) :white_check_mark::microscope:
 - [zad. 2.]
   - [absolute_minimum_of_sequence](./src/cw5/zad2/absolute_minimum_of_sequence.cpp) (C++)
+  - [zad_2](./src/cw5/zad2/zad_ms.c): autor: @MrD4rkne (C) :white_check_mark::microscope:
 - [zad. 3.]
   - [minimal_sum_of_two_elements](./src/cw5/zad3/minimal_sum_of_two_elements.c) (C) :white_check_mark:
   - [minimal_sum_of_two_elements_brute](./src/cw5/zad3/minimal_sum_of_two_elements_brute.c) (C) :white_check_mark:
+  - [zad_3](./src/cw5/zad3/zad_ms.c): autor: @MrD4rkne (C) :white_check_mark::microscope:
+- [zad. 4.]
+  - [zad_4](./src/cw5/zad4/zad_ms.c): autor: @MrD4rkne (C) :white_check_mark::microscope:
 - [zad. 5.2.]
   - [convex_func_min](./src/cw5/zad5_2/convex_func_min.c) (C)
+  - [zad_5_2](./src/cw5/zad5_2/zad5_2_ms.c): autor: @MrD4rkne (C) :white_check_mark::microscope:
 - [zad. 6.]
   - [diagonal](./src/cw5/zad6/diagonal.c) (C)
+- [zad. 7.]
+  - [zad_7](./src/cw5/zad7/zad_ms.c): autor: @MrD4rkne (C) :white_check_mark::microscope:
+- [zad. 8.]
+  - [zad_8](./src/cw5/zad8/zad_ms.c): autor: @MrD4rkne (C) :white_check_mark::microscope:
 - [zad. 10.]
   - [find_number_in_monotonic_matrix](./src/cw5/zad10/find_number_in_monotonic_matrix.c) (C)
+  - [zad_10](./src/cw5/zad10/zad_ms.c): autor: @MrD4rkne (C) :white_check_mark::microscope:
 - [zad. 11.]
   - [find_rotated_min](./src/cw5/zad11/find_rotated_min.c) (C)
+  - [zad_11](./src/cw5/zad11/zad_ms.c): autor: @MrD4rkne (C) :white_check_mark::microscope:
+- [zad. 12.]
+  - [zad_12](./src/cw5/zad12/zad_ms.c): autor: @MrD4rkne (C) :white_check_mark::microscope:
+- [zad. 14.]
+  - [daleko](./src/cw5/zad14/daleko_ms.c): autor: @MrD4rkne (C) :white_check_mark::microscope:
+- [zad. 15.]
+  - [zad_15](./src/cw5/zad15/zad_ms.c): autor: @MrD4rkne (C) :white_check_mark::microscope:
 
 ## Kolokwia
 
 ### [Kolokwium I 2022/2023](./pdf/2022_I_Kolokwium.pdf)
 
 - [zad. 1.]
-  - [schodki](./src/kol1_22/zad1/2022_I_Kolokwium_schodki.c): autor: @stopnoanime (C) :x:
+  - [schodki](./src/kol1_22/zad1/2022_I_Kolokwium_schodki.c): autor: @stopnoanime (C) :white_check_mark::microscope:
   - [count_stepped_sequences](./src/kol1_22/zad1/count_stepped_sequences.c) (C) :white_check_mark::microscope:
 - [zad. 2.]
   - [cieniowanie](./src/kol1_22/zad2/2022_I_Kolokwium_cieniowanie.c): autor: @stopnoanime (C) :white_check_mark:

@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int max(int a, int b)
+int maxx(int a, int b)
 {
     if (a > b)
         return a;
@@ -26,7 +26,7 @@ int *zsumuj(int n, int a[])
         else{
             // we start at 0(in task at 1), so we must decrease value by 1
             int movedLeft = a[i]-1;
-            b[i] = suffixSum[max(movedLeft,0)];
+            b[i] = suffixSum[maxx(movedLeft,0)];
         }
     }
     return b;
