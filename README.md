@@ -133,10 +133,10 @@ _WDP\* MIM UW_
 ### [Kolokwium I 2022/2023](./pdf/2022_I_Kolokwium.pdf)
 
 - [zad. 1.]
-  - [schodki](./src/kol1_22/zad1/2022_I_Kolokwium_schodki.c): autor: @stopnoanime (C) :white_check_mark::microscope:
+  - [schodki](./src/kol1_22/zad1/schodki.c): autor: @stopnoanime (C) :white_check_mark::microscope:
   - [count_stepped_sequences](./src/kol1_22/zad1/count_stepped_sequences.c) (C) :white_check_mark::microscope:
 - [zad. 2.]
-  - [cieniowanie](./src/kol1_22/zad2/2022_I_Kolokwium_cieniowanie.c): autor: @stopnoanime (C) :white_check_mark:
+  - [cieniowanie](./src/kol1_22/zad2/cieniowanie.c): autor: @stopnoanime (C) :white_check_mark:
   - [shading_matrix](./src/kol1_22/zad2/shading_matrix.c) (C) :white_check_mark:
 
 ### [Kolokwium II 2022/2023](./pdf/2022_II_Kolokwium.pdf)
