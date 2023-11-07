@@ -128,7 +128,7 @@ _WDP\* MIM UW_
 - [zad. 15.]
   - [zad_15](./src/cw5/zad15/zad_ms.c): autor: @MrD4rkne (C) :white_check_mark::microscope:
 - [zad. 18.]
-  - [zad18](./src/cw5/zad18/zad18.c): autor: @pixelkubek (C) :white_check_mark::microscope:
+  - [zad18](./src/cw5/Zad18/zad18.c): autor: @pixelkubek (C) :white_check_mark::microscope:
 
 ## Kolokwia
 
