@@ -8,7 +8,8 @@ void power(int F[2][2], int n);
 
 /* function that returns nth Fibonacci number */
 int fib(int n) {
-    int F[2][2] = {{1, 1}, {1, 0}};
+    int F[2][2] = {{1, 1}, 
+                   {1, 0}};
     if (n == 0)
         return 0;
     power(F, n - 1);

@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int max(int a, int b)
+int maxx(int a, int b)
 {
     if (a > b)
         return a;
@@ -29,7 +29,7 @@ int p(int n, int t[])
             max_sum = sum;
         }
     }
-    return max(sum, max_sum);
+    return maxx(sum, max_sum);
 }
 
 int main()

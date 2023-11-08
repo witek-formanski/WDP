@@ -44,14 +44,16 @@ int *get_max_suffix(int n, int a[]) {
 int farthest_pair(int n, int a[]) {
     int *max_suffix = get_max_suffix(n, a);
     int *min_prefix = get_min_prefix(n, a);
-    int i = 0, j = 0, ans = 0;
-    while (i < n && j < n) {
-        if (max_suffix[i] <= min_prefix[j])
-            j++;
+    int ind_suf = 0; 
+    int ind_pref = 0; 
+    int ans = 0;
+    while (ind_suf < n && ind_pref < n) {
+        if (max_suffix[ind_suf] <= min_prefix[ind_pref])
+            ind_pref++;
         else {
-            if (i - j > ans)
-                ans = i - j;
-            i++;
+            if (ind_suf - ind_pref > ans)
+                ans = ind_suf - ind_pref;
+            ind_suf++;
         }
     }
 

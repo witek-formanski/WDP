@@ -7,6 +7,9 @@
 // n-th element of sequence determined by b array of zeros and ones
 // n >= 0
 
+// T(n) = O(2^n)
+// M(n) = O(2^n)
+
 int bonifacy(int n, int k, int b[]) {
     if (n == 0) return 0;
 

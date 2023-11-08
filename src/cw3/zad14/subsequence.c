@@ -1,3 +1,6 @@
+// do wyrzucenia - podciąg, a nie podzbiór
+
+
 #include <stdbool.h>
 #include <stdio.h>
 #include <stdlib.h>
