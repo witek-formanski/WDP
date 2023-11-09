@@ -100,6 +100,7 @@ _WDP\* MIM UW_
 - [zad. 2.]
   - [absolute_minimum_of_sequence](./src/cw5/zad2/absolute_minimum_of_sequence.cpp) (C++)
   - [zad_2](./src/cw5/zad2/zad_ms.c): autor: @MrD4rkne (C) :white_check_mark::microscope:
+  - [zad2](./src/cw5/zad2/zad2.c): autor: @pixelkubek (C) :white_check_mark::microscope:
 - [zad. 3.]
   - [minimal_sum_of_two_elements](./src/cw5/zad3/minimal_sum_of_two_elements.c) (C) :white_check_mark:
   - [minimal_sum_of_two_elements_brute](./src/cw5/zad3/minimal_sum_of_two_elements_brute.c) (C) :white_check_mark:
@@ -113,6 +114,7 @@ _WDP\* MIM UW_
   - [diagonal](./src/cw5/zad6/diagonal.c) (C)
 - [zad. 7.]
   - [zad_7](./src/cw5/zad7/zad_ms.c): autor: @MrD4rkne (C) :white_check_mark::microscope:
+  - [zad7](./src/cw5/zad7/zad7.c): autor: @pixelkubek (C) :white_check_mark:
 - [zad. 8.]
   - [zad_8](./src/cw5/zad8/zad_ms.c): autor: @MrD4rkne (C) :white_check_mark::microscope:
 - [zad. 10.]
@@ -127,6 +129,7 @@ _WDP\* MIM UW_
   - [daleko](./src/cw5/zad14/daleko_ms.c): autor: @MrD4rkne (C) :white_check_mark::microscope:
 - [zad. 15.]
   - [zad_15](./src/cw5/zad15/zad_ms.c): autor: @MrD4rkne (C) :white_check_mark::microscope:
+  - [zad15](./src/cw5/zad15/zad15.c): autor: @pixelkubek (C) :white_check_mark:
 - [zad. 18.]
   - [zad18](./src/cw5/Zad18/zad18.c): autor: @pixelkubek (C) :white_check_mark:
 
