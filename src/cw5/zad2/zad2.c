@@ -22,6 +22,7 @@ int blisko_zera(int v[], int n){
 
 int main()
 {
+    //main from zad_ms.c
     int n;
     if(!scanf("%d", &n)) printf("wrong input");
     int *t = (int *)malloc((size_t)n * sizeof(int));
