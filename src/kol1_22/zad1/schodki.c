@@ -5,7 +5,7 @@
 // M(n)
 
 int schodki(int n, int t[]) {
-  int *pom = (int*)malloc((size_t)(n+1)*sizeof(int));
+  int *pom = (int*)calloc((size_t)(n+1), sizeof(int));
   int ile = 0; 
 
   for(int i=0; i<n; i++) {

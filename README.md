@@ -71,9 +71,12 @@ _WDP\* MIM UW_
   - [next_perm](./src/cw3/zad12/next_perm.c): autor: @lbozyk (C) :white_check_mark:
 - [zad. 14.] sprawdź, czy jeden ciąg zawiera się w drugim
   - [subsequence](./src/cw3/zad14/subsequence.c) (C) :white_check_mark::microscope:
-- [zad. 16.] ciąg róznicowy
+- [zad. 16.] ciąg różnicowy
   - [differential_sequence](./src/cw3/zad16/differential_sequence.c) (C)
   - [diff_seq](./src/cw3/zad16/diff_seq.c) (C): autor: @lbozyk (C) :white_check_mark:
+  - [diff_seq_fam](./src/cw3/zad16/diff_seq_fam.c) (C) :white_check_mark::microscope:
+- [zad. 17.] ciąg ciągu różnicowego
+  - [diff_diff_seq_fam](./src/cw3/zad17/diff_diff_seq_fam.c) (C) :white_check_mark::microscope:
 
 ### Laboratorium II: [Gra w skakanie (NWD)](./pdf/WDP_.Inf.23_24Z__Zadanie_rozgrzewkowe_2.pdf) 2023.10.11
 
@@ -130,6 +133,8 @@ _WDP\* MIM UW_
 - [zad. 15.]
   - [zad_15](./src/cw5/zad15/zad_ms.c): autor: @MrD4rkne (C) :white_check_mark::microscope:
   - [zad15](./src/cw5/zad15/zad15.c): autor: @pixelkubek (C) :white_check_mark:
+- [zad. 17.]
+  - [orzechy](./src/cw5/zad17/orzechy.c) (C) :white_check_mark::microscope:
 - [zad. 18.]
   - [zad18](./src/cw5/Zad18/zad18.c): autor: @pixelkubek (C) :white_check_mark:
 
