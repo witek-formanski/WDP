@@ -103,7 +103,7 @@ _WDP\* MIM UW_
 - [zad. 2.]
   - [absolute_minimum_of_sequence](./src/cw5/zad2/absolute_minimum_of_sequence.cpp) (C++)
   - [zad_2](./src/cw5/zad2/zad_ms.c): autor: @MrD4rkne (C) :white_check_mark::microscope:
-  - [zad2](./src/cw5/zad2/zad2.c): autor: @pixelkubek (C) :white_check_mark::microscope:
+  - [zad2](./src/cw5/zad2/zad2_pxl.c): autor: @pixelkubek (C) :white_check_mark::microscope:
 - [zad. 3.]
   - [minimal_sum_of_two_elements](./src/cw5/zad3/minimal_sum_of_two_elements.c) (C) :white_check_mark:
   - [minimal_sum_of_two_elements_brute](./src/cw5/zad3/minimal_sum_of_two_elements_brute.c) (C) :white_check_mark:
