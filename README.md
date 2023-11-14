@@ -138,6 +138,11 @@ _WDP\* MIM UW_
 - [zad. 18.]
   - [zad18](./src/cw5/Zad18/zad18.c): autor: @pixelkubek (C) :white_check_mark:
 
+### Ćwiczenia VI: [Stosy, kolejki i koszt zamortyzowany](./pdf/WDP_.Inf.23_24Z__Stosy,_kolejki_i_koszt_zamortyzowany.pdf) 2023.11.13
+
+- [zad. 5.]
+  - [zad_5](./src/cw6/zad5/zad5_katastrofy.cpp): autor: @pixelkubek (C++) :white_check_mark:
+
 ## Kolokwia
 
 ### [Kolokwium I 2022/2023](./pdf/2022_I_Kolokwium.pdf)
