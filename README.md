@@ -140,8 +140,10 @@ _WDP\* MIM UW_
 
 ### Ćwiczenia VI: [Stosy, kolejki i koszt zamortyzowany](./pdf/WDP_.Inf.23_24Z__Stosy,_kolejki_i_koszt_zamortyzowany.pdf) 2023.11.13
 
-- [zad. 5.]
-  - [zad_5](./src/cw6/zad5/zad5_katastrofy.cpp): autor: @pixelkubek (C++) :white_check_mark:
+- [zad. 7.]
+  - [zad_7](./src/cw6/zad7/zad7_skyline.cpp): autor: @pixelkubek (C++) :white_check_mark:
+- [zad. 9.]
+  - [zad_9](./src/cw6/zad9/zad9_Zeckendorf.cpp): autor: @pixelkubek (C++) :white_check_mark:
 
 ## Kolokwia
 
