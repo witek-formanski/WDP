@@ -1,8 +1,6 @@
 #include<stdlib.h>
 #include<stdio.h>
 
-using namespace std;
-
 void printArr(int t[], int n){
     for(int i = 0; i < n; i++)
         printf("%i ", t[i]);
