@@ -142,6 +142,8 @@ _WDP\* MIM UW_
 
 - [zad. 3.]
   - [zad_3](./src/cw6/zad3/zad3_sadzawka.cpp): autor: @pixelkubek (C++) :white_check_mark:
+- [zad. 5.]
+  - [katastrofy](./src/cw6/zad5/katastrofy.cpp) (C++) :white_check_mark::microscope:
 - [zad. 7.]
   - [zad_7](./src/cw6/zad7/zad7_skyline.cpp): autor: @pixelkubek (C++) :white_check_mark:
 - [zad. 9.]
@@ -172,6 +174,7 @@ _WDP\* MIM UW_
 
 - [fibonacci_matrix](./src/other/fibonacci_matrix.c)
 - [fibonacci](./src/other/fibonacci.c)
+- [cola 42](./src/other/cola.cpp)
 
 ## Legenda
 
