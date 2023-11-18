@@ -146,6 +146,8 @@ _WDP\* MIM UW_
   - [zad_4](./src/cw6/zad4/zad4.cpp): autor: @pixelkubek (C++) :white_check_mark:
 - [zad. 5.]
   - [katastrofy](./src/cw6/zad5/katastrofy.cpp) (C++) :white_check_mark::microscope:
+- [zad. 6.]
+  - [zad_6](./src/cw6/zad6/zad6.cpp): autor: @pixelkubek (C++) :white_check_mark:
 - [zad. 7.]
   - [zad_7](./src/cw6/zad7/zad7_skyline.cpp): autor: @pixelkubek (C++) :white_check_mark:
 - [zad. 8.]
