@@ -142,12 +142,22 @@ _WDP\* MIM UW_
 
 - [zad. 3.]
   - [zad_3](./src/cw6/zad3/zad3_sadzawka.cpp): autor: @pixelkubek (C++) :white_check_mark:
+- [zad. 4.]
+  - [zad_4](./src/cw6/zad4/zad4.cpp): autor: @pixelkubek (C++) :white_check_mark:
 - [zad. 5.]
   - [katastrofy](./src/cw6/zad5/katastrofy.cpp) (C++) :white_check_mark::microscope:
 - [zad. 7.]
   - [zad_7](./src/cw6/zad7/zad7_skyline.cpp): autor: @pixelkubek (C++) :white_check_mark:
+- [zad. 8.]
+  - [zad_8](./src/cw6/zad8/zad8.cpp): autor: @pixelkubek (C++) :white_check_mark:
 - [zad. 9.]
   - [zad_9](./src/cw6/zad9/zad9_Zeckendorf.c): autor: @pixelkubek (C) :white_check_mark:
+- [zad. 10.]
+  - [zad_10](./src/cw6/zad10/zad10.cpp): autor: @pixelkubek (C++) :white_check_mark:
+- [zad. 11.]
+  - [zad_11](./src/cw6/zad11/zad11.cpp): autor: @pixelkubek (C++) :white_check_mark:
+- [zad. 12.]
+  - [zad_12](./src/cw6/zad12/zad12.cpp): autor: @pixelkubek (C++) :white_check_mark:
 
 ## Kolokwia
 
