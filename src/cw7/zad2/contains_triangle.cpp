@@ -1,0 +1,3 @@
+bool contains_triangle() {
+    
+}
