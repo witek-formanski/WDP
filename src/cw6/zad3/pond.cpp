@@ -1,6 +1,6 @@
+#include <cmath>
 #include <iostream>
 #include <stack>
-#include <cmath>
 
 void freeze(std::stack<int> s, int degrees) {
     // int top = s.top();
@@ -25,11 +25,17 @@ void defrost(std::stack<int> s, int degrees) {
     while (!s.empty() && degrees != 0) {
         top = s.top();
         s.pop();
-        if (std::abs(top + degrees) < std::abs(top)) {
-            new_next = top + degrees;
-            new_top = degrees;
-            s.push(new_next);
-            s.push(new_top);
+        if (degrees * top < 0) {  // different signs
+            if (std::abs(degrees) < std::abs(top)) {
+                new_next = top + degrees;
+                new_top = degrees;
+                s.push(new_next);
+                s.push(new_top);
+            } else {
+                degrees += top;
+            }
+        } else {  // the same signs
+
         }
     }
 }
