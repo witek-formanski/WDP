@@ -2,7 +2,9 @@
 
 _WDP\* MIM UW_
 
-## Zadania
+## _Zadania_
+
+## Ćwiczenia
 
 ### Ćwiczenia I: [Wstęp](./pdf/WDP_.Inf.23_24Z__Wstęp.pdf) 2023.10.02
 
@@ -28,11 +30,6 @@ _WDP\* MIM UW_
 - [modulo](./src/cw2/zad8/modulo.c): [zad. 8.] czy pierścień reszt modulo n zawiera nietrywialne pierwiastki z 1 (C) :white_check_mark:
 - [count_zeros](./src/cw2/zad10/count_zeros.c): [zad. 10.] ile jest zer na końcu n! (C)
 - [count_ones](./src/cw2/zad12/count_ones.c): [zad. 12.] ile jest jedynek w zapisie binarnym liczby n (C)
-
-### Laboratorium I: [Podzielny fragment ciągu](./pdf/WDP_.Inf.23_24Z__Laboratorium_1__rozgrzewka.pdf) 2023.10.04
-
-- [divisible_sequence](./src/lab1/divisible_sequence.c): najdłuższy dzielny fragment ciągu (C) :white_check_mark::microscope:
-- [divisible_sequence](./src/lab1/divisible_sequence.cpp): najdłuższy dzielny fragment ciągu (C++) :white_check_mark::microscope:
 
 ### Ćwiczenia III: [Zadania na tablice](./pdf/WDP_.Inf.23_24Z__Zadania_na_tablice.pdf) 2023.10.09, 2023.10.11, 2023.10.16
 
@@ -78,11 +75,6 @@ _WDP\* MIM UW_
 - [zad. 17.] ciąg ciągu różnicowego
   - [diff_diff_seq_fam](./src/cw3/zad17/diff_diff_seq_fam.c) (C) :white_check_mark::microscope:
 
-### Laboratorium II: [Gra w skakanie (NWD)](./pdf/WDP_.Inf.23_24Z__Zadanie_rozgrzewkowe_2.pdf) 2023.10.11
-
-- [game.c](./src/lab2/game.c): strategia wygrywająca (C) :white_check_mark::microscope:
-- [game.h](./src/lab2/game.h): prototyp funkcji :white_check_mark::microscope:
-- [evaluate_game.c](./src/lab2/evaluate_game.c): program grający w grę (C) :white_check_mark::microscope:
 
 ### Ćwiczenia IV: [Złożoność czasowa i pamięciowa](./pdf/WDP_.Inf.23_24Z__Złożoność_czasowa_i_pamięciowa.pdf) 2023.10.18
 
@@ -160,6 +152,27 @@ _WDP\* MIM UW_
   - [zad_11](./src/cw6/zad11/zad11.cpp): autor: @pixelkubek (C++) :white_check_mark:
 - [zad. 12.]
   - [zad_12](./src/cw6/zad12/zad12.cpp): autor: @pixelkubek (C++) :white_check_mark:
+
+### Ćwiczenia VII: [Zastosowanie sortowania](WDP_.Inf.23_24Z__Zastosowanie_sortowania.pdf)
+
+### Ćwiczenia VIII: [Listy i drzewa](WDP_.Inf.23_24Z__Listy_i_drzewa.pdf) 2023.11.29
+
+## Laboratoria
+
+### Laboratorium I: [Podzielny fragment ciągu](./pdf/WDP_.Inf.23_24Z__Laboratorium_1__rozgrzewka.pdf) 2023.10.04
+
+- [divisible_sequence](./src/lab1/divisible_sequence.c): najdłuższy dzielny fragment ciągu (C) :white_check_mark::microscope:
+- [divisible_sequence](./src/lab1/divisible_sequence.cpp): najdłuższy dzielny fragment ciągu (C++) :white_check_mark::microscope:
+
+### Laboratorium II: [Gra w skakanie (NWD)](./pdf/WDP_.Inf.23_24Z__Zadanie_rozgrzewkowe_2.pdf) 2023.10.11
+
+- [game.c](./src/lab2/game.c): strategia wygrywająca (C) :white_check_mark::microscope:
+- [game.h](./src/lab2/game.h): prototyp funkcji :white_check_mark::microscope:
+- [evaluate_game.c](./src/lab2/evaluate_game.c): program grający w grę (C) :white_check_mark::microscope:
+
+## Zadania zaliczeniowe z laboratoriów
+
+_wkrótce_
 
 ## Kolokwia
 
