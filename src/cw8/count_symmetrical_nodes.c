@@ -3,8 +3,7 @@ policz węzły drzewa które mają tyle samo kroków do korzenia
 co do najgłębszego liścia
 */
 
-
-#include <stdlib.h>
+#define MIN(x, y) (((x) < (y)) ? (x) : (y))
 
 typedef struct bin_tree bin_tree;
 

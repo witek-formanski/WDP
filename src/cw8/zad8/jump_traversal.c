@@ -1,5 +1,3 @@
-#include <stdlib.h>
-
 typedef struct bin_tree bin_tree;
 
 struct bin_tree {
