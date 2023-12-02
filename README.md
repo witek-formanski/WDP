@@ -167,6 +167,7 @@ _WDP\* MIM UW_
   - [zad4_ms](./src/cw7/zad4/zad4_ms.cpp): autor: @MrD4rkne (C++) :white_check_mark:
 - [zad. 5.]
   - [zad5_ms](./src/cw7/zad5/zad5_ms.cpp): autor: @MrD4rkne (C++) :white_check_mark:
+
 ### Ćwiczenia VIII: [Listy i drzewa](WDP_.Inf.23_24Z__Listy_i_drzewa.pdf) 2023.11.29
 
 - [zad. 1.]
@@ -175,6 +176,15 @@ _WDP\* MIM UW_
   - [zad3_ms](./src/cw8/zad3/zad3_ms.cpp): autor: @MrD4rkne (C++) :white_check_mark:  
 - [zad. 5.]
   - [zad5_ms](./src/cw8/zad5/zad5_ms.cpp): autor: @MrD4rkne (C++) :white_check_mark:
+- [zad. 7.]
+  - [zad7_ms](./src/cw8/zad7/zad7_ms.cpp): autor: @MrD4rkne (C++) :white_check_mark:
+- [zad. 8.]
+  - [zad8_ms](./src/cw8/zad8/zad8_ms.cpp): autor: @MrD4rkne (C++) :white_check_mark:
+- [zad. 10.]
+  - [zad10_ms](./src/cw8/zad10/zad10_ms.c): autor: @MrD4rkne (C) :white_check_mark:
+- [zad. 12.]
+  - [zad12_ms](./src/cw8/zad12/zad12_ms.c): autor: @MrD4rkne (C) :white_check_mark:
+
 ## Laboratoria
 
 ### Laboratorium I: [Podzielny fragment ciągu](./pdf/WDP_.Inf.23_24Z__Laboratorium_1__rozgrzewka.pdf) 2023.10.04
