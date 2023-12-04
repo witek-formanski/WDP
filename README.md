@@ -183,6 +183,7 @@ _WDP\* MIM UW_
   - [zad2_jc](./src/cw7/zad2/zad2jc.cpp): autor: @pixelkubek (C++)
 - [zad. 3.]
   - [zad3_jc](./src/cw7/zad3/zad3jc.cpp): autor: @pixelkubek (C++)
+  - [zad3_ms](./src/cw7/zad3/zad3_ms_.cpp): autor: @MrD4rkne (C++) :white_check_mark:
 - [zad. 4.]
   - [max_combined_diff](./src/cw7/zad4/max_combined_diff.cpp) (C++)
   - [zad4_ms](./src/cw7/zad4/zad4_ms.cpp): autor: @MrD4rkne (C++) :white_check_mark:
@@ -221,16 +222,19 @@ _WDP\* MIM UW_
   - [zad10_ms](./src/cw8/zad10/zad10_ms.c): autor: @MrD4rkne (C) :white_check_mark:
 - [zad. 11.]
   - [zad11_jc](./src/cw8/zad11/zad11jc.cpp): autor: @pixelkubek (C++) :white_check_mark:
+  - [zad11_ms](./src/cw8/zad11/zad11_ms.cpp): autor: @MrD4rkne (C++) :white_check_mark:
 - [zad. 12.]
   - [zad12_ms](./src/cw8/zad12/zad12_ms.c): autor: @MrD4rkne (C) :white_check_mark:
 - [zad. 13.]
   - [zad13_jc](./src/cw8/zad13/zad13jc.cpp): autor: @pixelkubek (C++) :white_check_mark:
+  - [zad13_ms](./src/cw8/zad13/zad13_ms.cpp): autor: @MrD4rkne (C) :white_check_mark:
 - [zad. 14.]
   - [zad14_jc](./src/cw8/zad14/zad14jc.cpp): autor: @pixelkubek (C++) :white_check_mark:
 - [zad. 15.]
   - [zad15_jc](./src/cw8/zad15/zad15jc.cpp): autor: @pixelkubek (C++) :x:
 - [zad. 16.]
   - [zad16_jc](./src/cw8/zad16/zad16jc.cpp): autor: @pixelkubek (C++) :white_check_mark:
+  - [zad16_ms](./src/cw8/zad16/zad16j_mscpp): autor: @MrD4rkne (C) :white_check_mark:
 - [zad. 17.]
   - [zad17_jc](./src/cw8/zad17/zad17jc.cpp): autor: @pixelkubek (C++) :white_check_mark:
 
@@ -266,6 +270,7 @@ _wkrótce_
 
 - [zad. 1.]
   - [zad1_jc](./src/kol2_22/zad1jc.cpp): autor: @pixelkubek (C++) :white_check_mark:
+  - [zad1_ms](./src/kol2_22/zad1_ms.cpp): autor: @MrD4rkne (C++) :white_check_mark:
 - [zad. 2.]
   - [zad2_jc](./src/kol2_22/zad2jc.cpp): autor: @pixelkubek (C++)
 
