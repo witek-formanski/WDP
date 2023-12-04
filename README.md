@@ -22,8 +22,8 @@ _WDP\* MIM UW_
   - [next_sparse_number](./src/cw2/zad4/next_sparse_number.c) (C)
   - [sparse](./src/cw2/zad4/sparse.c): autor: @lbozyk (C) :white_check_mark:
 - [zad. 5.] zliczanie wszystkich liczb rzadkich mniejszych od danej liczby
-  - [count_sparse_numbers_brute](./src/cw2/zad5/count_sparse_numbers_brute.c) (C):white_check_mark::microscope:
-  - [count_sparse_numbers](./src/cw2/zad5/count_sparse_numbers.c) (C):white_check_mark:
+  - [count_sparse_numbers_brute](./src/cw2/zad5/count_sparse_numbers_brute.c) (C) :white_check_mark::microscope:
+  - [count_sparse_numbers](./src/cw2/zad5/count_sparse_numbers.c) (C) :white_check_mark:
   - [consecutive_ones](./src/cw2/zad5/consecutive_ones.c) programowanie dynamiczne, GFG (C)
 - [is_prime](./src/cw2/zad6/is_prime.c): [zad. 6.] sprawdzanie czy liczba jest pierwsza (C) :white_check_mark::microscope:
 - [encode_in_one_integer](./src/cw2/zad7/encode_in_one_integer.c): [zad. 7.] kodowanie pary liczb naturalnych jako liczbę naturalną (C)
