@@ -265,6 +265,7 @@ _wkrótce_
 ### [Kolokwium II 2022/2023](./pdf/2022_II_Kolokwium.pdf)
 
 - [zad. 1.]
+  - [zad1_jc](./src/kol2_22/zad1jc.cpp): autor: @pixelkubek (C++) :white_check_mark:
 - [zad. 2.]
   - [zad2_jc](./src/kol2_22/zad2jc.cpp): autor: @pixelkubek (C++)
 
