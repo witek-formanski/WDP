@@ -143,7 +143,7 @@ _WDP\* MIM UW_
   - [zad_3](./src/cw6/zad3/zad3_sadzawka.cpp): autor: @pixelkubek (C++):white_check_mark:
   - [zad3_ms](./src/cw6/zad3/zad3_ms.cpp): autor: @MrD4rkne (C++) :white_check_mark:
 - [zad. 4.]
-  - [zad_4](./src/cw6/zad4/zad4.cpp): autor: @pixelkubek (C++) :white_check_mark:
+  - [zad_4](./src/cw6/zad4/zad4.cpp): autor: @pixelkubek (C++) :x:
   - [zad_4](./src/cw6/zad4/zad4_ms.cpp): autor: @MrD4rkne (C++) :white_check_mark:
 - [zad. 5.]
   - [katastrofy](./src/cw6/zad5/katastrofy.cpp) (C++) :white_check_mark::microscope:
@@ -176,15 +176,21 @@ _WDP\* MIM UW_
   - [bars_linear](./src/cw7/zad1/bars_linear.cpp) (C++)
   - [median_of_medians](./src/cw7/zad1/median_of_medians.cpp) (C++)
   - [zad1_ms](./src/cw7/zad1/zad1_ms.cpp): autor: @MrD4rkne (C++) :white_check_mark:
+  - [zad1_jc](./src/cw7/zad1/zad1jc.cpp): autor: @pixelkubek (C++)
 - [zad. 2.]
   - [contains_triangle](./src/cw7/zad2/contains_triangle.cpp) (C++)
   - [zad2_ms](./src/cw7/zad2/zad2_ms.cpp): autor: @MrD4rkne (C++) :white_check_mark:
+  - [zad2_jc](./src/cw7/zad2/zad2jc.cpp): autor: @pixelkubek (C++)
+- [zad. 3.]
+  - [zad3_jc](./src/cw7/zad3/zad3jc.cpp): autor: @pixelkubek (C++)
 - [zad. 4.]
   - [max_combined_diff](./src/cw7/zad4/max_combined_diff.cpp) (C++)
   - [zad4_ms](./src/cw7/zad4/zad4_ms.cpp): autor: @MrD4rkne (C++) :white_check_mark:
+  - [zad4_jc](./src/cw7/zad4/zad4jc.cpp): autor: @pixelkubek (C++)
 - [zad. 5.]
   - [beakers](./src/cw7/zad5/beakers.cpp) (C++)
   - [zad5_ms](./src/cw7/zad5/zad5_ms.cpp): autor: @MrD4rkne (C++) :white_check_mark:
+  - [zad5_jc](./src/cw7/zad5/zad5jc.cpp): autor: @pixelkubek (C++)
 - [zad. 6.]
   - [rejs](./src/cw7/zad6/rejs.cpp) (C++)
 - [zad. 6.]
@@ -222,7 +228,7 @@ _WDP\* MIM UW_
 - [zad. 14.]
   - [zad14_jc](./src/cw8/zad14/zad14jc.cpp): autor: @pixelkubek (C++) :white_check_mark:
 - [zad. 15.]
-  - [zad15_jc](./src/cw8/zad15/zad15jc.cpp): autor: @pixelkubek (C++) :white_check_mark:
+  - [zad15_jc](./src/cw8/zad15/zad15jc.cpp): autor: @pixelkubek (C++) :x:
 - [zad. 16.]
   - [zad16_jc](./src/cw8/zad16/zad16jc.cpp): autor: @pixelkubek (C++) :white_check_mark:
 - [zad. 17.]
@@ -260,6 +266,7 @@ _wkrótce_
 
 - [zad. 1.]
 - [zad. 2.]
+  - [zad2_jc](./src/kol2_22/zad2jc.cpp): autor: @pixelkubek (C++)
 
 ### [Kolokwium III 2022/2023](./pdf/2022_III_Kolokwium.pdf)
 
