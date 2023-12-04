@@ -140,7 +140,7 @@ _WDP\* MIM UW_
 - [zad. 3.]
   - [pond](./src/cw6/zad3/pond.cpp) (C++)
   - [sadzawka](./src/cw6/zad3/sadzawka.cpp): auto: @lbozyk (C++)
-  - [zad_3](./src/cw6/zad3/zad3_sadzawka.cpp): autor: @pixelkubek (C++):white_check_mark:
+  - [zad_3](./src/cw6/zad3/zad3_sadzawka.cpp): autor: @pixelkubek (C++) :white_check_mark:
   - [zad3_ms](./src/cw6/zad3/zad3_ms.cpp): autor: @MrD4rkne (C++) :white_check_mark:
 - [zad. 4.]
   - [zad_4](./src/cw6/zad4/zad4.cpp): autor: @pixelkubek (C++) :x:
