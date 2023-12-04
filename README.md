@@ -194,24 +194,34 @@ _WDP\* MIM UW_
 - [zad. 2.]
   - [zad2_jc](./src/cw8/zad2/zad2jc.cpp): autor: @pixelkubek (C++) :white_check_mark:
 - [zad. 3.]
+  - [concatenate_lists](./src/cw8/zad3/concatenate_lists.c) (C)
   - [zad3_ms](./src/cw8/zad3/zad3_ms.cpp): autor: @MrD4rkne (C++) :white_check_mark:  
   - [zad3_jc](./src/cw8/zad3/zad3jc.cpp): autor: @pixelkubek (C++) :white_check_mark:
 - [zad. 5.]
+  - [common_suffix_hourglass](./src/cw8/zad5/common_suffix_hourglass.c) (C)
+  - [common_suffix_len](./src/cw8/zad5/common_suffix_len.c) (C)
   - [zad5_ms](./src/cw8/zad5/zad5_ms.cpp): autor: @MrD4rkne (C++) :white_check_mark:
   - [zad5_jc](./src/cw8/zad5/zad5jc.cpp): autor: @pixelkubek (C++) :white_check_mark:
 - [zad. 6.]
+  - [find_cycle_reverse_copy](./src/cw8/zad6/find_cycle_reverse_copy.cpp) (C++)
+  - [find_cycle_reverse_sum](./src/cw8/zad6/find_cycle_reverse_sum.cpp) (C++)
+  - [find_cycle_runners](./src/cw8/zad6/find_cycle_reverse.cpp) (C++)
   - [zad6_jc](./src/cw8/zad6/zad6jc.cpp): autor: @pixelkubek (C++) :white_check_mark:
 - [zad. 7.]
+  - [general_tree](./src/cw8/zad7/general_tree.c) (C)
   - [zad7_ms](./src/cw8/zad7/zad7_ms.cpp): autor: @MrD4rkne (C++) :white_check_mark:
   - [zad7_jc](./src/cw8/zad7/zad7jc.cpp): autor: @pixelkubek (C++) :white_check_mark:
 - [zad. 8.]
+  - [jump_traversal](./src/cw8/zad8/jump_traversal.c) (C)
   - [zad8_ms](./src/cw8/zad8/zad8_ms.cpp): autor: @MrD4rkne (C++) :white_check_mark:
   - [zad8_jc](./src/cw8/zad8/zad8jc.cpp): autor: @pixelkubek (C++) :white_check_mark:
 - [zad. 10.]
+  - [is_ultraleftist](./src/cw8/zad10/is_ultraleftist.c) (C)
   - [zad10_ms](./src/cw8/zad10/zad10_ms.c): autor: @MrD4rkne (C) :white_check_mark:
 - [zad. 11.]
   - [zad11_jc](./src/cw8/zad11/zad11jc.cpp): autor: @pixelkubek (C++) :white_check_mark:
 - [zad. 12.]
+  - [cut_tree_into_two](./src/cw8/zad12/cut_tree_into_two.c) (C)
   - [zad12_ms](./src/cw8/zad12/zad12_ms.c): autor: @MrD4rkne (C) :white_check_mark:
 - [zad. 13.]
   - [zad13_jc](./src/cw8/zad13/zad13jc.cpp): autor: @pixelkubek (C++) :white_check_mark:
@@ -220,6 +230,7 @@ _WDP\* MIM UW_
 - [zad. 15.]
   - [zad15_jc](./src/cw8/zad15/zad15jc.cpp): autor: @pixelkubek (C++) :white_check_mark:
 - [zad. 16.]
+  - [](./src/cw8/zad16/middle.c) (C)
   - [zad16_jc](./src/cw8/zad16/zad16jc.cpp): autor: @pixelkubek (C++) :white_check_mark:
 - [zad. 17.]
   - [zad17_jc](./src/cw8/zad17/zad17jc.cpp): autor: @pixelkubek (C++) :white_check_mark:
