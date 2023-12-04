@@ -144,6 +144,7 @@ _WDP\* MIM UW_
   - [zad3_ms](./src/cw6/zad3/zad3_ms.cpp): autor: @MrD4rkne (C++) :white_check_mark:
 - [zad. 4.]
   - [zad_4](./src/cw6/zad4/zad4.cpp): autor: @pixelkubek (C++) :white_check_mark:
+  - [zad_4](./src/cw6/zad4/zad4_ms.cpp): autor: @MrD4rkne (C++) :white_check_mark:
 - [zad. 5.]
   - [katastrofy](./src/cw6/zad5/katastrofy.cpp) (C++) :white_check_mark::microscope:
   - [wtc_ms](./src/cw6/zad5/wtc_ms.cpp): autor: @MrD4rkne (C++) :white_check_mark:
@@ -160,6 +161,7 @@ _WDP\* MIM UW_
   - [zad9_ms](./src/cw6/zad9/zad9_ms.cpp): autor: @MrD4rkne (C++) :white_check_mark:
 - [zad. 10.]
   - [zad_10](./src/cw6/zad10/zad10.cpp): autor: @pixelkubek (C++) :white_check_mark:
+  - [zad_10_ms](./src/cw6/zad10/zad10_ms.cpp): autor: @MrD4rkne (C++) :white_check_mark:
 - [zad. 11.]
   - [zad_11](./src/cw6/zad11/zad11.cpp): autor: @pixelkubek (C++) :white_check_mark:
 - [zad. 12.]
@@ -185,6 +187,8 @@ _WDP\* MIM UW_
   - [zad5_ms](./src/cw7/zad5/zad5_ms.cpp): autor: @MrD4rkne (C++) :white_check_mark:
 - [zad. 6.]
   - [rejs](./src/cw7/zad6/rejs.cpp) (C++)
+- [zad. 6.]
+  - [zad5_ms](./src/cw7/zad6/zad6_ms.cpp): autor: @MrD4rkne (C++) :white_check_mark:
 
 ### Ćwiczenia VIII: [Listy i drzewa](WDP_.Inf.23_24Z__Listy_i_drzewa.pdf) 2023.11.29
 
