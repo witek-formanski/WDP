@@ -272,6 +272,7 @@ _wkrótce_
   - [zad1_ms](./src/kol2_22/zad1_ms.cpp): autor: @MrD4rkne (C++) :white_check_mark:
 - [zad. 2.]
   - [zad2_jc](./src/kol2_22/zad2jc.cpp): autor: @pixelkubek (C++)
+  - [zad2_ms](./src/kol2_22/zad2_ms.cpp): autor: @MrD4rkne (C) :white_check_mark:
 
 ### [Kolokwium III 2022/2023](./pdf/2022_III_Kolokwium.pdf)
 
