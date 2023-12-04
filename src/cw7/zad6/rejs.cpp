@@ -1,4 +1,8 @@
-#include <bits/stdc++.h>
+// #include <bits/stdc++.h>
+#include <vector>
+#include <array>
+#include <iostream>
+#include <algorithm>
 using namespace std;
 
 bool ok(vector<int> &pre, vector<array<int, 2>> &a, int mn, int k){
