@@ -249,7 +249,7 @@ _WDP\* MIM UW_
   - [zad15_ms](./src/cw8/zad15/zad15_ms.cpp): autor: @MrD4rkne (C++) :white_check_mark:
   - [zad15_jc](./src/cw8/zad15/zad15jc.cpp): autor: @pixelkubek (C++) :white_check_mark:
 - [zad. 16.]
-  - [](./src/cw8/zad16/middle.c) (C)
+  - [middle.c](./src/cw8/zad16/middle.c) (C)
   - [zad16_jc](./src/cw8/zad16/zad16jc.cpp): autor: @pixelkubek (C++) :white_check_mark:
   - [zad16_ms](./src/cw8/zad16/zad16j_mscpp): autor: @MrD4rkne (C) :white_check_mark:
 - [zad. 17.]
