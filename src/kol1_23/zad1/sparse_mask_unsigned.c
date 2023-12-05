@@ -9,7 +9,7 @@ złożoność czasowa:
 złożoność pamięciowa:
     M(n) = O(n)
 
-JESCZE KRÓTSZY KOD!!!
+JESZCZE KRÓTSZY KOD!!!
 */
 
 int s(int n){return n&~0u/3;}
