@@ -192,12 +192,14 @@ _WDP\* MIM UW_
   - [beakers](./src/cw7/zad5/beakers.cpp) (C++)
   - [zad5_ms](./src/cw7/zad5/zad5_ms.cpp): autor: @MrD4rkne (C++) :white_check_mark:
   - [zad5_jc](./src/cw7/zad5/zad5jc.cpp): autor: @pixelkubek (C++)
-- [zad. 6.]
-  - [rejs](./src/cw7/zad6/rejs.cpp) (C++)
+- [zad. 6.] ilu maksymalnie kolegów Tomka może popłynąć na k-dniowy rejs (koledzy mogą się "teleportować")
+  - [cruise](./src/cw7/zad6/cruise.cpp): O(n) (bez sortowania) dzięki pomocniczemu stosowi (C++)
+    - [przykład w Excelu](./other/cw7_zad6_cruise_stack.xlsx)
+  - [rejs](./src/cw7/zad6/rejs.cpp): autor:@asajb (C++)
   - [zad6_ms](./src/cw7/zad6/zad6_ms.cpp): autor: @MrD4rkne (C++) :white_check_mark:
   - [zad6_jc](./src/cw7/zad6/zad6jc.cpp): autor: @pixelkubek (C++) :white_check_mark:
-- [zad. 7.]
-  - [zad_7](./src/cw7/zad7/zad7jc.cpp): pomysl: @lbozyk, autor: @pixelkubek :white_check_mark:
+- [zad. 7.] ilu maksymalnie dni może trwać rejs, w którym bierze udział k kolegów Tomka (koledzy nie mogą się zamieniać)
+  - [zad_7](./src/cw7/zad7/zad7jc.cpp): pomysł: @lbozyk, autor: @pixelkubek :white_check_mark:
 
 ### Ćwiczenia VIII: [Listy i drzewa](WDP_.Inf.23_24Z__Listy_i_drzewa.pdf) 2023.11.29
 
