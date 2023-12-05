@@ -241,19 +241,20 @@ _WDP\* MIM UW_
   - [zad12_ms](./src/cw8/zad12/zad12_ms.c): autor: @MrD4rkne (C) :white_check_mark:
 - [zad. 13.]
   - [zad13_jc](./src/cw8/zad13/zad13jc.cpp): autor: @pixelkubek (C++) :white_check_mark:
-  - [zad13_ms](./src/cw8/zad13/zad13_ms.cpp): autor: @MrD4rkne (C) :white_check_mark:
+  - [zad13_ms](./src/cw8/zad13/zad13_ms.c): autor: @MrD4rkne (C) :white_check_mark:
 - [zad. 14.]
   - [zad14_jc](./src/cw8/zad14/zad14jc.cpp): autor: @pixelkubek (C++) :white_check_mark:
-  - [zad14_ms](./src/cw8/zad14/zad14_ms.cpp): autor: @MrD4rkne (C) :white_check_mark:
+  - [zad14_ms](./src/cw8/zad14/zad14_ms.c): autor: @MrD4rkne (C) :white_check_mark:
 - [zad. 15.]
   - [zad15_ms](./src/cw8/zad15/zad15_ms.cpp): autor: @MrD4rkne (C++) :white_check_mark:
   - [zad15_jc](./src/cw8/zad15/zad15jc.cpp): autor: @pixelkubek (C++) :white_check_mark:
 - [zad. 16.]
   - [middle.c](./src/cw8/zad16/middle.c) (C)
   - [zad16_jc](./src/cw8/zad16/zad16jc.cpp): autor: @pixelkubek (C++) :white_check_mark:
-  - [zad16_ms](./src/cw8/zad16/zad16j_mscpp): autor: @MrD4rkne (C) :white_check_mark:
+  - [zad16_ms](./src/cw8/zad16/zad16_ms.c): autor: @MrD4rkne (C) :white_check_mark:
 - [zad. 17.]
   - [zad17_jc](./src/cw8/zad17/zad17jc.cpp): autor: @pixelkubek (C++) :white_check_mark:
+  - [zad17_ms](./src/cw8/zad17/zad17_ms.c): autor: @MrD4rkne (C) :white_check_mark:
 
 ## Laboratoria
 
