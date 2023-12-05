@@ -15,13 +15,16 @@ int nawiasy(char arr[]){
         if(arr[i] == ')' && s.top() != -1 && arr[s.top()] == '('){
             s.pop();
             wynik = max(wynik, i - s.top());
+        } else if(arr[i] == ')' and s.top() == -1){
+            s.pop();
+            s.push(i);
         }
     }
     return wynik;
 }
 
 int main(){
-    char string[] = "()))(()())((((()()())()";
+    char string[] = "()())()()()";
     printf("%i\n", nawiasy(string));
     return 0;
 }
