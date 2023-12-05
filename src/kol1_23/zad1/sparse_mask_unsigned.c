@@ -8,16 +8,14 @@ złożoność czasowa:
 
 złożoność pamięciowa:
     M(n) = O(n)
+
+JESCZE KRÓTSZY KOD!!!
 */
 
-#include <limits.h>
-
-int sparse_mask(int n) {
-    return n & ((INT_MAX / 3) << 1 + 1);
-}
+int s(int n){return n&~0u/3;}
 
 #include <stdio.h>
 
 int main() {
-    printf("%d", sparse_mask(-44));
+    printf("%d", s(-44));
 }

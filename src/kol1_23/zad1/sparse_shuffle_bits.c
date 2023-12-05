@@ -1,9 +1,5 @@
 /*
 złożoność czasowa:
-    przy założeniu, że operacje bitowe i arytmetyczne są w O(1):
-    T(n) = O(1)
-
-    tak naprawdę:
     T(n) = O(n)
 
 złożoność pamięciowa:

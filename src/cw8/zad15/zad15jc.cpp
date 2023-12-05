@@ -1,5 +1,6 @@
 #include<stdio.h>
 #include<stdlib.h>
+#include<algorithm>
 
 typedef struct node *bin_tree;
 struct node {
@@ -30,14 +31,15 @@ void _odchudzanie(bin_tree t, int &suma){
         int l_pod, p_pod;
         _odchudzanie(t->left, l_pod);
         _odchudzanie(t->right, p_pod);
-        if(l_pod == 0) t->left = NULL;
-        if(p_pod == 0) t->right = NULL;
-        if(t->val + l_pod + p_pod <= 0){ //usuwam sie
-            usun_drzewo(t);
-            suma = 0;
-        } else {
-            suma = l_pod + p_pod + t->val;
+        if(l_pod <= 0){
+            usun_drzewo(t->left);
+            t->left = NULL;
         }
+        if(p_pod <= 0){
+            usun_drzewo(t->right);
+            t->right = NULL;
+        }
+        suma = std::max(l_pod, 0) + std::max(p_pod, 0) + t->val;
     }
 }
 
