@@ -195,6 +195,7 @@ _WDP\* MIM UW_
 - [zad. 6.]
   - [rejs](./src/cw7/zad6/rejs.cpp) (C++)
   - [zad6_ms](./src/cw7/zad6/zad6_ms.cpp): autor: @MrD4rkne (C++) :white_check_mark:
+  - [zad6_jc](./src/cw7/zad6/zad6jc.cpp): autor: @pixelkubek (C++) :white_check_mark:
 
 ### Ćwiczenia VIII: [Listy i drzewa](WDP_.Inf.23_24Z__Listy_i_drzewa.pdf) 2023.11.29
 
