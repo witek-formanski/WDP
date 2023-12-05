@@ -206,6 +206,7 @@ _WDP\* MIM UW_
   - [zad1_jc](./src/cw8/zad1/zad1jc.cpp): autor: @pixelkubek (C++) :white_check_mark:
 - [zad. 2.]
   - [zad2_jc](./src/cw8/zad2/zad2jc.cpp): autor: @pixelkubek (C++) :white_check_mark:
+  - [zad2_ms](./src/cw8/zad2/zad2_ms.cpp): autor: @MrD4rkne (C++) :white_check_mark:
 - [zad. 3.]
   - [concatenate_lists](./src/cw8/zad3/concatenate_lists.c) (C)
   - [zad3_ms](./src/cw8/zad3/zad3_ms.cpp): autor: @MrD4rkne (C++) :white_check_mark:  
@@ -220,6 +221,7 @@ _WDP\* MIM UW_
   - [find_cycle_reverse_sum](./src/cw8/zad6/find_cycle_reverse_sum.cpp) (C++)
   - [find_cycle_runners](./src/cw8/zad6/find_cycle_reverse.cpp) (C++)
   - [zad6_jc](./src/cw8/zad6/zad6jc.cpp): autor: @pixelkubek (C++) :white_check_mark:
+  - [zad6_ms](./src/cw8/zad6/zad6_ms.cpp): autor: @MrD4rkne (C++) :white_check_mark:
 - [zad. 7.]
   - [general_tree](./src/cw8/zad7/general_tree.c) (C)
   - [zad7_ms](./src/cw8/zad7/zad7_ms.cpp): autor: @MrD4rkne (C++) :white_check_mark:
@@ -242,7 +244,9 @@ _WDP\* MIM UW_
   - [zad13_ms](./src/cw8/zad13/zad13_ms.cpp): autor: @MrD4rkne (C) :white_check_mark:
 - [zad. 14.]
   - [zad14_jc](./src/cw8/zad14/zad14jc.cpp): autor: @pixelkubek (C++) :white_check_mark:
+  - [zad14_ms](./src/cw8/zad14/zad14_ms.cpp): autor: @MrD4rkne (C) :white_check_mark:
 - [zad. 15.]
+  - [zad15_ms](./src/cw8/zad15/zad15_ms.cpp): autor: @MrD4rkne (C++) :white_check_mark:
   - [zad15_jc](./src/cw8/zad15/zad15jc.cpp): autor: @pixelkubek (C++) :white_check_mark:
 - [zad. 16.]
   - [](./src/cw8/zad16/middle.c) (C)
@@ -292,6 +296,11 @@ _wkrótce_
 
 - [zad. 1.]
 - [zad. 2.]
+
+## [Kolukwium I 2012/2013]
+
+- [zad. 2.]
+  - [zad2_ms](./src/kol1_12/zad2_ms.cpp): autor @MrD4rkne
 
 ### Inne
 
