@@ -240,7 +240,7 @@ _WDP\* MIM UW_
 - [zad. 14.]
   - [zad14_jc](./src/cw8/zad14/zad14jc.cpp): autor: @pixelkubek (C++) :white_check_mark:
 - [zad. 15.]
-  - [zad15_jc](./src/cw8/zad15/zad15jc.cpp): autor: @pixelkubek (C++) :x:
+  - [zad15_jc](./src/cw8/zad15/zad15jc.cpp): autor: @pixelkubek (C++) :white_check_mark:
 - [zad. 16.]
   - [](./src/cw8/zad16/middle.c) (C)
   - [zad16_jc](./src/cw8/zad16/zad16jc.cpp): autor: @pixelkubek (C++) :white_check_mark:
