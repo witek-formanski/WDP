@@ -298,6 +298,11 @@ _wkrótce_
 - [zad. 1.]
 - [zad. 2.]
 
+## [Kolukwium II 2023/2024]
+
+- [zad. 1.]
+  - [zad1_ms](./src/kol2_23/zad1_ms.cpp): autor @MrD4rkne :white_check_mark:
+
 ## [Kolukwium I 2012/2013]
 
 - [zad. 2.]
