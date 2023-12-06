@@ -145,12 +145,12 @@ _WDP\* MIM UW_
 - [zad. 4.]
   - [zad_4](./src/cw6/zad4/zad4.cpp): autor: @pixelkubek (C++) :x:
   - [zad_4](./src/cw6/zad4/zad4_ms.cpp): autor: @MrD4rkne (C++) :white_check_mark:
-- [zad. 5.]
+- [zad. 5.] stos indeksów, które wskazują na rosnące elementy; jeżeli
   - [katastrofy](./src/cw6/zad5/katastrofy.cpp) (C++) :white_check_mark::microscope:
   - [wtc_ms](./src/cw6/zad5/wtc_ms.cpp): autor: @MrD4rkne (C++) :white_check_mark:
 - [zad. 6.]
   - [zad_6](./src/cw6/zad6/zad6.cpp): autor: @pixelkubek (C++) :white_check_mark:
-- [zad. 7.]
+- [zad. 7.] stos indeksów
   - [scyscrapers_rectangle_field](./src/cw6/zad7/scyscrapers_rectangle_field.cpp) (C++)
   - [zad_7](./src/cw6/zad7/zad7_skyline.cpp): autor: @pixelkubek (C++) :white_check_mark:
   - [zad7_ms](./src/cw6/zad7/zad7_ms.cpp): autor: @MrD4rkne (C++) :white_check_mark:
@@ -171,13 +171,13 @@ _WDP\* MIM UW_
 
 ### Ćwiczenia VII: [Zastosowanie sortowania](WDP_.Inf.23_24Z__Zastosowanie_sortowania.pdf)
 
-- [zad. 1.]
+- [zad. 1.] znaleźć medianę, potem abs(t[i] - median) dla każdego elementu
   - [bars](./src/cw7/zad1/bars.cpp) (C++)
   - [bars_linear](./src/cw7/zad1/bars_linear.cpp) (C++)
   - [median_of_medians](./src/cw7/zad1/median_of_medians.cpp) (C++)
   - [zad1_ms](./src/cw7/zad1/zad1_ms.cpp): autor: @MrD4rkne (C++) :white_check_mark:
   - [zad1_jc](./src/cw7/zad1/zad1jc.cpp): autor: @pixelkubek (C++)
-- [zad. 2.]
+- [zad. 2.] O(n), wystarczy sprawdzić trójki elementów dla indeksów k = j + 1 = i + 2
   - [contains_triangle](./src/cw7/zad2/contains_triangle.cpp) (C++)
   - [zad2_ms](./src/cw7/zad2/zad2_ms.cpp): autor: @MrD4rkne (C++) :white_check_mark:
   - [zad2_jc](./src/cw7/zad2/zad2jc.cpp): autor: @pixelkubek (C++)
