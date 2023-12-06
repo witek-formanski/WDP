@@ -39,10 +39,10 @@ int get_max_islands_count(const std::vector<int> v) {
     
     std::sort(ind.begin(), ind.end(), second_smaller);
 
-    for (int i = 0; i < ind.size(); i++) {
+    for (int i = ind.size() - 1; i > 0; i--) {
         visited[ind[i].first] = true;
 
-        if (emerged_peak(ind, visited, i)) 
+        if (emerged_peak(ind, visited, i))
             max_count = std::max(++count, max_count);
         else if (flooded_peak(ind, visited, i)) 
             max_count = std::max(--count, max_count);
@@ -54,6 +54,6 @@ int get_max_islands_count(const std::vector<int> v) {
 #include <iostream>
 
 int main() {
-    std::vector<int> v = {5, 12, 4, 10, 24, 12, 18, 42, 30, 20, 35, 8};
+    std::vector<int> v = {5, 12, 4, 10, 24, 20, 12, 18, 42, 30, 20, 35, 8};
     std::cout << get_max_islands_count(v);
 }
