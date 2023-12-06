@@ -155,7 +155,7 @@ _WDP\* MIM UW_
   - [zad_7](./src/cw6/zad7/zad7_skyline.cpp): autor: @pixelkubek (C++) :white_check_mark:
   - [zad7_ms](./src/cw6/zad7/zad7_ms.cpp): autor: @MrD4rkne (C++) :white_check_mark:
 - [zad. 8.]
-  - [zad_8](./src/cw6/zad8/zad8.cpp): autor: @pixelkubek (C++) :white_check_mark:
+  - [zad_8](./src/cw6/zad8/zad8.cpp): autor: @pixelkubek (C++) :x:
 - [zad. 9.]
   - [zad_9](./src/cw6/zad9/zad9_Zeckendorf.c): autor: @pixelkubek (C) :white_check_mark:
   - [zad9_ms](./src/cw6/zad9/zad9_ms.cpp): autor: @MrD4rkne (C++) :white_check_mark:
@@ -163,7 +163,7 @@ _WDP\* MIM UW_
   - [zad_10](./src/cw6/zad10/zad10.cpp): autor: @pixelkubek (C++) :white_check_mark:
   - [zad_10_ms](./src/cw6/zad10/zad10_ms.cpp): autor: @MrD4rkne (C++) :white_check_mark:
 - [zad. 11.]
-  - [zad_11](./src/cw6/zad11/zad11.cpp): autor: @pixelkubek (C++) :white_check_mark:
+  - [zad_11](./src/cw6/zad11/zad11.cpp): autor: @pixelkubek (C++) :x: (gorsza zlozonosc dla powtarzajacych sie elementow)
 - [zad. 12.]
   - [fibonacci_word](./src/cw6/zad12/fibonacci_word.cpp) (C++)
   - [slowa](./src/cw6/zad12/slowa.cpp): autor: @MrD4rkne (C++)
@@ -299,6 +299,11 @@ _wkrótce_
 
 - [zad. 1.]
 - [zad. 2.]
+
+## [Kolukwium II 2023/2024]
+
+- [zad. 1.]
+  - [zad1_ms](./src/kol2_23/zad1_ms.cpp): autor @MrD4rkne :white_check_mark:
 
 ## [Kolukwium I 2012/2013]
 
