@@ -5,7 +5,7 @@ int ile_zer(int a, int b) {
 int count_zeros(int a) {
     int exponent;
     int count = 0;
-    while(exponent < b) {
-        count += (b / pow(10, exponent) ) * pow(10, exponent - 1);
+    while(exponent < a) {
+        count += (a / pow(10, exponent) ) * pow(10, exponent - 1);
     }
 }

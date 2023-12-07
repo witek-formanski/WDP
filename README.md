@@ -6,14 +6,14 @@ _WDP\* MIM UW_
 
 ## Ćwiczenia
 
-### Ćwiczenia I: [Wstęp](./pdf/WDP_.Inf.23_24Z__Wstęp.pdf) 2023.10.02
+### Ćwiczenia I: [Wstęp](./pdf/WDP_.Inf.23_24Z__Wstęp.pdf)
 
 - [rectangles_intersection](./src/cw1/zad1/rectangles_intersection.cpp): [zad. 1.] prostokąty; rzutowanie na osie (C++) :white_check_mark::microscope:
 - [line_segments_intersection](./src/cw1/zad2/line_segments_intersection.cpp): [zad. 2.] odcinki; sprawdzanie, z której strony jest punkt (C++) :white_check_mark::microscope:
 - [parallelograms_intersection](./src/cw1/zad3/parallelograms_intersection.cpp): [zad. 3.] równoległoboki; sprawdzanie punktów wewnątrz i przecinania się przekątnych (C++)
 - [point_inside_polygon](./src/cw1/zad4/point_inside_polygon.cpp): [zad. 4.] czy punkt leży wewnątrz dowolnego wielokąta
 
-### Ćwiczenia II: [Funkcje operujące na liczbach](./pdf/WDP_.Inf.23_24Z__Funkcje_operujące_na_liczbach.pdf) 2023.10.04, 2023.10.09
+### Ćwiczenia II: [Funkcje operujące na liczbach](./pdf/WDP_.Inf.23_24Z__Funkcje_operujące_na_liczbach.pdf)
 
 - [parity_degree](./src/cw2/zad1/parity_degree.c): [zad. 1.] stopień parzystości (C) :white_check_mark:
 - [reverse](./src/cw2/zad2/reverse.c): [zad. 2.] odwracanie kolejności cyfr w liczbie (C) :white_check_mark:
@@ -31,7 +31,7 @@ _WDP\* MIM UW_
 - [count_zeros](./src/cw2/zad10/count_zeros.c): [zad. 10.] ile jest zer na końcu n! (C)
 - [count_ones](./src/cw2/zad12/count_ones.c): [zad. 12.] ile jest jedynek w zapisie binarnym liczby n (C)
 
-### Ćwiczenia III: [Zadania na tablice](./pdf/WDP_.Inf.23_24Z__Zadania_na_tablice.pdf) 2023.10.09, 2023.10.11, 2023.10.16
+### Ćwiczenia III: [Zadania na tablice](./pdf/WDP_.Inf.23_24Z__Zadania_na_tablice.pdf)
 
 - [zad. 1.] obrót tablicy
   - [rotate_table](./src/cw3/zad1/rotate_table.c) (C)
@@ -76,7 +76,7 @@ _WDP\* MIM UW_
   - [diff_diff_seq_fam](./src/cw3/zad17/diff_diff_seq_fam.c) (C) :white_check_mark::microscope:
 
 
-### Ćwiczenia IV: [Złożoność czasowa i pamięciowa](./pdf/WDP_.Inf.23_24Z__Złożoność_czasowa_i_pamięciowa.pdf) 2023.10.18
+### Ćwiczenia IV: [Złożoność czasowa i pamięciowa](./pdf/WDP_.Inf.23_24Z__Złożoność_czasowa_i_pamięciowa.pdf)
 
 - [zad. 1.] $n^{3}$
 - [zad. 2.] $n^{4}$
@@ -87,7 +87,7 @@ _WDP\* MIM UW_
   - [hanoi](./src/cw4/zad6_1/hanoi.c) (C) :white_check_mark:
   - [print_hanoi](./src/cw4/zad6_2/print_hanoi.c) (C)
 
-### Ćwiczenia V: [Zliczanie, sumy_prefiksowe, gąsienica, bisekcja](./pdf/WDP_.Inf.23_24Z__Zliczanie,_sumy_prefiksowe,_gąsienica,_bisekcja_.pdf) 2023.10.23, 2023.10.25, 2023.11.06
+### Ćwiczenia V: [Zliczanie, sumy_prefiksowe, gąsienica, bisekcja](./pdf/WDP_.Inf.23_24Z__Zliczanie,_sumy_prefiksowe,_gąsienica,_bisekcja_.pdf)
 
 - [zad. 1.]
   - [sum_table_brute](./src/cw5/zad1/sum_table_brute.c) (C) :white_check_mark:
@@ -133,7 +133,7 @@ _WDP\* MIM UW_
 - [zad. 18.]
   - [zad18](./src/cw5/zad18/zad18.c): autor: @pixelkubek (C) :white_check_mark:
 
-### Ćwiczenia VI: [Stosy, kolejki i koszt zamortyzowany](./pdf/WDP_.Inf.23_24Z__Stosy,_kolejki_i_koszt_zamortyzowany.pdf) 2023.11.13
+### Ćwiczenia VI: [Stosy, kolejki i koszt zamortyzowany](./pdf/WDP_.Inf.23_24Z__Stosy,_kolejki_i_koszt_zamortyzowany.pdf)
 
 - [zad. 2.]
   - [lifo_stack](./src/cw6/zad2/lifo_stack.cpp) (C++)
@@ -160,6 +160,7 @@ _WDP\* MIM UW_
   - [zad_9](./src/cw6/zad9/zad9_Zeckendorf.c): autor: @pixelkubek (C) :white_check_mark:
   - [zad9_ms](./src/cw6/zad9/zad9_ms.cpp): autor: @MrD4rkne (C++) :white_check_mark:
 - [zad. 10.]
+  - [parentheses](./src/cw6/zad10/parentheses.cpp) (C++) :white_check_mark:
   - [zad_10](./src/cw6/zad10/zad10.cpp): autor: @pixelkubek (C++) :white_check_mark:
   - [zad_10_ms](./src/cw6/zad10/zad10_ms.cpp): autor: @MrD4rkne (C++) :white_check_mark:
 - [zad. 11.]
@@ -169,7 +170,7 @@ _WDP\* MIM UW_
   - [slowa](./src/cw6/zad12/slowa.cpp): autor: @MrD4rkne (C++)
   - [zad_12](./src/cw6/zad12/zad12.cpp): autor: @pixelkubek (C++) :white_check_mark:
 
-### Ćwiczenia VII: [Zastosowanie sortowania](WDP_.Inf.23_24Z__Zastosowanie_sortowania.pdf)
+### Ćwiczenia VII: [Zastosowanie sortowania](./pdf/WDP_.Inf.23_24Z__Zastosowanie_sortowania.pdf)
 
 - [zad. 1.] znaleźć medianę, potem abs(t[i] - median) dla każdego elementu
   - [bars](./src/cw7/zad1/bars.cpp) (C++)
@@ -201,7 +202,7 @@ _WDP\* MIM UW_
 - [zad. 7.] ilu maksymalnie dni może trwać rejs, w którym bierze udział k kolegów Tomka (koledzy nie mogą się zamieniać)
   - [zad_7](./src/cw7/zad7/zad7jc.cpp): pomysł: @lbozyk, autor: @pixelkubek :white_check_mark:
 
-### Ćwiczenia VIII: [Listy i drzewa](WDP_.Inf.23_24Z__Listy_i_drzewa.pdf) 2023.11.29
+### Ćwiczenia VIII: [Listy i drzewa](./pdf/WDP_.Inf.23_24Z__Listy_i_drzewa.pdf)
 
 - [zad. 1.]
   - [zad1_ms](./src/cw8/zad1/zad1_ms.cpp): autor: @MrD4rkne (C++) :white_check_mark:
@@ -258,14 +259,20 @@ _WDP\* MIM UW_
   - [zad17_jc](./src/cw8/zad17/zad17jc.cpp): autor: @pixelkubek (C++) :white_check_mark:
   - [zad17_ms](./src/cw8/zad17/zad17_ms.c): autor: @MrD4rkne (C) :white_check_mark:
 
+### Ćwiczenia IX: [Find-union i grafy](./pdf/WDP_.Inf.23_24Z__Find-Union_i_Grafy.pdf)
+
+- [zad. 1.] skarbonki z kluczykami - graf cykliczny
+  - [piggybanks_dfs](./src/cw9/zad1/piggybanks_dfs.cpp) zliczanie zamkniętych cykli poprzez skakanie po indeksach
+  - [piggybanks_find_union](./src/cw9/zad1/piggybanks_find_union.cpp) zliczanie zamkniętych cykli poprzez obliczanie find-union
+
 ## Laboratoria
 
-### Laboratorium I: [Podzielny fragment ciągu](./pdf/WDP_.Inf.23_24Z__Laboratorium_1__rozgrzewka.pdf) 2023.10.04
+### Laboratorium I: [Podzielny fragment ciągu](./pdf/WDP_.Inf.23_24Z__Laboratorium_1__rozgrzewka.pdf)
 
 - [divisible_sequence](./src/lab1/divisible_sequence.c): najdłuższy dzielny fragment ciągu (C) :white_check_mark::microscope:
 - [divisible_sequence](./src/lab1/divisible_sequence.cpp): najdłuższy dzielny fragment ciągu (C++) :white_check_mark::microscope:
 
-### Laboratorium II: [Gra w skakanie (NWD)](./pdf/WDP_.Inf.23_24Z__Zadanie_rozgrzewkowe_2.pdf) 2023.10.11
+### Laboratorium II: [Gra w skakanie (NWD)](./pdf/WDP_.Inf.23_24Z__Zadanie_rozgrzewkowe_2.pdf)
 
 - [game.c](./src/lab2/game.c): strategia wygrywająca (C) :white_check_mark::microscope:
 - [game.h](./src/lab2/game.h): prototyp funkcji :white_check_mark::microscope:
@@ -274,6 +281,13 @@ _WDP\* MIM UW_
 ## Zadania zaliczeniowe z laboratoriów
 
 _wkrótce_
+
+- Arytmetyka
+  - [ary.h](./src/lab_zal/ary/ary.h)
+- Trzy różne
+- Origami
+- Kolejki
+  - [kol.h](./src/lab_zal/kol/kol.h)
 
 ## Kolokwia
 
@@ -303,18 +317,23 @@ _wkrótce_
 ## [Kolukwium II 2023/2024]
 
 - [zad. 1.]
-  - [zad1_ms](./src/kol2_23/zad1_ms.cpp): autor @MrD4rkne :white_check_mark:
+  - [islands](./src/kol2_23/zad1/islands.cpp) (C++) :white_check_mark:
+  - [zad1_ms](./src/kol2_23/zad1/zad1_ms.cpp): autor @MrD4rkne (C++) :white_check_mark:
 
 ## [Kolukwium I 2012/2013]
 
 - [zad. 2.]
-  - [zad2_ms](./src/kol1_12/zad2_ms.cpp): autor @MrD4rkne
+  - [rotate_double_cycled_list](./src/kol2_23/zad2/rotate_double_cycled_list.c) (C) :white_check_mark:
+  - [zad2_ms](./src/kol1_12/zad2_ms.cpp): autor @MrD4rkne (C++)
 
 ### Inne
 
-- [fibonacci_matrix](./src/other/fibonacci_matrix.c)
-- [fibonacci](./src/other/fibonacci.c)
-- [cola 42](./src/other/cola.cpp)
+- Fibonacci
+  - [fibonacci_matrix](./src/other/fibonacci_matrix.c)
+  - [fibonacci](./src/other/fibonacci.c)
+- Thue-Morse
+  - [cola 42](./src/other/cola.cpp)
+- [exists](./other/exists.c)
 
 ## Legenda
 
