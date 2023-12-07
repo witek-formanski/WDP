@@ -314,13 +314,13 @@ _wkrótce_
 - [zad. 1.]
 - [zad. 2.]
 
-## [Kolukwium II 2023/2024]
+## [Kolokwium II 2023/2024]
 
 - [zad. 1.]
   - [islands](./src/kol2_23/zad1/islands.cpp) (C++) :white_check_mark:
   - [zad1_ms](./src/kol2_23/zad1/zad1_ms.cpp): autor @MrD4rkne (C++) :white_check_mark:
 
-## [Kolukwium I 2012/2013]
+## [Kolokwium I 2012/2013]
 
 - [zad. 2.]
   - [rotate_double_cycled_list](./src/kol2_23/zad2/rotate_double_cycled_list.c) (C) :white_check_mark:
