@@ -12,7 +12,6 @@ int wyspy(vector<vector<bool>> &adj){
 	int n=adj.size(), m=adj[0].size(), ans=0;
 	vector<vector<bool>> vis(n, vector<bool>(m, 0));
 	deque<array<int, 3>> dq;
-	//vector<vector<int>> res(n, vector<int>(m, 0));
 	for (int i=0; i<m; ++i){
 		vis[0][i]=vis[n-1][i]=1;
 		if(adj[0][i])
@@ -25,7 +24,7 @@ int wyspy(vector<vector<bool>> &adj){
 			dq.push_front({0, n-1, i});
 	}
 	for (int i=0; i<n; ++i){
-		vis[i][0]=vis[i][n-1]=1;
+		vis[i][0]=vis[i][m-1]=1;
 		if(adj[i][0])
 			dq.push_back({1, i, 0});
 		else 
