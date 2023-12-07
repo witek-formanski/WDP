@@ -35,7 +35,7 @@ int rejs(int k, const vector<int> start, const vector<int> end) {
     pre[0] = a[0][1];
     for (int i = 1; i < n; ++i)
         pre[i] = pre[i - 1] + a[i][1];
-    int lb = 1, rb = (int)start.size() + 1;  // [0, ilosc kolegow)
+    int lb = 1, rb = (int)start.size() + 1;  // [1, ilosc kolegow)
     while (lb < rb) {
         int mb = (lb + rb) / 2;
         if (ok(pre, a, mb, k))
