@@ -263,7 +263,7 @@ _WDP\* MIM UW_
 
 - [zad. 1.] skarbonki z kluczykami - graf cykliczny
   - [piggybanks_dfs](./src/cw9/zad1/piggybanks_dfs.cpp) zliczanie zamkniętych cykli poprzez skakanie po indeksach
-  - [piggybanks_find_union](./src/cw9/zad1/piggybanks_find_union.cpp) zliczanie zamkniętych cykli poprzez obliczanie find-union
+  - [piggybanks_find_union](./src/cw9/zad1/piggybanks_find_union.cpp) zliczanie zamkniętych cykli z pomocą grafu find-union
 - [zad. 9.] wyspy - graf macierz
   - [wyspy](./src/cw9/zad9/wyspy.cpp): zlicza maksymalny rząd wyspy na mapie używając BFS+deque
 ## Laboratoria
