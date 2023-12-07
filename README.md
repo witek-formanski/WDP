@@ -145,8 +145,8 @@ _WDP\* MIM UW_
 - [zad. 4.]
   - [zad_4](./src/cw6/zad4/zad4.cpp): autor: @pixelkubek (C++) :x:
   - [zad_4](./src/cw6/zad4/zad4_ms.cpp): autor: @MrD4rkne (C++) :white_check_mark:
-- [zad. 5.] stos indeksów, które wskazują na rosnące elementy; jeżeli
-  - [katastrofy](./src/cw6/zad5/katastrofy.cpp) (C++) :white_check_mark::microscope:
+- [zad. 5.]
+  - [katastrofy](./src/cw6/zad5/katastrofy.cpp) stos indeksów, które wskazują na rosnące elementy (C++) :white_check_mark::microscope:
   - [wtc_ms](./src/cw6/zad5/wtc_ms.cpp): autor: @MrD4rkne (C++) :white_check_mark:
 - [zad. 6.]
   - [zad_6](./src/cw6/zad6/zad6.cpp): autor: @pixelkubek (C++) :white_check_mark:
@@ -172,14 +172,14 @@ _WDP\* MIM UW_
 
 ### Ćwiczenia VII: [Zastosowanie sortowania](./pdf/WDP_.Inf.23_24Z__Zastosowanie_sortowania.pdf)
 
-- [zad. 1.] znaleźć medianę, potem abs(t[i] - median) dla każdego elementu
-  - [bars](./src/cw7/zad1/bars.cpp) (C++)
-  - [bars_linear](./src/cw7/zad1/bars_linear.cpp) (C++)
+- [zad. 1.] 
+  - [bars](./src/cw7/zad1/bars.cpp) O(nlogn) znaleźć medianę, potem abs(t[i] - median) dla każdego elementu (C++)
+  - [bars_linear](./src/cw7/zad1/bars_linear.cpp) O(n) liniowe znajdowanie mediany (C++)
   - [median_of_medians](./src/cw7/zad1/median_of_medians.cpp) (C++)
   - [zad1_ms](./src/cw7/zad1/zad1_ms.cpp): autor: @MrD4rkne (C++) :white_check_mark:
   - [zad1_jc](./src/cw7/zad1/zad1jc.cpp): autor: @pixelkubek (C++)
-- [zad. 2.] O(n), wystarczy sprawdzić trójki elementów dla indeksów k = j + 1 = i + 2
-  - [contains_triangle](./src/cw7/zad2/contains_triangle.cpp) (C++)
+- [zad. 2.] 
+  - [contains_triangle](./src/cw7/zad2/contains_triangle.cpp) O(n), wystarczy sprawdzić trójki elementów dla indeksów k = j + 1 = i + 2 (C++)
   - [zad2_ms](./src/cw7/zad2/zad2_ms.cpp): autor: @MrD4rkne (C++) :white_check_mark:
   - [zad2_jc](./src/cw7/zad2/zad2jc.cpp): autor: @pixelkubek (C++)
 - [zad. 3.]
@@ -314,14 +314,22 @@ _wkrótce_
 - [zad. 1.]
 - [zad. 2.]
 
-## [Kolokwium II 2023/2024]
+### [Kolokwium I 2023/2024](./pdf/2023_I_Kolokwium.pdf)
+
+- [zad. 1.]
+  - [sparse_mask](./src/kol1_23/zad1/sparse_mask.c) O(1) (INT_MAX / 3) << 1 + 1 (C) :white_check_mark:
+  - [sparse_mask_unsigned](./src/kol1_23/zad1/sparse_mask.c) O(1) ~0u/3 (C) :white_check_mark:
+  - [sparse_shuffle_bits](./src/kol1_23/zad1/sparse_mask.c) O(N) liniowe tasowanie bitów (C) :white_check_mark:
+- [zad. 2.]
+  - [fragments_two_pointers](./src/kol1_23/zad2/fragments_two_pointers.c): O(n) gąsienica (C) :white_check_mark:
+  - [fragments_binsearch](./src/kol1_23/zad2/fragments_binsearch.c): O(nlogn) binsearch po wyniku (C) :white_check_mark:
+  - [caterpillar_bozyk](./src/kol1_23/zad2/caterpillar_bozyk.c): O(n) gąsienica, autor: @lbozyk (C) :white_check_mark:
+
+## [Kolokwium II 2023/2024](./pdf/2023_II_Kolokwium.pdf)
 
 - [zad. 1.]
   - [islands](./src/kol2_23/zad1/islands.cpp) (C++) :white_check_mark:
   - [zad1_ms](./src/kol2_23/zad1/zad1_ms.cpp): autor @MrD4rkne (C++) :white_check_mark:
-
-## [Kolokwium I 2012/2013]
-
 - [zad. 2.]
   - [rotate_double_cycled_list](./src/kol2_23/zad2/rotate_double_cycled_list.c) (C) :white_check_mark:
   - [zad2_ms](./src/kol1_12/zad2_ms.cpp): autor @MrD4rkne (C++)
