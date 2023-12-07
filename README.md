@@ -325,13 +325,13 @@ _wkrótce_
   - [fragments_binsearch](./src/kol1_23/zad2/fragments_binsearch.c): O(nlogn) binsearch po wyniku (C) :white_check_mark:
   - [caterpillar_bozyk](./src/kol1_23/zad2/caterpillar_bozyk.c): O(n) gąsienica, autor: @lbozyk (C) :white_check_mark:
 
-## [Kolokwium II 2023/2024](./pdf/2023_II_Kolokwium.pdf)
+### [Kolokwium II 2023/2024](./pdf/2023_II_Kolokwium.pdf)
 
 - [zad. 1.]
-  - [islands](./src/kol2_23/zad1/islands.cpp) (C++) :white_check_mark:
+  - [islands](./src/kol2_23/zad1/islands.cpp) O(n logn) sortowanie indeksów względem oryginalnych wartości, liniowe "zalewanie" wysp (C++) :white_check_mark:
   - [zad1_ms](./src/kol2_23/zad1/zad1_ms.cpp): autor @MrD4rkne (C++) :white_check_mark:
 - [zad. 2.]
-  - [rotate_double_cycled_list](./src/kol2_23/zad2/rotate_double_cycled_list.c) (C) :white_check_mark:
+  - [rotate_double_cycled_list](./src/kol2_23/zad2/rotate_double_cycled_list.c) O(n) przepinanie wskaźników (C) :white_check_mark:
   - [zad2_ms](./src/kol1_12/zad2_ms.cpp): autor @MrD4rkne (C++)
 
 ### Inne
