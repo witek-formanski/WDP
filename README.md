@@ -266,6 +266,8 @@ _WDP\* MIM UW_
   - [piggybanks_find_union](./src/cw9/zad1/piggybanks_find_union.cpp) zliczanie zamkniętych cykli z pomocą grafu find-union
 - [zad. 9.] wyspy - graf macierz
   - [wyspy](./src/cw9/zad9/wyspy.cpp): zlicza maksymalny rząd wyspy na mapie używając BFS+deque
+- [zad. 10.] polaczenie
+  - [polaczenie](./src/cw9/zad10/polaczenie.cpp): BFS
 ## Laboratoria
 
 ### Laboratorium I: [Podzielny fragment ciągu](./pdf/WDP_.Inf.23_24Z__Laboratorium_1__rozgrzewka.pdf)
