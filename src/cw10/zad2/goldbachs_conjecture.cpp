@@ -6,16 +6,21 @@ M(n) = O(n)
 #include <stdexcept>
 #include <vector>
 
-// n > primes.back()
+/*
+O(sqrt(n))
+
+n > primes.back()
+*/
 bool is_next_prime(int n, const std::vector<int> primes) {
     if (n <= 1) return false;
 
-    for (int prime : primes)
-        if (n % prime == 0) return false;
+    for (int i = 0; primes[i] * primes[i] < n; i++)
+        if (n % primes[i] == 0) return false;
 
     return true;
 }
 
+// O(log(n))
 bool is_in_primes(int n, const std::vector<int> primes) {
     int l = 0, r = primes.size() - 1, m;
 
@@ -32,6 +37,7 @@ bool is_in_primes(int n, const std::vector<int> primes) {
     return primes[l] == n;
 }
 
+// O(n sqrt(n))
 std::vector<int> get_primes(int n) {
     if (n <= 1) return std::vector<int>();
 
@@ -44,6 +50,7 @@ std::vector<int> get_primes(int n) {
     return primes;
 }
 
+// O(n)
 std::vector<int> get_prime_summands_of_even_number(int n, const std::vector<int> primes) {
     if (n <= 3 || n % 2) 
         return std::vector<int>();
@@ -63,6 +70,7 @@ std::vector<int> get_prime_summands_of_even_number(int n, const std::vector<int>
     return std::vector<int>{primes[i], primes[j]};
 }
 
+// O(n sqrt(n))
 std::vector<int> get_prime_summands(int n) {
     if (n <= 1) return std::vector<int>();
 
