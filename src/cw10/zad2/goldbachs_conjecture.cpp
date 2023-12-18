@@ -76,27 +76,16 @@ std::vector<int> get_prime_summands(int n) {
         return std::vector<int>{2, n - 2};
 
     std::vector<int> summands = get_prime_summands_of_even_number(n - 3, primes);
-    summands.push_back(3);
-    return summands;
+    return std::vector<int>{3, summands[0], summands[1]};
 }
 
 #include <iostream>
 
 int main() {
-    // auto primes = get_primes(19);
-    // for (auto prime : primes)
-    //     std::cout << prime << "\n";
-    // std::cout << "\n";
-
-    // for (int i = 0; i < 30; i++)
-    //     std::cout << i << ": " << is_in_primes(i, primes) << "\n";
-
     for (int i = 0; i <= 100; i++) {
         std::cout << i << ": ";
         for (auto summand : get_prime_summands(i))
             std::cout << summand << " ";
         std::cout << "\n";
     }
-
-    // get_prime_summands(4);
 }
