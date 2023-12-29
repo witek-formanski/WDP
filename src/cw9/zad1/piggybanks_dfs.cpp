@@ -22,7 +22,7 @@ int piggybanks_dfs(std::vector<int> piggybanks) {
                 cycles[next_pig] = i;
                 next_pig = piggybanks[next_pig];
             }
-            if (next_pig == i) closed_cycles_count++;
+            if (cycles[next_pig] == i) closed_cycles_count++;
         }
     }
 
