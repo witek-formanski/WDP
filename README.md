@@ -264,10 +264,36 @@ _WDP\* MIM UW_
 - [zad. 1.] skarbonki z kluczykami - graf cykliczny
   - [piggybanks_dfs](./src/cw9/zad1/piggybanks_dfs.cpp) zliczanie zamkniętych cykli poprzez skakanie po indeksach
   - [piggybanks_find_union](./src/cw9/zad1/piggybanks_find_union.cpp) zliczanie zamkniętych cykli z pomocą grafu find-union
+  - [zad1_ms](./src/cw9/zad1/zad1_ms.cpp) autor: @MrD4rkne (C++) :white_check_mark:
+- [zad. 2.]
+  - [zad2_ms](./src/cw9/zad2/zad2_ms.cpp) autor: @MrD4rkne (C++) :white_check_mark:
+- [zad. 3.]
+  - [zad3_ms](./src/cw9/zad3/zad3_ms.cpp) autor: @MrD4rkne (C++) :white_check_mark:
 - [zad. 9.] wyspy - graf macierz
   - [wyspy](./src/cw9/zad9/wyspy.cpp): zlicza maksymalny rząd wyspy na mapie używając BFS+deque
+  - [zad9_ms](./src/cw9/zad9/zad9_ms.cpp) autor: @MrD4rkne (C++) :white_check_mark:
 - [zad. 10.] polaczenie
   - [polaczenie](./src/cw9/zad10/polaczenie.cpp): BFS
+  - [zad10_ms](./src/cw9/zad10/zad10_ms.cpp) autor: @MrD4rkne (C++) :white_check_mark:
+- [zad. 13.]
+  - [zad13_ms](./src/cw9/zad13/zad13_ms.cpp) autor: @MrD4rkne (C++) :white_check_mark:
+
+### Ćwiczenia X: [Backtracking]
+
+- [zad. 1.]
+  - [zad1_ms](./src/cw10/zad1/zad1_ms.cpp) autor: @MrD4rkne (C++) :white_check_mark:
+- [zad. 2.]
+  - [zad2_ms](./src/cw10/zad2/zad2_ms.cpp) autor: @MrD4rkne (C++) :white_check_mark:
+- [zad. 3.]
+  - [zad3_ms](./src/cw10/zad3/zad3_ms.cpp) autor: @MrD4rkne (C++) :white_check_mark:
+
+### Ćwiczenia XI: [Spamiętywanie i programowanie dynamiczne]
+
+- [zad. 4.]
+  - [zad4_ms](./src/cw11/zad4/zad4_ms.cpp) autor: @MrD4rkne (C++) :white_check_mark:
+- [zad. 7.]
+  - [zad7_ms](./src/cw11/zad7/zad7_ms.cpp) autor: @MrD4rkne (C++) :white_check_mark:
+
 ## Laboratoria
 
 ### Laboratorium I: [Podzielny fragment ciągu](./pdf/WDP_.Inf.23_24Z__Laboratorium_1__rozgrzewka.pdf)
