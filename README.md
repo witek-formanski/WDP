@@ -289,10 +289,22 @@ _WDP\* MIM UW_
 
 ### Ćwiczenia XI: [Spamiętywanie i programowanie dynamiczne]
 
+- [zad. 1.]
+  - [zad1_ms](./src/cw11/zad1/zad1_ms.cpp) autor: @MrD4rkne (C++) :white_check_mark:
+- [zad. 2.]
+  - [zad2_ms](./src/cw11/zad2/zad2_ms.cpp) autor: @MrD4rkne (C++) :white_check_mark:
+- [zad. 3.]
+  - [zad3_ms](./src/cw11/zad3/zad3_ms.cpp) autor: @MrD4rkne (C++) :white_check_mark:
 - [zad. 4.]
   - [zad4_ms](./src/cw11/zad4/zad4_ms.cpp) autor: @MrD4rkne (C++) :white_check_mark:
+- [zad. 5.]
+  - [zad5_ms](./src/cw11/zad5/zad5_ms.cpp) autor: @MrD4rkne (C++) :white_check_mark:
+- [zad. 6.]
+  - [zad6_ms](./src/cw11/zad6/zad6_ms.cpp) autor: @MrD4rkne (C++)
 - [zad. 7.]
   - [zad7_ms](./src/cw11/zad7/zad7_ms.cpp) autor: @MrD4rkne (C++) :white_check_mark:
+- [zad. 8.]
+  - [zad8_ms](./src/cw11/zad8/zad8_ms.cpp) autor: @MrD4rkne (C++) :white_check_mark:
 
 ## Laboratoria
 

@@ -5,6 +5,10 @@
 
 using namespace std;
 
+int **make_2d(int x, int y);
+void free_2d(int **dp, int y);
+void print(int **dp, int x, int y);
+
 int ileBanknotow(int k, int maxNominal, int *b, int *c, int **dp)
 {
     int min = INT32_MAX - 1;
@@ -37,32 +41,6 @@ int ileBanknotow(int k, int maxNominal, int *b, int *c, int **dp)
     return IMPOSSIBLE;
 }
 
-int **make_2d(int x, int y)
-{
-    int **ret = (int **)malloc((size_t)y * (sizeof(int *)));
-    for (int i = 0; i < y; i++)
-    {
-        ret[i] = (int *)malloc((size_t)x * sizeof(int));
-        for (int j = 0; j < x; j++)
-        {
-            ret[i][j] = 0;
-        }
-    }
-    return ret;
-}
-
-void print(int **dp, int x, int y)
-{
-    for (int i = 0; i < y; i++)
-    {
-        for (int j = 0; j < x; j++)
-        {
-            cout << dp[i][j] << " ";
-        }
-        cout << endl;
-    }
-}
-
 int banknoty(int k, int n, int *b, int *c)
 {
 
@@ -80,13 +58,8 @@ int banknoty(int k, int n, int *b, int *c)
         }
     }
 
-    for (int i = 0; i <= k; i++)
-    {
-        free(dp[i]);
-    }
-
     int ans = dp[k][n];
-    free(dp);
+    free_2d(dp, k + 1);
     return ans;
 }
 
@@ -115,4 +88,39 @@ int main()
 
     free(b);
     free(c);
+}
+
+int **make_2d(int x, int y)
+{
+    int **ret = (int **)malloc((size_t)y * (sizeof(int *)));
+    for (int i = 0; i < y; i++)
+    {
+        ret[i] = (int *)malloc((size_t)x * sizeof(int));
+        for (int j = 0; j < x; j++)
+        {
+            ret[i][j] = 0;
+        }
+    }
+    return ret;
+}
+
+void free_2d(int **dp, int y)
+{
+    for (int i = 0; i < y; i++)
+    {
+        free(dp[i]);
+    }
+    free(dp);
+}
+
+void print(int **dp, int x, int y)
+{
+    for (int i = 0; i < y; i++)
+    {
+        for (int j = 0; j < x; j++)
+        {
+            cout << dp[i][j] << " ";
+        }
+        cout << endl;
+    }
 }
