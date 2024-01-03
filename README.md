@@ -375,7 +375,8 @@ _wkrótce_
   - [rotate_double_cycled_list](./src/kol2_23/zad2/rotate_double_cycled_list.c) O(n) przepinanie wskaźników (C) :white_check_mark:
  
 ### Kolokwium I 2012/2013
- -[zad. 2.]
+
+- [zad. 2.]
   - [zad2_ms](./src/kol1_12/zad2_ms.cpp): autor @MrD4rkne (C++)
 
 ### Inne
