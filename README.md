@@ -305,6 +305,8 @@ _WDP\* MIM UW_
   - [zad7_ms](./src/cw11/zad7/zad7_ms.cpp) autor: @MrD4rkne (C++) :white_check_mark:
 - [zad. 8.]
   - [zad8_ms](./src/cw11/zad8/zad8_ms.cpp) autor: @MrD4rkne (C++) :white_check_mark:
+- [zad. 9.]
+  - [zad9_ms](./src/cw11/zad9/zad9_ms.cpp) autor: @MrD4rkne (C++) :white_check_mark:
 
 ## Laboratoria
 

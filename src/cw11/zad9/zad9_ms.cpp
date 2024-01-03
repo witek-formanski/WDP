@@ -19,11 +19,11 @@ int find_max_passengers_on_junction(int y, int x, int **dp)
 
 // T(n) = O(n^2)
 // M(n) = O(n^2)
-int autobus(int **passengers, int n)
+int autobus(int **passengers, int n, int m)
 {
-    int **dp = make_2d<int>(n, n, 0);
+    int **dp = make_2d<int>(n, m, 0);
     const int northStreet = n - 1;
-    const int eastStreet = n - 1;
+    const int eastStreet = m - 1;
 
     dp[eastStreet][northStreet] = passengers[eastStreet][northStreet];
 
@@ -47,12 +47,17 @@ int autobus(int **passengers, int n)
         for (int i = n - 1 - d; i >= 0; i--)
         {
             // north street walker
-            dp[i][northStreet - d] = passengers[i][northStreet - d] + find_max_passengers_on_junction(i, northStreet - d, dp);
+            if (northStreet - d >= 0)
+                dp[i][northStreet - d] = passengers[i][northStreet - d] + find_max_passengers_on_junction(i, northStreet - d, dp);
+
             // east street walker
-            dp[eastStreet - d][i] = passengers[eastStreet - d][i] + find_max_passengers_on_junction(eastStreet - d, i, dp);
+            if (eastStreet - d >= 0)
+                dp[eastStreet - d][i] = passengers[eastStreet - d][i] + find_max_passengers_on_junction(eastStreet - d, i, dp);
         }
     }
 
+    // cout<<endl;
+    // print(dp,n,m, print_number);
     int results = dp[0][0];
     free_2d(dp, n);
     return results;
@@ -60,11 +65,11 @@ int autobus(int **passengers, int n)
 
 int main()
 {
-    int n;
-    cin >> n;
+    int n,m;
+    cin >> n>>m;
 
-    int **passengers = make_2d<int>(n, n, 0);
-    for (int i = 0; i < n; i++)
+    int **passengers = make_2d<int>(n, m, 0);
+    for (int i = 0; i < m; i++)
     {
         for (int j = 0; j < n; j++)
         {
@@ -72,9 +77,9 @@ int main()
         }
     }
 
-    int results = autobus(passengers, n);
+    int results = autobus(passengers, n,m);
     cout << results << endl;
-    free_2d(passengers, n);
+    free_2d(passengers, m);
     return 0;
 }
 
