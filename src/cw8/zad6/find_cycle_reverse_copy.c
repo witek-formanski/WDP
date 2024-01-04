@@ -34,9 +34,10 @@ gdy pointery się zaczną różnić,
 natrafiliśmy na cykl
 wystarczy przeiterować się przez cykl
 aż nie natrafimy na pointer,
-od którego zaczęliśmy
+od którego zaczęliśmy 
+albo pamiętać poprzedni pointer
 2.
-bez reverse
+bez reverse(l) w pamięci
 liczymy długość przejścia listy od początku
 przez cykl i do początku, czyli
 a + b + a = 2a + b,
