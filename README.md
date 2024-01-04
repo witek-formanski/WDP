@@ -264,10 +264,50 @@ _WDP\* MIM UW_
 - [zad. 1.] skarbonki z kluczykami - graf cykliczny
   - [piggybanks_dfs](./src/cw9/zad1/piggybanks_dfs.cpp) zliczanie zamkniętych cykli poprzez skakanie po indeksach
   - [piggybanks_find_union](./src/cw9/zad1/piggybanks_find_union.cpp) zliczanie zamkniętych cykli z pomocą grafu find-union
+  - [zad1_ms](./src/cw9/zad1/zad1_ms.cpp) autor: @MrD4rkne (C++) :white_check_mark:
+- [zad. 2.]
+  - [zad2_ms](./src/cw9/zad2/zad2_ms.cpp) autor: @MrD4rkne (C++) :white_check_mark:
+- [zad. 3.]
+  - [zad3_ms](./src/cw9/zad3/zad3_ms.cpp) autor: @MrD4rkne (C++) :white_check_mark:
 - [zad. 9.] wyspy - graf macierz
   - [wyspy](./src/cw9/zad9/wyspy.cpp): zlicza maksymalny rząd wyspy na mapie używając BFS+deque
+  - [zad9_ms](./src/cw9/zad9/zad9_ms.cpp) autor: @MrD4rkne (C++) :white_check_mark:
 - [zad. 10.] polaczenie
   - [polaczenie](./src/cw9/zad10/polaczenie.cpp): BFS
+  - [zad10_ms](./src/cw9/zad10/zad10_ms.cpp) autor: @MrD4rkne (C++) :white_check_mark:
+- [zad. 13.]
+  - [zad13_ms](./src/cw9/zad13/zad13_ms.cpp) autor: @MrD4rkne (C++) :white_check_mark:
+
+### Ćwiczenia X: [Backtracking]
+
+- [zad. 1.]
+  - [zad1_ms](./src/cw10/zad1/zad1_ms.cpp) autor: @MrD4rkne (C++) :white_check_mark:
+- [zad. 2.]
+  - [zad2_ms](./src/cw10/zad2/zad2_ms.cpp) autor: @MrD4rkne (C++) :white_check_mark:
+- [zad. 3.]
+  - [zad3_ms](./src/cw10/zad3/zad3_ms.cpp) autor: @MrD4rkne (C++) :white_check_mark:
+
+### Ćwiczenia XI: [Spamiętywanie i programowanie dynamiczne]
+
+- [zad. 1.]
+  - [zad1_ms](./src/cw11/zad1/zad1_ms.cpp) autor: @MrD4rkne (C++) :white_check_mark:
+- [zad. 2.]
+  - [zad2_ms](./src/cw11/zad2/zad2_ms.cpp) autor: @MrD4rkne (C++) :white_check_mark:
+- [zad. 3.]
+  - [zad3_ms](./src/cw11/zad3/zad3_ms.cpp) autor: @MrD4rkne (C++) :white_check_mark:
+- [zad. 4.]
+  - [zad4_ms](./src/cw11/zad4/zad4_ms.cpp) autor: @MrD4rkne (C++) :white_check_mark:
+- [zad. 5.]
+  - [zad5_ms](./src/cw11/zad5/zad5_ms.cpp) autor: @MrD4rkne (C++) :white_check_mark:
+- [zad. 6.]
+  - [zad6_ms](./src/cw11/zad6/zad6_ms.cpp) autor: @MrD4rkne (C++)
+- [zad. 7.]
+  - [zad7_ms](./src/cw11/zad7/zad7_ms.cpp) autor: @MrD4rkne (C++) :white_check_mark:
+- [zad. 8.]
+  - [zad8_ms](./src/cw11/zad8/zad8_ms.cpp) autor: @MrD4rkne (C++) :white_check_mark:
+- [zad. 9.]
+  - [zad9_ms](./src/cw11/zad9/zad9_ms.cpp) autor: @MrD4rkne (C++) :white_check_mark:
+
 ## Laboratoria
 
 ### Laboratorium I: [Podzielny fragment ciągu](./pdf/WDP_.Inf.23_24Z__Laboratorium_1__rozgrzewka.pdf)
@@ -335,6 +375,10 @@ _wkrótce_
   - [zad1_ms](./src/kol2_23/zad1/zad1_ms.cpp): autor @MrD4rkne (C++) :white_check_mark:
 - [zad. 2.]
   - [rotate_double_cycled_list](./src/kol2_23/zad2/rotate_double_cycled_list.c) O(n) przepinanie wskaźników (C) :white_check_mark:
+ 
+### Kolokwium I 2012/2013
+
+- [zad. 2.]
   - [zad2_ms](./src/kol1_12/zad2_ms.cpp): autor @MrD4rkne (C++)
 
 ### Inne
