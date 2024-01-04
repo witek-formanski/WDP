@@ -269,12 +269,26 @@ _WDP\* MIM UW_
   - [zad2_ms](./src/cw9/zad2/zad2_ms.cpp) autor: @MrD4rkne (C++) :white_check_mark:
 - [zad. 3.]
   - [zad3_ms](./src/cw9/zad3/zad3_ms.cpp) autor: @MrD4rkne (C++) :white_check_mark:
+- [zad. 4.]
+  - [zad4_ms](./src/cw9/zad4/zad4_ms.cpp) autor: @MrD4rkne (C++) :white_check_mark:
+- [zad. 5.]
+  - [zad5_ms](./src/cw9/zad5/zad5_ms.cpp) autor: @MrD4rkne (C++) :white_check_mark:
+- [zad. 6.]
+  - [zad6_ms](./src/cw9/zad6/zad6_ms.cpp) autor: @MrD4rkne (C++) :white_check_mark:
+- [zad. 7.]
+  - [zad7_ms](./src/cw9/zad7/zad7_ms.cpp) autor: @MrD4rkne (C++) :white_check_mark:
+- [zad. 8.]
+  - [zad8_ms](./src/cw9/zad8/zad8_ms.cpp) autor: @MrD4rkne (C++) :white_check_mark:
 - [zad. 9.] wyspy - graf macierz
   - [wyspy](./src/cw9/zad9/wyspy.cpp): zlicza maksymalny rząd wyspy na mapie używając BFS+deque
   - [zad9_ms](./src/cw9/zad9/zad9_ms.cpp) autor: @MrD4rkne (C++) :white_check_mark:
 - [zad. 10.] polaczenie
   - [polaczenie](./src/cw9/zad10/polaczenie.cpp): BFS
   - [zad10_ms](./src/cw9/zad10/zad10_ms.cpp) autor: @MrD4rkne (C++) :white_check_mark:
+- [zad. 11.]
+  - [zad11_ms](./src/cw9/zad11/zad11_ms.cpp) autor: @MrD4rkne (C++) :white_check_mark:
+- [zad. 12.]
+  - [zad12_ms](./src/cw9/zad12/zad12_ms.cpp) autor: @MrD4rkne (C++) :white_check_mark:
 - [zad. 13.]
   - [zad13_ms](./src/cw9/zad13/zad13_ms.cpp) autor: @MrD4rkne (C++) :white_check_mark:
 
