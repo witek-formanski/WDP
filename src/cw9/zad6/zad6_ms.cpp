@@ -39,7 +39,7 @@ const int Dy[] = {-1, 0, 1, 0};
 
 bool are_proper_cords(int x, int y, int m, int n)
 {
-    return x >= 0 && y >= 0 && x <= m && y <= n;
+    return x >= 0 && y >= 0 && x < m && y < n;
 }
 
 void calc_cords(int x, int y, directions direction, int *rX, int *rY)
@@ -93,7 +93,6 @@ bool can_reach_destination(const vector<vector<vector<bool>>> ulice)
     visitHistory[0][0] = true;
     junction corner = make_junction(0, 0, east);
     toBeVisited.push(corner);
-
     while (!toBeVisited.empty())
     {
         junction current = toBeVisited.front();
