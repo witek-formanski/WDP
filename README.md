@@ -308,6 +308,7 @@ _WDP\* MIM UW_
   - [zad1_mb](./src/cw11/zad1/zad1_mb.cpp) autor: @stopnoanime (C++) :white_check_mark:
 - [zad. 2.]
   - [zad2_ms](./src/cw11/zad2/zad2_ms.cpp) autor: @MrD4rkne (C++) :white_check_mark:
+  - [zad2_mb](./src/cw11/zad2/zad2_mb.cpp) autor: @stopnoanime (C++) :white_check_mark:
 - [zad. 3.]
   - [zad3_ms](./src/cw11/zad3/zad3_ms.cpp) autor: @MrD4rkne (C++) :white_check_mark:
 - [zad. 4.]
