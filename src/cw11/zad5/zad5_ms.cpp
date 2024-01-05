@@ -56,7 +56,7 @@ bool can_be_represented_only_in_one_way(int *row, int n)
     return false;
 }
 
-// T(n) = O(k * n * max{(k / denominals[i-1]) + 1} | 0<i<=n)
+// T(n) = O(k * n * max{(k / denominals[i-1]) + 1 | 0<i<=n})
 // M(n) = O(k*n)
 int find_possibilities_denom(int k, int n, int *denominals)
 {
