@@ -6,7 +6,6 @@
     k - kwota
 */
 
-#include <limits.h>
 #include <algorithm>
 #include <iostream>
 
