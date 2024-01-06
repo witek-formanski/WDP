@@ -18,6 +18,10 @@ class CurrentAmount {
         this->breaksCount = coinsCount;
         coinsCombinations = new int[coinsSize]{0};
     }
+
+    ~CurrentAmount() {
+        delete[] coinsCombinations;
+    }
 };
 
 CurrentAmount** GetAmountsTable(int amount) {
