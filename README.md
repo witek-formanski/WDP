@@ -312,10 +312,13 @@ _WDP\* MIM UW_
   - [zad2_mb](./src/cw11/zad2/zad2_mb.cpp) autor: @stopnoanime (C++) :white_check_mark:
 - [zad. 3.]
   - [zad3_ms](./src/cw11/zad3/zad3_ms.cpp) autor: @MrD4rkne (C++) :white_check_mark:
+  - [zad3_mb](./src/cw11/zad3/zad3_mb.cpp) autor: @stopnoanime (C++)
 - [zad. 4.]
   - [zad4_ms](./src/cw11/zad4/zad4_ms.cpp) autor: @MrD4rkne (C++) :white_check_mark:
+  - [zad4_mb](./src/cw11/zad4/zad4_mb.cpp) autor: @stopnoanime (C++) :white_check_mark:
 - [zad. 5.]
   - [zad5_ms](./src/cw11/zad5/zad5_ms.cpp) autor: @MrD4rkne (C++) :white_check_mark:
+  - [zad5_mb](./src/cw11/zad5/zad5_mb.cpp) autor: @stopnoanime (C++) :white_check_mark:
 - [zad. 6.]
   - [zad6_ms](./src/cw11/zad6/zad6_ms.cpp) autor: @MrD4rkne (C++)
 - [zad. 7.]
