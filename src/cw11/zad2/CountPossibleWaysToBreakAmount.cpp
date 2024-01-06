@@ -1,5 +1,12 @@
-#include <limits.h>
+/*
+    T(n, k) = O(n^2 * k)
+    M(n, k) = O(n * k)
 
+    n - liczba nominałów
+    k - kwota
+*/
+
+#include <limits.h>
 #include <algorithm>
 #include <iostream>
 
@@ -44,7 +51,7 @@ void FindAllCombinations(int coins[], int coinsSize, int amount, CurrentAmount**
             for (int a = 1; a <= amount; a++) {
                 if (a < coins[greater])
                     continue;
-                
+
                 amounts[a]->coinsCombinations[smaller] += amounts[a - coins[greater]]->coinsCombinations[smaller];
             }
         }
@@ -65,7 +72,7 @@ void Print(int coins[], int coinsSize, int amount, CurrentAmount** amounts) {
         std::cout << coins[c] << " ";
     }
     std::cout << "\n";
-    
+
     for (int i = 0; i <= amount; i++) {
         std::cout << i << ":\t";
         for (int c = 0; c < coinsSize; c++) {

@@ -1,3 +1,11 @@
+/*
+    T(n, k) = O(n * k)
+    M(n, k) = O(n * k)
+
+    n - liczba nominałów
+    k - kwota
+*/
+
 #include <iostream>
 #include <vector>
 
@@ -69,7 +77,7 @@ int SubstractTheSameSetduplicates(const std::vector<int>& banknotes, CurrentAmou
             banknoteIndex = amounts[currentAmount - banknotes[banknoteIndex]]->uniqueBreakerBanknoteIndex;
         }
     }
-    
+
     return GetSumOfPossibleBreaks(banknotes, amounts, currentAmount);
 }
 
@@ -137,7 +145,7 @@ int BreakAmountUniquely(const std::vector<int>& banknotes, int amount, bool debu
 
     highestUniqueAmonut = GetHighestUniqueAmonut(amount, amounts);
 
-    if (debug) 
+    if (debug)
         Print(banknotes, amount, amounts);
 
     DeleteAmounts(amount, amounts);

@@ -1,3 +1,11 @@
+/*
+    T(n, k) = O(n * k)
+    M(n, k) = O(k)
+
+    n - liczba nominałów
+    k - kwota
+*/
+
 #include <limits.h>
 #include <algorithm>
 #include <iostream>
