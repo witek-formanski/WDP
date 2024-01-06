@@ -306,8 +306,10 @@ _WDP\* MIM UW_
 - [zad. 1.]
   - [GetMinimalNumberOfCoinsInChange](./src/cw11/zad1/GetMinimalNumberOfCoinsInChange.cpp) wydanie reszty minimalną liczbą monet dla danych nominałów (C++) :white_check_mark:
   - [zad1_ms](./src/cw11/zad1/zad1_ms.cpp) autor: @MrD4rkne (C++) :white_check_mark:
+  - [zad1_mb](./src/cw11/zad1/zad1_mb.cpp) autor: @stopnoanime (C++) :white_check_mark:
 - [zad. 2.]
   - [zad2_ms](./src/cw11/zad2/zad2_ms.cpp) autor: @MrD4rkne (C++) :white_check_mark:
+  - [zad2_mb](./src/cw11/zad2/zad2_mb.cpp) autor: @stopnoanime (C++) :white_check_mark:
 - [zad. 3.]
   - [zad3_ms](./src/cw11/zad3/zad3_ms.cpp) autor: @MrD4rkne (C++) :white_check_mark:
 - [zad. 4.]
