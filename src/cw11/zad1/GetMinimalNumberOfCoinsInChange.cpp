@@ -67,6 +67,9 @@ void DeleteChanges(CurrentChange** changes, int change) {
 }
 
 int GetMinimalNumberOfCoinsInChange(int coins[], int coinsSize, int change, bool debug) {
+    if (coins[0] < 1 || coinsSize < 1)
+        return -1;
+
     CurrentChange** changes = GetChangesTable(change);
 
     FindPossibleChanges(coins, coinsSize, change, changes);
