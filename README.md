@@ -173,7 +173,7 @@ _WDP\* MIM UW_
 ### Ćwiczenia VII: [Zastosowanie sortowania](./pdf/WDP_.Inf.23_24Z__Zastosowanie_sortowania.pdf)
 
 - [zad. 1.] 
-  - [bars](./src/cw7/zad1/bars.cpp) O(nlogn) znaleźć medianę, potem abs(t[i] - median) dla każdego elementu (C++)
+  - [bars](./src/cw7/zad1/bars.cpp) O(n logn) znaleźć medianę, potem abs(t[i] - median) dla każdego elementu (C++)
   - [bars_linear](./src/cw7/zad1/bars_linear.cpp) O(n) liniowe znajdowanie mediany (C++)
   - [median_of_medians](./src/cw7/zad1/median_of_medians.cpp) (C++)
   - [zad1_ms](./src/cw7/zad1/zad1_ms.cpp): autor: @MrD4rkne (C++) :white_check_mark:
@@ -304,6 +304,7 @@ _WDP\* MIM UW_
 ### Ćwiczenia XI: [Spamiętywanie i programowanie dynamiczne]
 
 - [zad. 1.]
+  - [GetMinimalNumberOfCoinsInChange](./src/cw11/zad1/GetMinimalNumberOfCoinsInChange.cpp) wydanie reszty minimalną liczbą monet dla danych nominałów (C++) :white_check_mark:
   - [zad1_ms](./src/cw11/zad1/zad1_ms.cpp) autor: @MrD4rkne (C++) :white_check_mark:
 - [zad. 2.]
   - [zad2_ms](./src/cw11/zad2/zad2_ms.cpp) autor: @MrD4rkne (C++) :white_check_mark:
@@ -320,6 +321,8 @@ _WDP\* MIM UW_
 - [zad. 8.]
   - [zad8_ms](./src/cw11/zad8/zad8_ms.cpp) autor: @MrD4rkne (C++) :white_check_mark:
 - [zad. 9.]
+  - [BreakAmountUniquely](./src/cw11/zad5/BreakAmountUniquely.cpp) unikalna rozmiana dla danych nominałów (C++) :white_check_mark:
+    - [przykład w Excelu](./other/BreakAmountUniquely.xlsx)
   - [zad9_ms](./src/cw11/zad9/zad9_ms.cpp) autor: @MrD4rkne (C++) :white_check_mark:
 
 ## Laboratoria
@@ -347,6 +350,11 @@ _wkrótce_
   - [kol.h](./src/lab_zal/kol/kol.h)
 
 ## Kolokwia
+
+### Kolokwium I 2012/2013
+
+- [zad. 2.]
+  - [zad2_ms](./src/kol1_12/zad2_ms.cpp): autor @MrD4rkne (C++)
 
 ### [Kolokwium I 2022/2023](./pdf/2022_I_Kolokwium.pdf)
 
@@ -379,7 +387,7 @@ _wkrótce_
   - [sparse_shuffle_bits](./src/kol1_23/zad1/sparse_mask.c) O(N) liniowe tasowanie bitów (C) :white_check_mark:
 - [zad. 2.]
   - [fragments_two_pointers](./src/kol1_23/zad2/fragments_two_pointers.c): O(n) gąsienica (C) :white_check_mark:
-  - [fragments_binsearch](./src/kol1_23/zad2/fragments_binsearch.c): O(nlogn) binsearch po wyniku (C) :white_check_mark:
+  - [fragments_binsearch](./src/kol1_23/zad2/fragments_binsearch.c): O(n logn) binsearch po wyniku (C) :white_check_mark:
   - [caterpillar_bozyk](./src/kol1_23/zad2/caterpillar_bozyk.c): O(n) gąsienica, autor: @lbozyk (C) :white_check_mark:
 
 ### [Kolokwium II 2023/2024](./pdf/2023_II_Kolokwium.pdf)
@@ -389,11 +397,6 @@ _wkrótce_
   - [zad1_ms](./src/kol2_23/zad1/zad1_ms.cpp): autor @MrD4rkne (C++) :white_check_mark:
 - [zad. 2.]
   - [rotate_double_cycled_list](./src/kol2_23/zad2/rotate_double_cycled_list.c) O(n) przepinanie wskaźników (C) :white_check_mark:
- 
-### Kolokwium I 2012/2013
-
-- [zad. 2.]
-  - [zad2_ms](./src/kol1_12/zad2_ms.cpp): autor @MrD4rkne (C++)
 
 ### Inne
 
