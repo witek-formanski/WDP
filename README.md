@@ -382,6 +382,7 @@ _wkrótce_
 ### [Kolokwium III 2022/2023](./pdf/2022_III_Kolokwium.pdf)
 
 - [zad. 1.]
+  - [iter_perm](./src/kol3_22/zad1/iter_perm.cpp): autor: @stopnoanime (C++) :white_check_mark:
 - [zad. 2.]
 
 ### [Kolokwium I 2023/2024](./pdf/2023_I_Kolokwium.pdf)
