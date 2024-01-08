@@ -1,3 +1,8 @@
+/*
+    T(n) = O(log n)
+    M(n) = O(log n)
+*/
+
 #include <iostream>
 #include <vector>
 
