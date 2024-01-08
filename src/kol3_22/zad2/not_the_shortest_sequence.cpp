@@ -1,6 +1,8 @@
 /*
     T(n) = O(log n)
     M(n) = O(log n)
+
+    generowany ciąg nie jest najkrótszy z możliwych
 */
 
 #include <iostream>
@@ -16,7 +18,7 @@ int get_bits_count(int n) {
     return count;
 }
 
-std::vector<int> shortest_sequence(int n) {
+std::vector<int> not_the_shortest_sequence(int n) {
     int temp = 1;
     std::vector<int> sequence{temp};
     if (n == 1)
@@ -43,5 +45,5 @@ void print_vector(std::vector<int> vect) {
 
 int main() {
     for (int i = 1; i <= 100; i++)
-        print_vector(shortest_sequence(i));
+        print_vector(not_the_shortest_sequence(i));
 }
