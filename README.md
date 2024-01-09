@@ -384,6 +384,7 @@ _wkrótce_
 - [zad. 1.]
   - [iter_perm](./src/kol3_22/zad1/iter_perm.cpp): autor: @stopnoanime (C++) :white_check_mark:
 - [zad. 2.]
+  - [zad2_ms](./src/kol3_22/zad2/zad2_ms.cpp): autor: @MrD4rkne (C++) :white_check_mark:
 
 ### [Kolokwium I 2023/2024](./pdf/2023_I_Kolokwium.pdf)
 
