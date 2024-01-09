@@ -361,6 +361,11 @@ _wkrótce_
 - [zad. 2.]
   - [zad2_ms](./src/kol1_12/zad2_ms.cpp): autor @MrD4rkne (C++)
 
+### [Kolokwium III 2013/2014](./pdf/2013_III_Kolokwium.pdf)
+
+- [zad. 2.]
+  - [mice_in_the_corridor](./src/kol3_13/mice_in_the_corridor.cpp) (C++)
+
 ### [Kolokwium I 2022/2023](./pdf/2022_I_Kolokwium.pdf)
 
 - [zad. 1.]
