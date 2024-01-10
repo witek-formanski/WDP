@@ -1,0 +1,4 @@
+/*
+sortujemy po końcach odcinków
+
+*/
