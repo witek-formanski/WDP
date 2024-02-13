@@ -292,7 +292,7 @@ _WDP\* MIM UW_
 - [zad. 13.]
   - [zad13_ms](./src/cw9/zad13/zad13_ms.cpp) autor: @MrD4rkne (C++) :white_check_mark:
 
-### Ćwiczenia X: [Backtracking]
+### Ćwiczenia X: [Backtracking](./pdf/WDP_.Inf.23_24Z__Backtracking.pdf)
 
 - [zad. 1.]
   - [zad1_ms](./src/cw10/zad1/zad1_ms.cpp) autor: @MrD4rkne (C++) :white_check_mark:
@@ -301,7 +301,7 @@ _WDP\* MIM UW_
 - [zad. 3.]
   - [zad3_ms](./src/cw10/zad3/zad3_ms.cpp) autor: @MrD4rkne (C++) :white_check_mark:
 
-### Ćwiczenia XI: [Spamiętywanie i programowanie dynamiczne]
+### Ćwiczenia XI: [Spamiętywanie i programowanie dynamiczne](./pdf/WDP_.Inf.23_24Z__Spamiętywanie_i_programowanie_dynamiczne.pdf)
 
 - [zad. 1.]
   - [GetMinimalNumberOfCoinsInChange](./src/cw11/zad1/GetMinimalNumberOfCoinsInChange.cpp) wydanie reszty minimalną liczbą monet dla danych nominałów (C++) :white_check_mark:
@@ -329,6 +329,12 @@ _WDP\* MIM UW_
   - [BreakAmountUniquely](./src/cw11/zad5/BreakAmountUniquely.cpp) unikalna rozmiana dla danych nominałów (C++) :white_check_mark:
     - [przykład w Excelu](./other/BreakAmountUniquely.xlsx)
   - [zad9_ms](./src/cw11/zad9/zad9_ms.cpp) autor: @MrD4rkne (C++) :white_check_mark:
+
+### Ćwiczenia XI: [Programowanie zachłanne](./pdf/WDP_.Inf.23_24Z__Programowanie_zachłanne.pdf)
+
+### Ćwiczenia XI: [Programowanie dynamiczne, zachłanne i back-tracking -- powtórzenie](./pdf/WDP_.Inf.23_24Z__Programowanie_dynamiczne%2C_zachłanne_i_back-tracking_--_powtórzenie.pdf)
+
+### Ćwiczenia XI: [Wyszukiwanie wzorców w tekście](./pdf/WDP_.Inf.23_24Z__Wyszukiwanie_wzorców_w_tekście.pdf)
 
 ## Laboratoria
 
