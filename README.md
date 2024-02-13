@@ -330,11 +330,11 @@ _WDP\* MIM UW_
     - [przykład w Excelu](./other/BreakAmountUniquely.xlsx)
   - [zad9_ms](./src/cw11/zad9/zad9_ms.cpp) autor: @MrD4rkne (C++) :white_check_mark:
 
-### Ćwiczenia XI: [Programowanie zachłanne](./pdf/WDP_.Inf.23_24Z__Programowanie_zachłanne.pdf)
+### Ćwiczenia XII: [Programowanie zachłanne](./pdf/WDP_.Inf.23_24Z__Programowanie_zachłanne.pdf)
 
-### Ćwiczenia XI: [Programowanie dynamiczne, zachłanne i back-tracking -- powtórzenie](./pdf/WDP_.Inf.23_24Z__Programowanie_dynamiczne%2C_zachłanne_i_back-tracking_--_powtórzenie.pdf)
+### Ćwiczenia XII: [Programowanie dynamiczne, zachłanne i back-tracking -- powtórzenie](./pdf/WDP_.Inf.23_24Z__Programowanie_dynamiczne%2C_zachłanne_i_back-tracking_--_powtórzenie.pdf)
 
-### Ćwiczenia XI: [Wyszukiwanie wzorców w tekście](./pdf/WDP_.Inf.23_24Z__Wyszukiwanie_wzorców_w_tekście.pdf)
+### Ćwiczenia XIV: [Wyszukiwanie wzorców w tekście](./pdf/WDP_.Inf.23_24Z__Wyszukiwanie_wzorców_w_tekście.pdf)
 
 ## Laboratoria
 
