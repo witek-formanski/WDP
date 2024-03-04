@@ -1,8 +1,9 @@
 ﻿import os
 import sys
 
-full_file_name = sys.argv[1]
-compile_with_options = bool(sys.argv[2])
+parameters = sys.argv[1].split(' ')
+full_file_name = parameters[0]
+compile_with_options = bool(parameters[1])
 file_name = full_file_name.split('.')[0]
 file_extension = full_file_name.split('.')[1]
 

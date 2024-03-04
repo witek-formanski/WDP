@@ -514,15 +514,15 @@ Jeżeli masz bardziej skomplikowany program, który przykładowo wymaga wskazani
 
 Szczególnie jeśli chcesz ręcznie skonfigurować testy, możesz potrzebować skorzystać ze skryptów. Wszystkie znajdują się w folderze **scripts**.
 
-Skrypt **builder.py** kompiluje kod napisany w C (z restrykcyjnymi opcjami **configs/options**) lub w C++ (z **configs/optionsCpp**).
+Skrypt **compiler.py** kompiluje kod napisany w C (z restrykcyjnymi opcjami **configs/options**) lub w C++ (z **configs/optionsCpp**).
 
 ```console
-foo@WDP:~$ py scipts/builder.py src/power_of_two.c
+foo@WDP:~$ py scipts/compiler.py src/power_of_two.c
 
 ```
 
 ```console
-foo@WDP:~$ py scipts/builder.py src/power_of_two.cpp
+foo@WDP:~$ py scipts/compiler.py src/power_of_two.cpp
 
 ```
 
