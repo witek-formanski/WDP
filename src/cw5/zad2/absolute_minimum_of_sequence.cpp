@@ -9,7 +9,7 @@
 
 int abs_min(std::vector<int> v) {
     int left = 0;
-    int right = v.size() - 1;
+    int right = (int)(v.size() - 1);
     int middle;
 
     // check if the sequence is increasing or decreasing
