@@ -2,6 +2,7 @@
 #define GO_RIGHT 0
 #define SUMMARY 1
 
+#include <algorithm>
 #include <iostream>
 #include <stack>
 
