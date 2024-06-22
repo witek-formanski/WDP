@@ -1,1 +1,1 @@
-for f in ./pdf/*\ *; do mv "$f" "${f// /_}"; done
+for f in ./problems/*\ *; do mv "$f" "${f// /_}"; done

@@ -3,8 +3,22 @@
 
 #include "stdbool.h"
 
+/*
+wartość przybliżona jest reprezentowana jako suma n/2 rozłącznych przedziałów;
+
+n reprezentuje liczbę "punktów na osi liczbowej", czyli dolnych i górnych krańców przedziałów;
+
+t to tablica przechowująca n uporządkowanych niemalejąco wartości;
+parzyste elementy (t[0], t[2], ...) reprezentują początki przedziałów, a nieparzyste (t[1], t[3], ...) - końce przedziałów;
+przedział o dolnym krańcu równym górnemu reprezentuje dokładną wartość;
+
+implementacja pozwala na dowolną liczbę rozłącznych przedziałów, 
+chociaż w warunkach określonych w treści zadania możliwe jest uzyskanie maksymalnie dwóch (czyli n <= 4);
+*/
+
 typedef struct wartosc {
-  /* uzupelnij! */
+  int n;
+  double* t;
   } wartosc;
 
 /* Implicite zakładamy, że wszystkie argumenty typu double są liczbami  */

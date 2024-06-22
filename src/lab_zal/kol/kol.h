@@ -13,7 +13,8 @@
 // Należy wypełnić
 struct interesant {
     // Twój kod zaczyna się tu
-
+    int id;
+    interesant *l1, *l2;
     // A kończy tu
 };
 

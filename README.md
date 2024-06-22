@@ -1,8 +1,6 @@
 # Wstęp do programowania
 
-_WDP\* MIM UW_
-
-## _Zadania_
+WDP\* MIM UW
 
 ## Ćwiczenia
 
@@ -316,7 +314,7 @@ _WDP\* MIM UW_
 - [zad. 13.]
   - [zad13_ms](./src/cw9/zad13/zad13_ms.cpp) autor: @MrD4rkne (C++) :white_check_mark:
 
-### Ćwiczenia X: [Backtracking](./pdf/WDP_.Inf.23_24Z__Backtracking.pdf)
+### Ćwiczenia X: [Backtracking](./problems/WDP_.Inf.23_24Z__Backtracking.pdf)
 
 - [zad. 1.] Schweck's Theorem
   - [zad1_ms](./src/cw10/zad1/zad1_ms.cpp) autor: @MrD4rkne (C++) :white_check_mark:
@@ -327,7 +325,7 @@ _WDP\* MIM UW_
 - [zad. 3.]
   - [zad3_ms](./src/cw10/zad3/zad3_ms.cpp) autor: @MrD4rkne (C++) :white_check_mark:
 
-### Ćwiczenia XI: [Spamiętywanie i programowanie dynamiczne](./pdf/WDP_.Inf.23_24Z__Spamiętywanie_i_programowanie_dynamiczne.pdf)
+### Ćwiczenia XI: [Spamiętywanie i programowanie dynamiczne](./problems/WDP_.Inf.23_24Z__Spamiętywanie_i_programowanie_dynamiczne.pdf)
 
 - [zad. 1.]
   - [GetMinimalNumberOfCoinsInChange](./src/cw11/zad1/GetMinimalNumberOfCoinsInChange.cpp) wydanie reszty minimalną liczbą monet dla danych nominałów (C++) :white_check_mark:
@@ -365,11 +363,11 @@ _WDP\* MIM UW_
 - [zad. 17.]
   - [Parentheses](./src/cw11/zad17/Parentheses.cpp) (C++) :white_check_mark:
 
-### Ćwiczenia XII: [Programowanie zachłanne](./pdf/WDP_.Inf.23_24Z__Programowanie_zachłanne.pdf)
+### Ćwiczenia XII: [Programowanie zachłanne](./problems/WDP_.Inf.23_24Z__Programowanie_zachłanne.pdf)
 
-### Ćwiczenia XII: [Programowanie dynamiczne, zachłanne i back-tracking -- powtórzenie](./pdf/WDP_.Inf.23_24Z__Programowanie_dynamiczne%2C_zachłanne_i_back-tracking_--_powtórzenie.pdf)
+### Ćwiczenia XII: [Programowanie dynamiczne, zachłanne i back-tracking -- powtórzenie](./problems/WDP_.Inf.23_24Z__Programowanie_dynamiczne%2C_zachłanne_i_back-tracking_--_powtórzenie.pdf)
 
-### Ćwiczenia XIV: [Wyszukiwanie wzorców w tekście](./pdf/WDP_.Inf.23_24Z__Wyszukiwanie_wzorców_w_tekście.pdf)
+### Ćwiczenia XIV: [Wyszukiwanie wzorców w tekście](./problems/WDP_.Inf.23_24Z__Wyszukiwanie_wzorców_w_tekście.pdf)
 
 ## Laboratoria
 
@@ -386,14 +384,22 @@ _WDP\* MIM UW_
 
 ## Zadania zaliczeniowe z laboratoriów
 
-_wkrótce_
-
-- Arytmetyka
+- [Arytmetyka](./problems/WDP_.Inf.23_24Z__Zadanie_1__Arytmetyka___MIMoodle.pdf)
   - [ary.h](./src/lab_zal/ary/ary.h)
-- Trzy różne
-- Origami
-- Kolejki
+  - [ary.c](./src/lab_zal/ary/ary.c)
+- [Trzy różne](./problems/WDP_.Inf.23_24Z__Zadanie_2__Trzy_różne___MIMoodle.pdf)
+  - [trz.c](./src/lab_zal/trz/trz.c)
+- [Origami](./problems/WDP_.Inf.23_24Z__Zadanie_3__Origami___MIMoodle.pdf)
+  - [ori.c](./src/lab_zal/ori/ori.c)
+- [Kolejki](./problems/WDP_.Inf.23_24Z__Zadanie_4__Kolejki___MIMoodle.pdf)
   - [kol.h](./src/lab_zal/kol/kol.h)
+  - [kol.cpp](./src/lab_zal/kol/kol.cpp)
+- [Poprzednie w zakresie](./problems/WDP_.Inf.23_24Z__Zadanie_5__Poprzednie_w_zakresie___MIMoodle.pdf)
+  - [prev.h](./src/lab_zal/prev/prev.h)
+  - [prev.cpp](./src/lab_zal/prev/prev.cpp)
+- [Wyszukiwanie](./problems/WDP_.Inf.23_24Z__Zadanie_6__Wyszukiwanie___MIMoodle.pdf) ([Ulam's Game](https://en.wikipedia.org/wiki/Ulam%27s_game))
+  - [wys.h](./src/lab_zal/wys/wys.h)
+  - [wys.cpp](./src/lab_zal/wys/wys.cpp)
 
 ## Kolokwia
 
@@ -472,7 +478,7 @@ _wkrótce_
 
 :white_check_mark: skończony program (da się go uruchomić i wydaje się, że działa poprawnie)\
 :x: program z wykrytym bugiem\
-:microscope: program przechodzący testy
+:microscope: program przechodzący testy\
 :memo: koncepcja bez implementacji
 
 ## Instrukcja korzystania
@@ -546,3 +552,5 @@ foo@WDP:~$ py scipts/tester.py src/power_of_two.c 2 manual
 ```
 
 Skrypt **test_detector.py** służy do automatycznego wykrywania testów i najlepiej zrozumieć jego działanie, zaglądając do **.github/workflows/ci_pipeline.yml**.
+
+Skrypt **space_to_underscore.sh** zamienia spacje na znaki podkreślenia w folderze **problems**.
