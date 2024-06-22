@@ -3,11 +3,13 @@
 #include <queue>
 using namespace std;
 
-bool is_smallest_in_x(const std::vector<float> x, int *currentPosinX, queue<float> *sums)
+bool is_smallest_in_x(const std::vector<float>& x, const int *currentPosinX, const std::queue<float> *sums)
 {
+    if (currentPosinX == nullptr || sums == nullptr)
+        return false;
     if (sums->empty())
         return true;
-    if (*currentPosinX >= x.size())
+    if (static_cast<std::vector<float>::size_type>(*currentPosinX) >= x.size())
         return false;
     return sums->front() > x[*currentPosinX];
 }
