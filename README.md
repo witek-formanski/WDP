@@ -357,7 +357,7 @@ WDP\* MIM UW
   - [zad8_ms](./src/cw11/zad8/zad8_ms.cpp) autor: @MrD4rkne (C++) :white_check_mark:
 - [zad. 9.]
   - [GetMaxBusPassengersCount](./src/cw11/zad9/GetMaxBusPassengersCount.cpp) (C++) :white_check_mark:
-  - [zad9_ms](./src/cw11/zad9/zad9_ms.cpp) autor: @MrD4rkne (C++) :white_check_mark:
+  - [zad9_ms](./src/cw11/zad9/zad9_ms.cpp) autor: @MrD4rkne (C++) :white_check_mark::microscope:
 - [zad. 16.]
   - [GetMaxBusPassengersCount](./src/cw11/zad16/KeepScaleInBalance.cpp) (C++) :white_check_mark:
 - [zad. 17.]
