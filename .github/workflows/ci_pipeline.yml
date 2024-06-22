@@ -41,10 +41,7 @@ jobs:
           for TEST_CASE in ${TEST_CASES[@]}; do
               TEST_NAME=$(echo "$TEST_CASE" | cut -d ':' -f 1)
               TEST_NUMBER=$(echo "$TEST_CASE" | cut -d ':' -f 2)
-              if [ $TEST_NUMBER -eq 0 ]; then
-                echo "Running 1 test for $TEST_NAME"
-              else
-                echo "Running $((TEST_NUMBER+1)) tests for $TEST_NAME"
+              echo "Running $((TEST_NUMBER+1)) tests for $TEST_NAME"
               python scripts/compiler.py "${TEST_NAME}.cpp false"
               python scripts/tester.py "${TEST_NAME}.cpp" "$TEST_NUMBER"
           done
@@ -64,10 +61,7 @@ jobs:
           for TEST_CASE in ${TEST_CASES[@]}; do
               TEST_NAME=$(echo "$TEST_CASE" | cut -d ':' -f 1)
               TEST_NUMBER=$(echo "$TEST_CASE" | cut -d ':' -f 2)
-              if [ $TEST_NUMBER -eq 0 ]; then
-                echo "Running 1 test for $TEST_NAME"
-              else
-                echo "Running $((TEST_NUMBER+1)) tests for $TEST_NAME"
+              echo "Running $((TEST_NUMBER+1)) tests for $TEST_NAME"
               python scripts/compiler.py "${TEST_NAME}.c true"
               python scripts/tester.py "${TEST_NAME}.c" "$TEST_NUMBER"
           done
