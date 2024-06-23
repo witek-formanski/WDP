@@ -9,10 +9,10 @@ struct only_zeros
 int** fill_matrix(std::string a, std::string b, size_t n, size_t m, only_zeros* detector)
 {
     int** matrix = new int*[n];
-    for (auto i = 0; i < n; ++i)
+    for (size_t i = 0; i < n; ++i)
     {
         matrix[i] = new int[m];
-        for (auto j = 0; j < m; ++j)
+        for (size_t j = 0; j < m; ++j)
         {
             if (a[i] == b[j])
             {
@@ -32,9 +32,9 @@ int** fill_matrix(std::string a, std::string b, size_t n, size_t m, only_zeros* 
 int get_longest_nonzero_diagonal(int** matrix, size_t n, size_t m)
 {
     int longest = 1;
-    for (auto i = 1; i < n; ++i)
+    for (size_t i = 1; i < n; ++i)
     {
-        for (auto j = 1; j < m; ++j)
+        for (size_t j = 1; j < m; ++j)
         {
             if (matrix[i][j] > 0 && matrix[i-1][j-1] > 0)
             {
