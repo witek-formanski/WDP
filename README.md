@@ -2,6 +2,12 @@
 
 WDP\* MIM UW
 
+### Test poziomujący
+
+- [api](./src/intro/api.cpp): [zad. 1.] [bar apis](./problems/Zadanie_Bar_Apis_-_Treść_zadania_-_SZKOpuł.pdf) (C++) :white_check_mark::microscope:
+- [bul](./src/intro/bul.cpp): [zad. 2.] [bułki](./problems/Zadanie_Bułki_-_Treść_zadania_-_SZKOpuł.pdf) (C++) :white_check_mark::microscope:
+- [naj](./src/intro/naj.cpp): [zad. 3.] [najdłuższe wspólne podsłowo](./problems/Zadanie_Najdłuższe_wspólne_podsłowo_-_Treść_zadania_-_SZKOpuł.pdf) (C++) :white_check_mark::microscope:
+
 ## Ćwiczenia
 
 ### Ćwiczenia I: [Wstęp](./problems/WDP_.Inf.23_24Z__Wstęp.pdf)
