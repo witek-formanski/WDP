@@ -49,8 +49,8 @@ int get_longest_nonzero_diagonal(int** matrix, int n, int m)
 
 int get_longest_common_substring_length(std::string a, std::string b)
 {
-    auto n = a.length();
-    auto m = b.length();
+    int n = a.length();
+    int m = b.length();
     only_zeros detector;
     int** matrix = fill_matrix(a, b, n, m, &detector);
     if (detector.flag == true)
