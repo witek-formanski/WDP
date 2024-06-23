@@ -6,7 +6,7 @@ struct only_zeros
     bool flag = true;
 };
 
-int** fill_matrix(std::string a, std::string b, int n, int m, only_zeros* detector)
+int** fill_matrix(std::string a, std::string b, size_t n, size_t m, only_zeros* detector)
 {
     int** matrix = new int*[n];
     for (auto i = 0; i < n; ++i)
@@ -29,7 +29,7 @@ int** fill_matrix(std::string a, std::string b, int n, int m, only_zeros* detect
     return matrix;
 }
 
-int get_longest_nonzero_diagonal(int** matrix, int n, int m)
+int get_longest_nonzero_diagonal(int** matrix, size_t n, size_t m)
 {
     int longest = 1;
     for (auto i = 1; i < n; ++i)
@@ -49,8 +49,8 @@ int get_longest_nonzero_diagonal(int** matrix, int n, int m)
 
 int get_longest_common_substring_length(std::string a, std::string b)
 {
-    int n = a.length();
-    int m = b.length();
+    size_t n = a.length();
+    size_t m = b.length();
     only_zeros detector;
     int** matrix = fill_matrix(a, b, n, m, &detector);
     if (detector.flag == true)
