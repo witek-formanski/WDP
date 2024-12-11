@@ -330,6 +330,8 @@ WDP\* MIM UW
   - [zad2_ms](./src/cw10/zad2/zad2_ms.cpp) autor: @MrD4rkne (C++) :white_check_mark:
 - [zad. 3.]
   - [zad3_ms](./src/cw10/zad3/zad3_ms.cpp) autor: @MrD4rkne (C++) :white_check_mark:
+- [zad. 4.]
+  - [zad4_jk](./src/cw10/zad4/zad4_jk.cpp) autor: @Jankwi (C++)
 
 ### Ćwiczenia XI: [Spamiętywanie i programowanie dynamiczne](./problems/WDP_.Inf.23_24Z__Spamiętywanie_i_programowanie_dynamiczne.pdf)
 
