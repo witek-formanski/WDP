@@ -465,7 +465,7 @@ WDP\* MIM UW
 - [zad. 2.]
   - [rotate_double_cycled_list](./src/kol2_23/zad2/rotate_double_cycled_list.c) O(n) przepinanie wskaźników (C) :white_check_mark:
 
-  ### [Kolokwium II 2024/2025](./problems/2024_II_Kolokwium.pdf)
+### [Kolokwium II 2024/2025](./problems/2024_II_Kolokwium.pdf)
 
 - [zad. 1.]
   - [zad1_jk](./src/kol2_24/zad1/zad1_jk.cpp): autor: @Jankwi (C++) :white_check_mark:
