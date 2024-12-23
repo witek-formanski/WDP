@@ -331,7 +331,7 @@ WDP\* MIM UW
 - [zad. 3.]
   - [zad3_ms](./src/cw10/zad3/zad3_ms.cpp) autor: @MrD4rkne (C++) :white_check_mark:
 - [zad. 4.]
-  - [zad4_jk](./src/cw10/zad4/zad4_jk.cpp) autor: @Jankwi (C++)
+  - [zad4_jk](./src/cw10/zad4/zad4_jk.cpp) autor: @Jankwi (C++) :white_check_mark:
 
 ### Ćwiczenia XI: [Spamiętywanie i programowanie dynamiczne](./problems/WDP_.Inf.23_24Z__Spamiętywanie_i_programowanie_dynamiczne.pdf)
 
@@ -464,6 +464,13 @@ WDP\* MIM UW
   - [zad1_ms](./src/kol2_23/zad1/zad1_ms.cpp): autor @MrD4rkne (C++) :white_check_mark:
 - [zad. 2.]
   - [rotate_double_cycled_list](./src/kol2_23/zad2/rotate_double_cycled_list.c) O(n) przepinanie wskaźników (C) :white_check_mark:
+
+### [Kolokwium II 2024/2025](./problems/2024_II_Kolokwium.pdf)
+
+- [zad. 1.]
+  - [zad1_jk](./src/kol2_24/zad1/zad1_jk.cpp): autor: @Jankwi (C++) :white_check_mark:
+- [zad. 2.]
+  - [zad2_jk](./src/kol2_24/zad2/zad2_jk.cpp): autor: @Jankwi (C++) :white_check_mark:
 
 ### Inne
 
